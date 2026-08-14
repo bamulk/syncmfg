@@ -1,69 +1,340 @@
-import Image from "next/image";
+import Link from "next/link";
+import { markets } from "@/lib/markets";
+import { solutions } from "@/lib/solutions";
+import { acquisitionTimeline, locations, site } from "@/lib/site";
+import { pressReleases } from "@/lib/press";
+import {
+  ArrowIcon,
+  marketIcons,
+  solutionIcons,
+  PinIcon,
+} from "@/components/Icons";
+import {
+  Button,
+  Card,
+  Container,
+  CtaBand,
+  Eyebrow,
+  IconBadge,
+  SectionHeading,
+} from "@/components/ui";
 
-export default function Home() {
+const stats = [
+  { value: "3", label: "Manufacturing plants" },
+  { value: "4", label: "Companies unified" },
+  { value: "6", label: "Molding processes" },
+  { value: "46″", label: "Max compression platen" },
+];
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+    <>
+      {/* ---------------- Hero ---------------- */}
+      <section className="bg-steel-field relative overflow-hidden">
+        <div className="bg-grid absolute inset-0" aria-hidden="true" />
+        <Container className="relative py-20 sm:py-28">
+          <div className="max-w-3xl">
+            <Eyebrow tone="light">
+              Formerly Redco &middot; Southwest Plastics &middot; Santa Fe Rubber
+              &middot; Verona
+            </Eyebrow>
+            <h1 className="mt-4 text-4xl font-bold leading-[1.05] text-white sm:text-6xl">
+              Four rubber and plastics manufacturers.
+              <br className="hidden sm:block" /> One name.
+            </h1>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[#c3d3e6] sm:text-xl">
+              SYNC Manufacturing molds, cuts, compounds and bonds precision
+              components for aerospace, defense, medical, utilities, oil &amp;
+              gas and industrial programs &mdash; under one AS9100 quality
+              system and one point of contact.
+            </p>
+            <div className="mt-9 flex flex-wrap gap-3">
+              <Button href="/contact#quote" variant="light">
+                Request a quote
+                <ArrowIcon />
+              </Button>
+              <Button href="/solutions" variant="ghost">
+                Explore capabilities
+              </Button>
+            </div>
+          </div>
+
+          <dl className="mt-16 grid grid-cols-2 gap-x-6 gap-y-8 border-t border-white/15 pt-10 sm:grid-cols-4">
+            {stats.map((s) => (
+              <div key={s.label}>
+                <dt className="sr-only">{s.label}</dt>
+                <dd>
+                  <span className="block text-4xl font-bold text-white sm:text-5xl">
+                    {s.value}
+                  </span>
+                  <span className="mt-1.5 block text-sm text-[#9fb8d4]">
+                    {s.label}
+                  </span>
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </Container>
+      </section>
+
+      {/* ---------------- Solutions ---------------- */}
+      <section className="py-20 sm:py-24">
+        <Container>
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+            <SectionHeading
+              eyebrow="Solutions we provide"
+              title="Every process we run, under one roof"
+              intro="Molding, cutting, compounding and bonding sit inside a single organization, so a program can move between processes without moving suppliers."
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+            <Link
+              href="/solutions"
+              className="inline-flex shrink-0 items-center gap-2 text-sm font-semibold text-blue hover:gap-3"
+            >
+              All solutions
+              <ArrowIcon />
+            </Link>
+          </div>
+
+          <div className="mt-12 grid gap-5 sm:grid-cols-2">
+            {solutions.map((s) => {
+              const Icon = solutionIcons[s.icon];
+              return (
+                <Card key={s.slug} href={`/solutions/${s.slug}`}>
+                  <div className="flex items-start gap-5">
+                    <IconBadge size="lg">
+                      <Icon className="h-6 w-6" />
+                    </IconBadge>
+                    <div>
+                      <h3 className="text-xl font-bold text-navy">{s.name}</h3>
+                      <p className="mt-2 text-[15px] leading-relaxed text-muted">
+                        {s.intro}
+                      </p>
+                      <ul className="mt-4 flex flex-wrap gap-1.5">
+                        {s.capabilities.slice(0, 4).map((c) => (
+                          <li
+                            key={c.slug}
+                            className="rounded bg-surface px-2.5 py-1 text-xs font-medium text-steel"
+                          >
+                            {c.name}
+                          </li>
+                        ))}
+                        {s.capabilities.length > 4 && (
+                          <li className="rounded bg-surface px-2.5 py-1 text-xs font-medium text-muted">
+                            +{s.capabilities.length - 4} more
+                          </li>
+                        )}
+                      </ul>
+                    </div>
+                  </div>
+                </Card>
+              );
+            })}
+          </div>
+        </Container>
+      </section>
+
+      {/* ---------------- Markets ---------------- */}
+      <section className="bg-surface py-20 sm:py-24">
+        <Container>
+          <SectionHeading
+            eyebrow="Markets we serve"
+            title="Industries where the part cannot fail"
+            intro="Six markets, each with its own qualification requirements, documentation expectations and material demands."
+          />
+          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {markets.map((m) => {
+              const Icon = marketIcons[m.icon];
+              return (
+                <Link
+                  key={m.slug}
+                  href={`/markets/${m.slug}`}
+                  className="group flex flex-col rounded-lg border border-line bg-white p-6 transition-all hover:-translate-y-0.5 hover:border-blue/40 hover:shadow-[0_8px_24px_rgba(1,35,76,.09)]"
+                >
+                  <IconBadge>
+                    <Icon className="h-6 w-6" />
+                  </IconBadge>
+                  <h3 className="mt-5 text-lg font-bold text-navy">{m.name}</h3>
+                  <p className="mt-2 flex-1 text-[15px] leading-relaxed text-muted">
+                    {m.intro}
+                  </p>
+                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-blue group-hover:gap-3">
+                    Learn more
+                    <ArrowIcon />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </Container>
+      </section>
+
+      {/* ---------------- Why SYNC ---------------- */}
+      <section className="py-20 sm:py-24">
+        <Container>
+          <div className="grid gap-14 lg:grid-cols-2 lg:gap-20">
+            <div>
+              <SectionHeading
+                eyebrow="Why SYNC"
+                title="The advantages of four shops, without four suppliers"
+                intro="Consolidation only helps customers if it removes friction. Ours was built to do exactly that."
+              />
+              <div className="mt-9 space-y-7">
+                {[
+                  {
+                    title: "We mix our own rubber",
+                    body: "In-house compounding means a formulation can be tuned to your service conditions instead of forcing your application onto a catalog material.",
+                  },
+                  {
+                    title: "Process-agnostic recommendations",
+                    body: "Running six molding processes plus cutting means the answer you get is driven by your part, not by the one press we happen to own.",
+                  },
+                  {
+                    title: "One quality system across three plants",
+                    body: "AS9100 certification and ITAR registration, with lot traceability and documentation packages that hold up under audit.",
+                  },
+                  {
+                    title: "Legacy and obsolete part support",
+                    body: "Scan-to-part modeling and in-house tooling bring components back into production when the original drawings and tools are long gone.",
+                  },
+                ].map((item) => (
+                  <div key={item.title} className="border-l-2 border-blue pl-5">
+                    <h3 className="text-lg font-bold text-navy">
+                      {item.title}
+                    </h3>
+                    <p className="mt-1.5 text-[15px] leading-relaxed text-muted">
+                      {item.body}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="lg:pt-4">
+              <div className="rounded-xl border border-line bg-surface p-8">
+                <Eyebrow>Our history</Eyebrow>
+                <h3 className="mt-3 text-2xl font-bold text-navy">
+                  Built by acquisition, unified in 2026
+                </h3>
+                <ol className="mt-8 space-y-0">
+                  {acquisitionTimeline.map((t, i) => (
+                    <li key={t.company} className="relative flex gap-5 pb-8 last:pb-0">
+                      {i < acquisitionTimeline.length - 1 && (
+                        <span
+                          className="absolute left-[9px] top-5 h-full w-px bg-line"
+                          aria-hidden="true"
+                        />
+                      )}
+                      <span
+                        className={`relative z-10 mt-1 h-[18px] w-[18px] shrink-0 rounded-full border-[3px] border-white ${
+                          i === acquisitionTimeline.length - 1
+                            ? "bg-blue ring-4 ring-blue/20"
+                            : "bg-gray-metal"
+                        }`}
+                        aria-hidden="true"
+                      />
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-wider text-blue">
+                          {t.date}
+                        </p>
+                        <p className="mt-0.5 font-bold text-navy">
+                          {t.company}
+                        </p>
+                        <p className="mt-1 text-sm leading-relaxed text-muted">
+                          {t.note}
+                        </p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+                <Link
+                  href="/about/history"
+                  className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-blue hover:gap-3"
+                >
+                  Read the full story
+                  <ArrowIcon />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* ---------------- Locations ---------------- */}
+      <section className="bg-navy py-20 sm:py-24">
+        <Container>
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+            <SectionHeading
+              tone="light"
+              eyebrow="Locations"
+              title="Three plants, coast to coast"
+              intro="Nevada, Illinois and California today, with Ohio and Mexico in development."
+            />
+            <Link
+              href="/locations"
+              className="inline-flex shrink-0 items-center gap-2 text-sm font-semibold text-white hover:gap-3"
+            >
+              All locations
+              <ArrowIcon />
+            </Link>
+          </div>
+
+          <div className="mt-12 grid gap-5 sm:grid-cols-3">
+            {locations.map((l) => (
+              <Link
+                key={l.slug}
+                href={`/locations#${l.slug}`}
+                className="group rounded-lg border border-white/15 bg-white/[0.04] p-6 transition-colors hover:border-white/35 hover:bg-white/[0.08]"
+              >
+                <IconBadge tone="light" size="sm">
+                  <PinIcon className="h-5 w-5" />
+                </IconBadge>
+                <h3 className="mt-4 text-lg font-bold text-white">{l.name}</h3>
+                <p className="mt-1 text-sm text-[#8fa8c4]">{l.legacyName}</p>
+                <p className="mt-3 text-[15px] leading-relaxed text-[#c3d3e6]">
+                  {l.focus}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      {/* ---------------- Press ---------------- */}
+      <section className="py-20 sm:py-24">
+        <Container>
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+            <SectionHeading eyebrow="Newsroom" title="Latest press releases" />
+            <Link
+              href="/about/press"
+              className="inline-flex shrink-0 items-center gap-2 text-sm font-semibold text-blue hover:gap-3"
+            >
+              All releases
+              <ArrowIcon />
+            </Link>
+          </div>
+          <div className="mt-10 grid gap-5 sm:grid-cols-3">
+            {pressReleases.slice(0, 3).map((p) => (
+              <Card key={p.slug} href={`/about/press/${p.slug}`}>
+                <p className="text-xs font-semibold uppercase tracking-wider text-blue">
+                  {p.dateLabel}
+                </p>
+                <h3 className="mt-2 text-lg font-bold leading-snug text-navy">
+                  {p.title}
+                </h3>
+                <p className="mt-2.5 line-clamp-3 text-[15px] leading-relaxed text-muted">
+                  {p.summary}
+                </p>
+              </Card>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <CtaBand
+        title="Send us a print. We'll tell you the right way to make it."
+        intro={`Quotes, capability questions and material recommendations from the engineers who will run the job. ${site.shortName} responds to every RFQ within two business days.`}
+        secondary={{ href: "/locations", label: "Find a plant" }}
+      />
+    </>
   );
 }
