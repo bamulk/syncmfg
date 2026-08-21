@@ -44,3 +44,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 }
+
+// Emitted at build time; required for `output: "export"` static builds.
+export const dynamic = "force-static";

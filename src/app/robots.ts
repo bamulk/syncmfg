@@ -7,3 +7,6 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: `${site.url}/sitemap.xml`,
   };
 }
+
+// Emitted at build time; required for `output: "export"` static builds.
+export const dynamic = "force-static";
