@@ -11,6 +11,7 @@ import {
   stateList,
 } from "@/lib/site";
 import { pressReleases } from "@/lib/press";
+import CubeSection from "@/components/cube/CubeSection";
 import {
   ArrowIcon,
   marketIcons,
@@ -89,6 +90,9 @@ export default function HomePage() {
           </dl>
         </Container>
       </section>
+
+      {/* ---------------- Cube (prototype) ---------------- */}
+      <CubeSection />
 
       {/* ---------------- Solutions ---------------- */}
       <section className="py-20 sm:py-24">
