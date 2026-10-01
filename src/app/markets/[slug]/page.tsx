@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getMarket, markets } from "@/lib/markets";
 import { getSolution } from "@/lib/solutions";
+import { getHero } from "@/lib/heroes";
 import { ArrowIcon, marketIcons, solutionIcons } from "@/components/Icons";
 import {
   CheckList,
@@ -47,6 +48,7 @@ export default async function MarketPage({ params }: Params) {
         eyebrow={market.eyebrow}
         title={`${market.name} Manufacturing`}
         intro={market.intro}
+        image={getHero(`markets-${market.slug}`)}
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Markets", href: "/markets" },

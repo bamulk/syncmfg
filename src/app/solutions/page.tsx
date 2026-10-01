@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { solutions } from "@/lib/solutions";
+import { numberWord } from "@/lib/site";
+
+const capabilityCount = solutions.reduce(
+  (n, s) => n + s.capabilities.length,
+  0,
+);
 import { ArrowIcon, CheckIcon, solutionIcons } from "@/components/Icons";
 import {
   Container,
@@ -21,7 +27,7 @@ export default function SolutionsPage() {
     <>
       <PageHero
         eyebrow="Solutions we provide"
-        title="Four solution families. Fifteen ways to make your part."
+        title={`${numberWord(solutions.length, true)} solution families. ${numberWord(capabilityCount, true)} ways to make your part.`}
         intro="SYNC runs the full range of elastomer and plastics processes, so the recommendation you get is the right one for your part rather than the only one we can run."
         breadcrumb={[
           { label: "Home", href: "/" },

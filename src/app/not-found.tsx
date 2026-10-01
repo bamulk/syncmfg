@@ -22,7 +22,7 @@ export default function NotFound() {
           That page isn&apos;t in production.
         </h1>
         <p className="mt-5 max-w-xl text-lg leading-relaxed text-[#c3d3e6]">
-          The link may be out of date, or the page may have moved when our four
+          The link may be out of date, or the page may have moved when our
           companies came together under one name.
         </p>
         <div className="mt-9 flex flex-wrap gap-3">

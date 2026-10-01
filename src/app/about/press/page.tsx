@@ -87,7 +87,7 @@ export default function PressIndexPage() {
 
       <CtaBand
         title="Following the story? The work is the interesting part."
-        intro="Three plants, four solution families, and a growing footprint across North America."
+        intro="Specialized plants, a full range of processes, and a growing footprint across North America."
         primary={{ href: "/about/history", label: "Read our history" }}
         secondary={{ href: "/solutions", label: "See capabilities" }}
       />

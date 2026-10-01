@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { acquisitionTimeline, locations, site } from "@/lib/site";
+import { getHero } from "@/lib/heroes";
 import { solutions } from "@/lib/solutions";
 import { ArrowIcon, solutionIcons } from "@/components/Icons";
 import {
@@ -15,33 +16,32 @@ import {
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "SYNC Manufacturing unites Redco, Southwest Plastics, Santa Fe Rubber and Verona Rubber Works under one name, one quality system and one point of contact.",
+    "SYNC Manufacturing brings together established rubber and plastics manufacturers under one organization, giving customers broader capabilities, consistent quality, and a single point of contact.",
 };
 
-/* DRAFT — replace with approved boilerplate from
-   Sync_Manufacturing_Website_History_FINAL.docx */
+/* Copy from "Website Updates Sept 26.pptx", slides 2–3 (client-approved). */
 const overview = [
-  "SYNC Manufacturing is a precision rubber and plastics manufacturer built from four established companies acquired by Langdale Holdings between 2023 and 2025. In August 2026 those companies took a single name.",
-  "The point of unifying was never the logo. It was that customers were already buying molded rubber from one of our plants and injection molded plastic from another, running two supplier qualifications, two quality systems and two sets of paperwork for parts that ended up in the same assembly. SYNC removes that duplication without removing the plants, the people or the process knowledge that made each company worth acquiring.",
-  "Today that means three manufacturing facilities in Nevada, Illinois and California, with additional capacity in development in Ohio and Mexico — all operating under a shared AS9100 quality system and ITAR registration.",
+  "SYNC Manufacturing is a North American manufacturer of precision rubber and plastic components serving demanding applications across aerospace, defense, medical, utilities, oil & gas and industrial markets.",
+  "Our organization was built by bringing together established manufacturers with decades of specialized process knowledge. Each operation retains the people, equipment and expertise that made it successful, while SYNC connects those capabilities through a common organization focused on quality, responsiveness and long-term customer support.",
+  "The result is broader manufacturing capability without sacrificing the technical knowledge that comes from years of making difficult parts.",
 ];
 
 const values = [
   {
-    title: "Engineering answers, not order taking",
-    body: "If your part would be cheaper or more reliable made a different way, we will say so before we quote it — even when the honest answer is a process with a lower margin for us.",
+    title: "Engineering-driven solutions",
+    body: "We work with customers to solve manufacturing challenges, improve manufacturability and identify the right process and material for the application.",
   },
   {
-    title: "The plants keep their expertise",
-    body: "Unification consolidated systems, not knowledge. The engineers who have run these compounds and these presses for decades are the same ones running your job.",
+    title: "Specialized manufacturing expertise",
+    body: "Our facilities maintain the process knowledge, equipment and experienced teams behind the capabilities they have developed over decades.",
   },
   {
-    title: "Documentation that survives an audit",
-    body: "Lot traceability, material certifications and certificates of conformance are standard, not an upcharge triggered by a customer request.",
+    title: "Quality built into the process",
+    body: "From material control and lot traceability to inspection and documentation, our quality systems are designed for demanding and regulated programs.",
   },
   {
-    title: "Long-life program support",
-    body: "We keep making the part after the original tooling wears out, the drawing goes missing and the specified compound gets regulated away.",
+    title: "Built for long-term programs",
+    body: "We support products throughout their lifecycle, from development and qualification through ongoing production and legacy program support.",
   },
 ];
 
@@ -50,8 +50,9 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About us"
-        title="Four companies. One manufacturer."
-        intro="SYNC Manufacturing brings Redco, Southwest Plastics, Santa Fe Rubber and Verona Rubber Works together under a single name, quality system and point of contact."
+        title="Built from experience. Unified for what’s next."
+        intro="SYNC Manufacturing brings together established rubber and plastics manufacturers under one organization, giving customers broader capabilities, consistent quality, and a single point of contact."
+        image={getHero("about")}
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "About Us", href: "/about" },
@@ -64,7 +65,7 @@ export default function AboutPage() {
             <div>
               <SectionHeading
                 eyebrow="Who we are"
-                title="A manufacturer assembled on purpose"
+                title="Manufacturing expertise, brought together."
               />
               <div className="mt-8 space-y-5">
                 {overview.map((p, i) => (
@@ -96,7 +97,7 @@ export default function AboutPage() {
                 {
                   href: "/about/history",
                   title: "Our History",
-                  body: "How four companies became one, from 2023 to today.",
+                  body: "Decades of manufacturing experience brought together under one name.",
                 },
                 {
                   href: "/about/quality",
@@ -111,7 +112,7 @@ export default function AboutPage() {
                 {
                   href: "/careers",
                   title: "Careers",
-                  body: "Open roles across all three manufacturing locations.",
+                  body: "Open roles across every SYNC location.",
                 },
               ].map((c) => (
                 <Link
@@ -161,7 +162,7 @@ export default function AboutPage() {
             })}
           </div>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-3">
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {locations.map((l) => (
               <div
                 key={l.slug}
@@ -193,12 +194,12 @@ export default function AboutPage() {
               <ArrowIcon />
             </Link>
           </div>
-          <ol className="mt-10 grid gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {acquisitionTimeline.map((t, i) => (
+          <ol className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {acquisitionTimeline.map((t) => (
               <li
                 key={t.company}
                 className={`rounded-lg border p-5 ${
-                  i === acquisitionTimeline.length - 1
+                  t.abbr === "SYNC"
                     ? "border-blue bg-blue/[0.04]"
                     : "border-line"
                 }`}

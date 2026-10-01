@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowIcon, CheckIcon } from "./Icons";
 
@@ -108,21 +109,62 @@ export function Button({
   );
 }
 
+export type HeroImageProp = { src: string; alt: string; position?: string };
+
 export function PageHero({
   eyebrow,
   title,
   intro,
   breadcrumb,
+  image,
+  imageLayout = "split",
 }: {
   eyebrow?: string;
   title: string;
   intro?: string;
   breadcrumb?: { label: string; href: string }[];
+  /** Photo for the hero. Omit for the plain navy field. */
+  image?: HeroImageProp;
+  /** split: photo on the right fading into navy. banner: full-width photo under the text. */
+  imageLayout?: "split" | "banner";
 }) {
+  const split = image && imageLayout === "split";
+  const banner = image && imageLayout === "banner";
+
   return (
     <section className="bg-steel-field relative overflow-hidden">
-      <div className="bg-grid absolute inset-0" aria-hidden="true" />
-      <Container className="relative py-16 sm:py-20">
+      {split && (
+        <div className="absolute inset-0 lg:left-auto lg:w-[62%] lg:[mask-image:linear-gradient(to_right,transparent_0%,#000_42%)]">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            priority
+            sizes="(min-width: 1024px) 62vw, 100vw"
+            className="object-cover"
+            style={{ objectPosition: image.position ?? "center" }}
+          />
+          {/* Mobile: tint the photo so text stays legible. Desktop: the mask
+              above fades its left edge into the navy field, so no tint. */}
+          <div className="absolute inset-0 bg-navy/80 lg:hidden" />
+        </div>
+      )}
+      <div
+        className="bg-grid absolute inset-0"
+        aria-hidden="true"
+        style={
+          split
+            ? {
+                maskImage: "linear-gradient(to right, #000 30%, transparent 60%)",
+                WebkitMaskImage:
+                  "linear-gradient(to right, #000 30%, transparent 60%)",
+              }
+            : undefined
+        }
+      />
+      <Container
+        className={`relative ${split ? "py-20 sm:py-24 lg:py-28" : "py-16 sm:py-20"}`}
+      >
         {breadcrumb && (
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex flex-wrap items-center gap-2 text-sm text-[#9fb8d4]">
@@ -142,15 +184,37 @@ export function PageHero({
             <Eyebrow tone="light">{eyebrow}</Eyebrow>
           </div>
         )}
-        <h1 className="max-w-4xl text-4xl font-bold leading-[1.08] text-white sm:text-5xl">
+        <h1
+          className={`text-4xl font-bold leading-[1.08] text-white sm:text-5xl ${
+            split ? "max-w-xl" : "max-w-4xl"
+          }`}
+        >
           {title}
         </h1>
         {intro && (
-          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-[#c3d3e6]">
+          <p
+            className={`mt-5 text-lg leading-relaxed text-[#c3d3e6] ${
+              split ? "max-w-lg" : "max-w-2xl"
+            }`}
+          >
             {intro}
           </p>
         )}
       </Container>
+
+      {banner && (
+        <div className="relative h-56 [mask-image:linear-gradient(to_bottom,transparent_0%,#000_22%)] sm:h-72 lg:h-[420px]">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+            style={{ objectPosition: image.position ?? "center" }}
+          />
+        </div>
+      )}
     </section>
   );
 }
@@ -237,7 +301,7 @@ export function CtaBand({
   secondary,
 }: {
   title: string;
-  intro?: string;
+  intro?: string | readonly string[];
   primary?: { href: string; label: string };
   secondary?: { href: string; label: string };
 }) {
@@ -250,10 +314,15 @@ export function CtaBand({
             <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl">
               {title}
             </h2>
-            {intro && (
-              <p className="mt-4 text-lg leading-relaxed text-[#c3d3e6]">
-                {intro}
-              </p>
+            {(typeof intro === "string" ? [intro] : (intro ?? [])).map(
+              (p, i) => (
+                <p
+                  key={i}
+                  className="mt-4 text-lg leading-relaxed text-[#c3d3e6]"
+                >
+                  {p}
+                </p>
+              ),
             )}
           </div>
           <div className="flex shrink-0 flex-wrap gap-3">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { acquisitionTimeline } from "@/lib/site";
 import { pressReleases } from "@/lib/press";
+import { getHero } from "@/lib/heroes";
 import { ArrowIcon } from "@/components/Icons";
 import {
   Container,
@@ -14,32 +15,33 @@ import {
 export const metadata: Metadata = {
   title: "Our History",
   description:
-    "From four independent rubber and plastics manufacturers to a single company: the history of SYNC Manufacturing, 2023 to 2026.",
+    "Decades of manufacturing experience brought together under one name: the history of SYNC Manufacturing.",
 };
 
-/* DRAFT — the approved narrative lives in
-   Sync_Manufacturing_Website_History_FINAL.docx, which was not supplied.
-   Everything below is placeholder written from the deck's timeline. */
+/* Copy from "Website Updates Sept 26.pptx", slide 10 (client-approved). */
 const chapters = [
   {
-    heading: "A platform, not a roll-up",
+    heading: "Built on what already worked",
     paragraphs: [
-      "Langdale Holdings began acquiring precision manufacturers in 2023 with a specific thesis: the American rubber and plastics industry is full of excellent, decades-old shops with deep process knowledge and no succession plan. Buying them is easy. Keeping what makes them good is the hard part.",
-      "Each acquisition was chosen because it added a capability the platform did not already have, not because it added revenue to a capability it did. That discipline is why SYNC today can quote a thermoset seal, an injection molded housing, a die-cut gasket and a rebuilt roller without sending any of it outside.",
+      "SYNC Manufacturing was created by bringing together established manufacturers with decades of experience in rubber, plastics, and engineered components.",
+      "These businesses were successful long before they became part of SYNC. They had experienced people, specialized process knowledge, long-standing customer relationships, and reputations earned over many years.",
+      "Our approach has been to preserve those strengths while investing in the equipment, systems and resources needed to help them grow.",
     ],
   },
   {
-    heading: "Building the capability set",
+    heading: "Expanding capabilities with purpose",
     paragraphs: [
-      "Southwest Plastics came first, in August 2023, bringing thermoplastic injection molding and in-house tool building from Glendora, California. Two months later Redco joined the platform, adding thermoset and silicone molding, rubber-to-metal bonding, and the in-house compounding capability that would become central to the group's engineering identity.",
-      "Santa Fe Rubber followed in March 2024, consolidating additional rubber capacity into the Carson City operation. In October 2025, Verona Rubber Works added large-format compression molding to 46 by 46 inches and a rubber roller business — and gave the platform its first Midwest footprint.",
+      "As the organization has grown, so has the range of manufacturing capabilities available to our customers.",
+      "What began with individual companies specializing in particular processes has become a broader manufacturing organization that supports customers across thermoplastic injection molding, thermoset and silicone molding, compression molding, rubber-to-metal bonding, compounding, tooling, and other specialized processes.",
+      "The goal is not simply to become larger. It is to build a manufacturing organization with complementary capabilities that can solve more problems for customers.",
     ],
   },
   {
-    heading: "One name, August 2026",
+    heading: "One organization. Built from decades of experience.",
     paragraphs: [
-      "By 2026 the four companies were quoting each other's customers, sharing engineering resources and running overlapping quality documentation. Customers were qualifying the same organization two and three times over.",
-      "SYNC Manufacturing resolved that. One name, one quality system, one point of contact — with the plants, the people and the process knowledge left exactly where they were. Legacy names remain visible in our locations and our history because those reputations were earned, and because the people who earned them still work here.",
+      "SYNC Manufacturing brings these capabilities together under one name and one customer-facing organization while preserving the people and process knowledge behind them.",
+      "Customers gain access to a broader manufacturing network, coordinated quality systems and a single point of contact without losing the specialized expertise that made each operation successful in the first place.",
+      "Our history remains an important part of who we are. The names and companies that built SYNC represent decades of manufacturing knowledge — and that experience continues to shape how we operate today.",
     ],
   },
 ];
@@ -50,7 +52,8 @@ export default function HistoryPage() {
       <PageHero
         eyebrow="About us"
         title="Our History"
-        intro="Four companies, three years, one name. How SYNC Manufacturing came together — and why the plants that built it are still doing the work."
+        intro="Decades of manufacturing experience, brought together under one name."
+        image={getHero("history")}
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "About Us", href: "/about" },
@@ -91,6 +94,7 @@ export default function HistoryPage() {
                       ? pressReleases.find((p) => p.slug === t.slug)
                       : undefined;
                     const last = i === acquisitionTimeline.length - 1;
+                    const isSync = t.abbr === "SYNC";
                     return (
                       <li key={t.company} className="relative flex gap-5 pb-8 last:pb-0">
                         {!last && (
@@ -101,7 +105,7 @@ export default function HistoryPage() {
                         )}
                         <span
                           className={`relative z-10 mt-1 h-[18px] w-[18px] shrink-0 rounded-full border-[3px] border-surface ${
-                            last ? "bg-blue ring-4 ring-blue/20" : "bg-gray-metal"
+                            isSync ? "bg-blue ring-4 ring-blue/20" : "bg-gray-metal"
                           }`}
                           aria-hidden="true"
                         />
@@ -164,7 +168,7 @@ export default function HistoryPage() {
 
       <CtaBand
         title="The next chapter is the part you need made."
-        intro="Three plants, four solution families and a century of combined process knowledge — pointed at your program."
+        intro="Specialized plants, a full range of processes and decades of combined process knowledge — pointed at your program."
         secondary={{ href: "/about/langdale", label: "About Langdale Holdings" }}
       />
     </>

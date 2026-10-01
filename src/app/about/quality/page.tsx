@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getHero } from "@/lib/heroes";
 import { CheckIcon } from "@/components/Icons";
 import {
   CheckList,
@@ -62,7 +63,8 @@ export default function QualityPage() {
       <PageHero
         eyebrow="About us"
         title="Quality & Compliance"
-        intro="An AS9100-certified quality system and ITAR registration, applied consistently across every SYNC facility."
+        intro="AS9100 certification, ITAR registration and coordinated quality systems built for demanding and regulated programs."
+        image={getHero("quality")}
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "About Us", href: "/about" },
@@ -81,7 +83,7 @@ export default function QualityPage() {
               <Prose
                 paragraphs={[
                   "A component that meets print but arrives without traceable material certifications is not a finished deliverable in the markets we serve. SYNC treats the documentation package as part of the product: it ships with the parts, it reproduces on demand years later, and it does not carry a separate line item.",
-                  "The unification of four companies under one quality system was the single largest benefit of becoming SYNC. Customers who buy from more than one of our plants now qualify one organization, audit one system, and receive one consistent set of records.",
+                  "Bringing our companies together under coordinated quality systems was one of the largest benefits of becoming SYNC. Customers who buy from more than one of our plants now qualify one organization, audit one system, and receive one consistent set of records.",
                 ]}
               />
             </div>

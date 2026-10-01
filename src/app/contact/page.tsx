@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getHero } from "@/lib/heroes";
 import Link from "next/link";
 import QuoteForm from "@/components/QuoteForm";
 import { contacts, locations } from "@/lib/site";
@@ -27,6 +28,7 @@ export default function ContactPage() {
         eyebrow="Contact us"
         title="Tell us about the part."
         intro="Quotes, capability questions and material recommendations come from the engineers who would run the job — not from a call center."
+        image={getHero("contact")}
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Contact", href: "/contact" },
@@ -171,7 +173,7 @@ export default function ContactPage() {
             </p>
           </div>
 
-          <div className="mt-10 grid gap-5 sm:grid-cols-3">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {locations.map((l) => (
               <div
                 key={l.slug}
@@ -201,12 +203,14 @@ export default function ContactPage() {
                       </span>
                     </a>
                   )}
-                  <a
-                    href={`tel:${l.phoneHref}`}
-                    className="block text-sm font-semibold text-navy hover:text-blue"
-                  >
-                    {l.phone}
-                  </a>
+                  {l.phone && (
+                    <a
+                      href={`tel:${l.phoneHref}`}
+                      className="block text-sm font-semibold text-navy hover:text-blue"
+                    >
+                      {l.phone}
+                    </a>
+                  )}
                   <Link
                     href={`/locations#${l.slug}`}
                     className="inline-block pt-1 text-sm font-semibold text-blue hover:underline"

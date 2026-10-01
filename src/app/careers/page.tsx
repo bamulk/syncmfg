@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
-import { contacts, locations } from "@/lib/site";
+import { getHero } from "@/lib/heroes";
+import {
+  contacts,
+  joinedCompanies,
+  locations,
+  numberWord,
+  plantCount,
+} from "@/lib/site";
 import { CheckIcon, MailIcon, PinIcon } from "@/components/Icons";
 import {
   Container,
@@ -68,7 +75,8 @@ export default function CareersPage() {
       <PageHero
         eyebrow="Careers"
         title="Build parts that have to work."
-        intro="SYNC hires skilled trades, engineers and operations professionals across three manufacturing plants — with two more in development."
+        intro={`SYNC hires skilled trades, engineers and operations professionals across ${numberWord(plantCount)} manufacturing plants — with more locations coming soon.`}
+        image={getHero("careers")}
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Careers", href: "/careers" },
@@ -81,7 +89,7 @@ export default function CareersPage() {
             <div>
               <SectionHeading
                 eyebrow="Working at SYNC"
-                title="Four companies' worth of craft, in one place"
+                title={`${numberWord(joinedCompanies.length, true)} companies’ worth of craft, in one place`}
               />
               <div className="mt-8">
                 <Prose
@@ -152,7 +160,7 @@ export default function CareersPage() {
             intro="Each location manages its own hiring. If you are flexible on location, corporate HR will route your resume to whichever plant is hiring."
           />
 
-          <div className="mt-10 grid gap-5 sm:grid-cols-3">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {locations.map((l) => (
               <div
                 key={l.slug}
@@ -169,13 +177,13 @@ export default function CareersPage() {
                   {l.focus}
                 </p>
                 <a
-                  href={`mailto:${l.hrEmail}?subject=${encodeURIComponent(
+                  href={`mailto:${l.hrEmail ?? contacts.corporateHr}?subject=${encodeURIComponent(
                     `Application — ${l.name}`,
                   )}`}
                   className="mt-5 inline-flex items-center gap-2 break-all text-sm font-semibold text-blue hover:underline"
                 >
                   <MailIcon className="h-4 w-4 shrink-0" />
-                  {l.hrEmail}
+                  {l.hrEmail ?? contacts.corporateHr}
                 </a>
               </div>
             ))}

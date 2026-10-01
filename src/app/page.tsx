@@ -1,7 +1,15 @@
 import Link from "next/link";
 import { markets } from "@/lib/markets";
 import { solutions } from "@/lib/solutions";
-import { acquisitionTimeline, locations, site } from "@/lib/site";
+import {
+  acquisitionTimeline,
+  joinedCompanies,
+  locations,
+  numberWord,
+  plantCount,
+  site,
+  stateList,
+} from "@/lib/site";
 import { pressReleases } from "@/lib/press";
 import {
   ArrowIcon,
@@ -19,10 +27,14 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
+const moldingProcesses =
+  solutions.find((s) => s.slug === "molding")?.capabilities.length ?? 0;
+
+// Counts come from src/lib — adding a plant or acquisition updates them.
 const stats = [
-  { value: "3", label: "Manufacturing plants" },
-  { value: "4", label: "Companies unified" },
-  { value: "6", label: "Molding processes" },
+  { value: String(plantCount), label: "Manufacturing plants" },
+  { value: String(joinedCompanies.length), label: "Companies unified" },
+  { value: String(moldingProcesses), label: "Molding processes" },
   { value: "46″", label: "Max compression platen" },
 ];
 
@@ -35,18 +47,19 @@ export default function HomePage() {
         <Container className="relative py-20 sm:py-28">
           <div className="max-w-3xl">
             <Eyebrow tone="light">
-              Formerly Redco &middot; Southwest Plastics &middot; Santa Fe Rubber
-              &middot; Verona
+              Formerly{" "}
+              {joinedCompanies.map((c) => c.shortName).join(" · ")}
             </Eyebrow>
             <h1 className="mt-4 text-4xl font-bold leading-[1.05] text-white sm:text-6xl">
-              Four rubber and plastics manufacturers.
+              {numberWord(joinedCompanies.length, true)} rubber and plastics
+              manufacturers.
               <br className="hidden sm:block" /> One name.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-[#c3d3e6] sm:text-xl">
               SYNC Manufacturing molds, cuts, compounds and bonds precision
               components for aerospace, defense, medical, utilities, oil &amp;
-              gas and industrial programs &mdash; under one AS9100 quality
-              system and one point of contact.
+              gas and industrial programs &mdash; with coordinated quality
+              systems and a single point of contact.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Button href="/contact#quote" variant="light">
@@ -175,7 +188,7 @@ export default function HomePage() {
             <div>
               <SectionHeading
                 eyebrow="Why SYNC"
-                title="The advantages of four shops, without four suppliers"
+                title={`The advantages of ${numberWord(plantCount)} plants, without ${numberWord(plantCount)} suppliers`}
                 intro="Consolidation only helps customers if it removes friction. Ours was built to do exactly that."
               />
               <div className="mt-9 space-y-7">
@@ -186,11 +199,11 @@ export default function HomePage() {
                   },
                   {
                     title: "Process-agnostic recommendations",
-                    body: "Running six molding processes plus cutting means the answer you get is driven by your part, not by the one press we happen to own.",
+                    body: "Running the full range of molding processes plus cutting means the answer you get is driven by your part, not by the one press we happen to own.",
                   },
                   {
-                    title: "One quality system across three plants",
-                    body: "AS9100 certification and ITAR registration, with lot traceability and documentation packages that hold up under audit.",
+                    title: "Coordinated quality across every plant",
+                    body: "Material control, lot traceability and documentation packages that hold up under audit, backed by AS9100 certification and ITAR registration.",
                   },
                   {
                     title: "Legacy and obsolete part support",
@@ -226,7 +239,7 @@ export default function HomePage() {
                       )}
                       <span
                         className={`relative z-10 mt-1 h-[18px] w-[18px] shrink-0 rounded-full border-[3px] border-white ${
-                          i === acquisitionTimeline.length - 1
+                          t.abbr === "SYNC"
                             ? "bg-blue ring-4 ring-blue/20"
                             : "bg-gray-metal"
                         }`}
@@ -266,8 +279,8 @@ export default function HomePage() {
             <SectionHeading
               tone="light"
               eyebrow="Locations"
-              title="Three plants, coast to coast"
-              intro="Nevada, Illinois and California today, with Ohio and Mexico in development."
+              title={`${numberWord(plantCount, true)} plants, coast to coast`}
+              intro={`${stateList} today — with more locations coming soon.`}
             />
             <Link
               href="/locations"
@@ -278,7 +291,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-3">
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {locations.map((l) => (
               <Link
                 key={l.slug}

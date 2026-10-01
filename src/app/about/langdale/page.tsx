@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { acquisitionTimeline, futureLocations, locations } from "@/lib/site";
+import {
+  futureLocations,
+  joinedCompanies,
+  locations,
+} from "@/lib/site";
+import { getHero } from "@/lib/heroes";
 import {
   CheckList,
   Container,
@@ -13,23 +18,25 @@ import {
 export const metadata: Metadata = {
   title: "Langdale Holdings",
   description:
-    "Langdale Holdings is the investment platform behind SYNC Manufacturing, acquiring and growing precision rubber and plastics manufacturers across North America.",
+    "Langdale Holdings is privately held and family-owned, acquiring established North American manufacturers and investing in their future.",
 };
 
-/* DRAFT — replace with the approved copy from
-   Langdale_Holdings_Landing_Page_Web_Developer_Brief.docx (not supplied). */
+/* Copy from "Website Updates Sept 26.pptx", slides 4–8 (client-approved). */
 const body = [
-  "Langdale Holdings acquires and builds North American precision manufacturers. Since 2023 the platform has brought together four rubber and plastics companies — Southwest Plastics, Redco, Santa Fe Rubber and Verona Rubber Works — into what is today SYNC Manufacturing.",
-  "The model is long-hold, not turnaround. Langdale buys companies with real process knowledge and durable customer relationships, invests in capacity and systems, and keeps the operating teams in place. Where most acquirers consolidate plants, Langdale consolidated the things customers never wanted to duplicate — quality systems, documentation, supplier qualification — and left the manufacturing where it was.",
-  "That approach continues. Additional capacity is in development in Ohio and Mexico, and the platform actively evaluates manufacturers whose capabilities complement rather than overlap the existing footprint.",
+  "Langdale Holdings acquires established North American manufacturers with strong teams, deep process knowledge and durable customer relationships.",
+  "Our approach is long-term. We invest in equipment, systems, people and capacity while preserving the operating knowledge and customer relationships that made each business successful.",
+  "We do not believe growth has to mean stripping away what works. Our goal is to strengthen each business, expand its capabilities and create more opportunities for employees and customers over time.",
+  "As the organization grows, we continue to look for manufacturers that bring complementary capabilities, technical expertise or geographic reach to the group.",
 ];
 
 const criteria = [
-  "Precision rubber, plastics and elastomer manufacturers",
-  "Established customer relationships in regulated markets",
-  "Capabilities that complement, not duplicate, the platform",
-  "Owners seeking succession without dismantling the business",
-  "North American operations",
+  "Precision rubber, plastics, elastomer and related manufacturing businesses",
+  "Strong operating teams and experienced employees",
+  "Established customer relationships",
+  "Specialized or technically differentiated capabilities",
+  "Technical, regulated or mission-critical end markets",
+  "Owners considering succession or a long-term transition",
+  "North American manufacturing operations",
 ];
 
 export default function LangdalePage() {
@@ -38,7 +45,8 @@ export default function LangdalePage() {
       <PageHero
         eyebrow="About us"
         title="Langdale Holdings"
-        intro="The investment platform behind SYNC Manufacturing — building North American precision manufacturing capacity company by company."
+        intro="Privately held. Family-owned. Investing in the future of North American manufacturing."
+        image={getHero("langdale")}
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "About Us", href: "/about" },
@@ -52,7 +60,7 @@ export default function LangdalePage() {
             <div className="max-w-2xl">
               <SectionHeading
                 eyebrow="The platform"
-                title="Buy well-run manufacturers. Keep them well-run."
+                title="We preserve what works, invest where it matters, and build for the long term."
               />
               <div className="mt-8">
                 <Prose paragraphs={body} />
@@ -60,29 +68,34 @@ export default function LangdalePage() {
 
               <div className="mt-12">
                 <Eyebrow>Acquisition criteria</Eyebrow>
-                <h3 className="mt-2 mb-6 text-xl font-bold text-navy">
-                  What Langdale looks for
+                <h3 className="mt-2 text-xl font-bold text-navy">
+                  Companies that fit how we build.
                 </h3>
+                <p className="mt-3 mb-6 text-[17px] leading-relaxed text-muted">
+                  We look for well-run businesses with strong people,
+                  differentiated capabilities and a foundation we can continue
+                  building on.
+                </p>
                 <CheckList items={criteria} />
               </div>
             </div>
 
+            {/* Both lists are generated from src/lib/site.ts — adding a
+                location or an acquisition there updates them here. */}
             <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
               <div className="rounded-lg border border-line bg-surface p-6">
                 <h3 className="text-sm font-semibold uppercase tracking-[0.16em] text-navy">
                   Platform companies
                 </h3>
                 <ul className="mt-4 space-y-3.5">
-                  {acquisitionTimeline
-                    .filter((t) => t.abbr !== "SYNC")
-                    .map((t) => (
-                      <li key={t.company}>
-                        <p className="font-semibold leading-snug text-navy">
-                          {t.company}
-                        </p>
-                        <p className="text-sm text-muted">{t.date}</p>
-                      </li>
-                    ))}
+                  {joinedCompanies.map((t) => (
+                    <li key={t.company}>
+                      <p className="font-semibold leading-snug text-navy">
+                        {t.company}
+                      </p>
+                      <p className="text-sm text-muted">{t.date}</p>
+                    </li>
+                  ))}
                 </ul>
               </div>
 
@@ -119,10 +132,12 @@ export default function LangdalePage() {
       </section>
 
       <CtaBand
-        title="Considering a sale, or looking for a manufacturing partner?"
-        intro="Langdale evaluates acquisition opportunities across North American precision manufacturing. SYNC quotes production work every day. Either conversation starts the same way."
-        primary={{ href: "/contact", label: "Get in touch" }}
-        secondary={{ href: "/about/history", label: "Our history" }}
+        title="Preserve what was built. Invest in what comes next."
+        intro={[
+          "For owners considering succession or a sale, Langdale offers a long-term home for businesses built on decades of manufacturing knowledge, strong customer relationships and experienced people.",
+          "We believe preserving North American manufacturing means more than keeping machines running. It means protecting the know-how, craftsmanship and relationships that make these businesses valuable — while investing in the people, systems and capacity needed for the future.",
+        ]}
+        primary={{ href: "/contact", label: "Let’s start the conversation" }}
       />
     </>
   );

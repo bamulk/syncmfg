@@ -40,9 +40,9 @@ export const solutions: Solution[] = [
     icon: "molding",
     eyebrow: "Thermoset, thermoplastic, silicone",
     intro:
-      "Six molding processes under one quality system, from micro LSR components to 46 x 46 inch compression tools.",
+      "Thermoset, thermoplastic and silicone molding under one roof, from micro LSR components to 46 x 46 inch compression tools.",
     body: [
-      "Choosing the process is half of the engineering. A part that is wrong for transfer molding may be ideal for compression; a design that fights an injection tool may mold cleanly in silicone. SYNC runs all six processes, so the recommendation you get is driven by your part rather than by the one press we happen to own.",
+      "Choosing the process is half of the engineering. A part that is wrong for transfer molding may be ideal for compression; a design that fights an injection tool may mold cleanly in silicone. SYNC runs all of them, so the recommendation you get is driven by your part rather than by the one press we happen to own.",
       "Tooling is designed and built in house wherever it shortens the development loop. That keeps first-article timelines short and keeps tool maintenance, cavity repair and engineering changes with the same team that cut the steel.",
     ],
     capabilities: [

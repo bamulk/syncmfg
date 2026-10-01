@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contacts, futureLocations, locations } from "@/lib/site";
+import {
+  contacts,
+  futureLocations,
+  locations,
+  numberWord,
+  plantCount,
+  stateList,
+} from "@/lib/site";
+import { getHero } from "@/lib/heroes";
 import { CheckIcon, MailIcon, PhoneIcon, PinIcon } from "@/components/Icons";
 import {
   Container,
@@ -13,8 +21,7 @@ import {
 
 export const metadata: Metadata = {
   title: "Locations",
-  description:
-    "SYNC Manufacturing operates plants in Carson City, Nevada; Blackstone, Illinois; and Glendora, California, with new capacity in development in Ohio and Mexico.",
+  description: `SYNC Manufacturing operates ${numberWord(plantCount)} plants across ${stateList}, connected by one organization and a single point of contact.`,
 };
 
 export default function LocationsPage() {
@@ -22,8 +29,10 @@ export default function LocationsPage() {
     <>
       <PageHero
         eyebrow="Locations"
-        title="Three plants today. Two more in development."
-        intro="Nevada, Illinois and California cover rubber, plastics and large-format work. Ohio and Mexico are next."
+        title="One network. Coast to coast."
+        intro={`${numberWord(plantCount, true)} specialized plants across ${stateList} — connected by coordinated quality systems and a single point of contact.`}
+        image={getHero("locations")}
+        imageLayout="banner"
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Locations", href: "/locations" },
@@ -78,7 +87,7 @@ export default function LocationsPage() {
                   </div>
 
                   <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-muted">
-                    {l.focus}
+                    {l.description ?? l.focus}
                   </p>
 
                   <div className="mt-8">
@@ -117,12 +126,14 @@ export default function LocationsPage() {
                           href={`tel:${l.tollFreeHref}`}
                         />
                       )}
-                      <ContactRow
-                        icon={<PhoneIcon className="h-5 w-5" />}
-                        label="Phone"
-                        value={l.phone}
-                        href={`tel:${l.phoneHref}`}
-                      />
+                      {l.phone && (
+                        <ContactRow
+                          icon={<PhoneIcon className="h-5 w-5" />}
+                          label="Phone"
+                          value={l.phone}
+                          href={`tel:${l.phoneHref}`}
+                        />
+                      )}
                       {l.fax && (
                         <ContactRow
                           icon={<PhoneIcon className="h-5 w-5" />}
@@ -133,8 +144,8 @@ export default function LocationsPage() {
                       <ContactRow
                         icon={<MailIcon className="h-5 w-5" />}
                         label="Careers"
-                        value={l.hrEmail}
-                        href={`mailto:${l.hrEmail}`}
+                        value={l.hrEmail ?? contacts.corporateHr}
+                        href={`mailto:${l.hrEmail ?? contacts.corporateHr}`}
                       />
                     </dl>
                   </address>
@@ -166,27 +177,25 @@ export default function LocationsPage() {
       {/* Coming soon */}
       <section className="bg-surface py-16 sm:py-20">
         <Container>
-          <SectionHeading
-            eyebrow="In development"
-            title="Where we're expanding next"
-            intro="Two additional facilities are in development to add capacity and shorten lead times for customers in the eastern United States and in nearshore supply chains."
-          />
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:max-w-2xl">
-            {futureLocations.map((f) => (
-              <div
-                key={f.label}
-                className="rounded-lg border border-dashed border-gray-metal/60 bg-white p-6"
-              >
-                <span className="inline-block rounded bg-blue/10 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-blue">
-                  {f.note}
-                </span>
-                <h3 className="mt-4 text-xl font-bold text-navy">{f.label}</h3>
-                <p className="mt-2 text-[15px] leading-relaxed text-muted">
-                  Details to be announced. Contact us to discuss capacity
-                  planning for programs in this region.
-                </p>
-              </div>
-            ))}
+          <div className="grid gap-8 lg:grid-cols-[1fr_420px] lg:items-center lg:gap-12">
+            <SectionHeading
+              eyebrow="Growing"
+              title="More locations coming soon"
+              intro="SYNC continues to add manufacturing capacity and capabilities across North America. Contact us to discuss capacity planning for your program."
+            />
+            <ul className="space-y-3">
+              {futureLocations.map((f) => (
+                <li
+                  key={f.label}
+                  className="flex items-center justify-between gap-4 rounded-lg border border-dashed border-gray-metal/60 bg-white px-6 py-5"
+                >
+                  <span className="text-lg font-bold text-navy">{f.label}</span>
+                  <span className="rounded bg-blue/10 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-blue">
+                    {f.note}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </div>
         </Container>
       </section>

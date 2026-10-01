@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getSolution, solutions } from "@/lib/solutions";
 import { markets } from "@/lib/markets";
+import { getHero } from "@/lib/heroes";
 import { ArrowIcon, CheckIcon, solutionIcons } from "@/components/Icons";
 import {
   Container,
@@ -43,6 +44,7 @@ export default async function SolutionPage({ params }: Params) {
         eyebrow={solution.eyebrow}
         title={solution.name}
         intro={solution.intro}
+        image={getHero(`solutions-${solution.slug}`)}
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Solutions", href: "/solutions" },

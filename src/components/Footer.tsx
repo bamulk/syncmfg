@@ -69,7 +69,7 @@ export default function Footer() {
           <FooterColumn title="Company" links={companyLinks} />
         </div>
 
-        <div className="mt-14 grid gap-8 border-t border-white/12 pt-10 sm:grid-cols-3">
+        <div className="mt-14 grid gap-8 border-t border-white/12 pt-10 sm:grid-cols-2 lg:grid-cols-4">
           {locations.map((l) => (
             <div key={l.slug}>
               <p className="text-sm font-semibold text-white">{l.name}</p>
@@ -80,12 +80,14 @@ export default function Footer() {
                   </span>
                 ))}
               </p>
-              <a
-                href={`tel:${l.phoneHref}`}
-                className="mt-1.5 inline-block text-sm hover:text-white"
-              >
-                {l.phone}
-              </a>
+              {l.phone && (
+                <a
+                  href={`tel:${l.phoneHref}`}
+                  className="mt-1.5 inline-block text-sm hover:text-white"
+                >
+                  {l.phone}
+                </a>
+              )}
             </div>
           ))}
         </div>
