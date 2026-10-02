@@ -7,25 +7,24 @@ no code change. Slots and alt text live in `src/lib/heroes.ts`.
 
 ## In place now
 
-These were cropped from the client's slide mockups.
+Every slot has an image.
 
-| Slot | Page | Source | Size |
-|---|---|---|---|
-| `about` | /about | slide 2 | 788×409 — **soft on retina; regenerate at full size** |
-| `langdale` | /about/langdale | slide 4 | 1085×560 |
-| `history` | /about/history | slide 9 | 1072×556 |
-| `locations` | /locations (full-width banner) | slide 11 | 2127×739 |
+| Slots | Source | Size |
+|---|---|---|
+| `langdale`, `history` | cropped from the client's slide mockups (slides 4, 9) | ~1080×560 |
+| `locations` (full-width banner) | slide 11 | 2127×739 |
+| `about`, `quality`, `careers`, `contact`, all six `markets-*`, all four `solutions-*` | generated 2026-10-02 with OpenAI `gpt-image-2`, high quality, using the prompts below | 1536×1024 |
 
-The slide 1 aerospace mockup couldn't be reused: the photo is only 772×330 and
-has the "Trusted in flight" tagline baked into it. Regenerate it with the
-prompt below.
+**AI-generated people** appear in `quality`, `careers`, `contact` and (blurred,
+in the background) `markets-medical`. They are not SYNC employees. Regenerate
+without people if the client prefers.
 
 **Note:** the Locations map has the four plant names drawn into the image. When
 a plant is added, that image needs regenerating too.
 
 ## Specs for new images
 
-- Landscape **2:1**, at least **2400×1200** px, JPG
+- Landscape, **1536×1024** or larger (the page crops it to roughly 2:1), JPG
 - Subject in the **right 60%** of the frame. The left 40% sits behind the
   headline and is faded out, so keep it dark and low-detail.
 - On phones the whole photo sits behind the text with a navy tint, so busy

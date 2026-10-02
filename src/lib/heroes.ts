@@ -22,7 +22,7 @@ export type HeroImage = {
 const SLOTS = {
   about: {
     alt: "Molded rubber and plastic seals, bellows and housings on a factory floor",
-    position: "40% 60%",
+    position: "60% 72%",
   },
   langdale: {
     alt: "Molded rubber bellows, seals and plastic brackets in front of production equipment",
@@ -36,16 +36,31 @@ const SLOTS = {
     alt: "Map of SYNC Manufacturing plants in Carson City, Glendora, Blackstone and Canton",
     position: "42% 50%",
   },
-  quality: { alt: "Inspector measuring a molded rubber part" },
-  careers: { alt: "SYNC team members working on the production floor" },
-  contact: { alt: "Engineer reviewing a part drawing beside molded components" },
+  quality: {
+    alt: "Inspector measuring a molded rubber part with calipers",
+    position: "70% 30%",
+  },
+  careers: {
+    alt: "Two machine operators reviewing a molded part beside a press",
+    position: "50% 32%",
+  },
+  contact: {
+    alt: "Engineer reviewing a part drawing beside molded components",
+    position: "70% 35%",
+  },
   "markets-aerospace": { alt: "Commercial aircraft wing above the clouds" },
   "markets-defense": { alt: "Military ground vehicle on a test range" },
-  "markets-medical": { alt: "Silicone medical device components in a clean environment" },
-  "markets-utilities": { alt: "High-voltage transmission lines at dusk" },
+  "markets-medical": {
+    alt: "Silicone medical device components in a clean environment",
+    position: "70% 62%",
+  },
+  "markets-utilities": { alt: "Polymer insulator on a transmission tower at dusk" },
   "markets-oil-and-gas": { alt: "Wellhead valves at an oil and gas site" },
   "markets-industrial": { alt: "Heavy industrial equipment with rubber rollers" },
-  "solutions-molding": { alt: "Compression molding press with an open mold" },
+  "solutions-molding": {
+    alt: "Compression molding press with an open mold",
+    position: "70% 60%",
+  },
   "solutions-cutting": { alt: "Die-cut rubber gaskets on a cutting table" },
   "solutions-compounding-and-bonding": { alt: "Rubber compound being milled on a two-roll mill" },
   "solutions-additional": { alt: "3D scanner capturing a legacy rubber part" },
