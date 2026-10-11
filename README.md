@@ -77,9 +77,17 @@ a public form.
 
 ## Deploying
 
-Vercel, with `syncmfg.com` as the production domain. Set `site.url` in
-`src/lib/site.ts` if the domain changes — sitemap, robots and Open Graph tags
-all read from it.
+The site is hosted on the client's Vercel project (`syncmfg`, serving
+syncmfg-pi.vercel.app). That project has **no Git connection**, so pushing to
+GitHub does not deploy. Deploy the committed tree with:
+
+```bash
+python3 scripts/deploy.py
+```
+
+It needs `VERCEL_TOKEN=...` in `.env.local` (gitignored) and a clean working
+tree. Set `site.url` in `src/lib/site.ts` if the domain changes — sitemap,
+robots and Open Graph tags all read from it.
 
 ## Not built yet
 
