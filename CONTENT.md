@@ -82,8 +82,8 @@ Choices made that need a yes/no:
 6. **Quality wording** was softened from "AS9100 … across every SYNC facility"
    to "coordinated quality systems", since Canton's certification status is
    unknown. The header strip still says "AS9100 Certified · ITAR Registered".
-7. **Latex dip molding** isn't in the Solutions list (slide 5 predates Canton).
-   Say if it should be added.
+7. ~~Latex dip molding isn't in the Solutions list~~ — added under Molding
+   Solutions 2026-10-11.
 
 ## Oct 9 update — applied from the two `Website Update Oct 9` decks
 
@@ -103,8 +103,8 @@ Not done, waiting on the client:
 2. **Plant photos / homepage photo ideas** — also SharePoint folders. The
    homepage rotation currently uses three existing photos; the list is
    `HOME_ROTATION` in `src/lib/heroes.ts`.
-3. **Dip molding** is named in the new homepage copy but is still not in the
-   Solutions list (which family should it go under?).
+3. ~~Dip molding missing from Solutions~~ — added under Molding Solutions
+   2026-10-11 at the client's direction.
 4. The homepage mockup put "AS9100 Certified | ITAR Registered" beside the
    Request a Quote button; the site still shows it in the strip above the menu.
 

@@ -1,9 +1,10 @@
 /**
  * Solutions / Capabilities.
  *
- * The four categories and every sub-capability below are transcribed verbatim
- * from the "Solutions We Provide" graphic on slide 5 of the deck — do not add or
- * rename a bullet without approval.
+ * The four categories and their sub-capabilities are transcribed verbatim from
+ * the "Solutions We Provide" graphic on slide 5 of the first deck — do not add
+ * or rename a bullet without approval. One approved addition: Dip Molding under
+ * Molding Solutions (client, 2026-10-11), which arrived with the Canton plant.
  *
  * Descriptive prose is DRAFT: the deck notes "We can work on this content", and
  * Sync_Plastic_Molding_Capability_Web_Developer_Brief.docx was not supplied.
@@ -88,6 +89,13 @@ export const solutions: Solution[] = [
         name: "Rubber Molding",
         summary:
           "Custom rubber components molded from compounds we mix ourselves to your application's requirements.",
+      },
+      {
+        // Wording drawn from the client's Canton description (Sept 26 deck).
+        slug: "dip-molding",
+        name: "Dip Molding",
+        summary:
+          "Latex dip molding and engineered elastomer components from our Canton, Ohio plant, with in-house latex compounding, custom mold development and isostatic press bags.",
       },
     ],
   },
