@@ -70,8 +70,8 @@ written because they stay true.
 
 Choices made that need a yes/no:
 
-1. **Canton phone and HR inbox** weren't supplied. The site shows no phone and
-   routes Canton applicants to `HR@syncmfg.com`.
+1. **Canton HR inbox** wasn't supplied, so Canton applicants are routed to
+   `HR@syncmfg.com`. (Canton's phone, (330) 966-2111, was added 2026-10-11.)
 2. **Canton acquisition date** is shown as "2026" — the deck didn't give a month.
 3. **Locations slogan.** The deck says "Background slogan" without the words; I
    used *"One network. Coast to coast."*

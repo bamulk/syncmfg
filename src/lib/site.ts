@@ -161,8 +161,8 @@ export const locations: Location[] = [
     mapQuery: "620 W Foothill Blvd, Glendora, CA 91741",
   },
   {
-    // From "Website Updates Sept 26.pptx", slide 12. No phone number or HR
-    // inbox was supplied, so the site falls back to corporate contacts.
+    // From "Website Updates Sept 26.pptx", slide 12; phone supplied by the
+    // client 2026-10-11. No HR inbox yet, so careers falls back to corporate.
     slug: "canton",
     name: "SYNC Canton",
     legacyName: "MDI / Aptyx — Rubber Latex Molding",
@@ -170,6 +170,8 @@ export const locations: Location[] = [
     stateName: "Ohio",
     state: "OH",
     address: ["5175 Stoneham Rd.", "Canton, OH 44720"],
+    phone: "(330) 966-2111",
+    phoneHref: "+13309662111",
     focus:
       "Latex dip molding and engineered elastomer components, backed by nearly five decades of manufacturing experience.",
     description:
