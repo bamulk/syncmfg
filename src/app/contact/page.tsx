@@ -26,8 +26,8 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact us"
-        title="Tell us about the part."
-        intro="Quotes, capability questions and material recommendations come from the engineers who would run the job — not from a call center."
+        title="Let’s talk about your application."
+        intro="Share your drawing, specifications, or program requirements with our team. We’ll review the opportunity, answer questions about capabilities and materials, and connect you directly with the right Sync manufacturing team."
         image={getHero("contact")}
         breadcrumb={[
           { label: "Home", href: "/" },
@@ -45,9 +45,10 @@ export default function ContactPage() {
                 Submit an RFQ
               </h2>
               <p className="mt-3 max-w-xl text-[17px] leading-relaxed text-muted">
-                The more you tell us, the more useful the first response will
-                be. If you are not sure which process your part needs, say so —
-                that is a question we like.
+                Provide your drawings, specifications, material requirements,
+                estimated volumes and timing where available. If the process or
+                material has not yet been determined, our team can review the
+                application and help identify the appropriate Sync capabilities.
               </p>
               <div className="mt-9">
                 <QuoteForm />

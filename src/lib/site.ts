@@ -71,6 +71,8 @@ export type Location = {
   slug: string;
   name: string;
   legacyName: string;
+  /** Short legacy name for compact cards ("Formerly Redco") */
+  formerly: string;
   city: string;
   state: string;
   stateName: string;
@@ -95,6 +97,7 @@ export const locations: Location[] = [
     slug: "carson-city",
     name: "SYNC Carson City",
     legacyName: "Redco — Rubber Engineering & Development",
+    formerly: "Redco",
     city: "Carson City",
     stateName: "Nevada",
     state: "NV",
@@ -119,6 +122,7 @@ export const locations: Location[] = [
     slug: "blackstone",
     name: "SYNC Blackstone",
     legacyName: "Verona Rubber Works",
+    formerly: "Verona Rubber Works",
     city: "Blackstone",
     stateName: "Illinois",
     state: "IL",
@@ -142,6 +146,7 @@ export const locations: Location[] = [
     slug: "glendora",
     name: "SYNC Glendora",
     legacyName: "Southwest Plastics / Southwest Mold",
+    formerly: "Southwest Plastics",
     city: "Glendora",
     stateName: "California",
     state: "CA",
@@ -166,6 +171,7 @@ export const locations: Location[] = [
     slug: "canton",
     name: "SYNC Canton",
     legacyName: "MDI / Aptyx — Rubber Latex Molding",
+    formerly: "MDI / Aptyx",
     city: "Canton",
     stateName: "Ohio",
     state: "OH",

@@ -11,12 +11,22 @@ Every slot has an image.
 
 | Slots | Source | Size |
 |---|---|---|
-| `langdale`, `history` | cropped from the client's slide mockups (slides 4, 9) | ~1080×560 |
-| `locations` (full-width banner) | slide 11 | 2127×739 |
-| `about`, `quality`, `careers`, `contact`, all six `markets-*`, all four `solutions-*` | generated 2026-10-02 with OpenAI `gpt-image-2`, high quality, using the prompts below | 1536×1024 |
+| `history` | cropped from the client's slide mockup (Sept 26, slide 9) | ~1080×560 |
+| `langdale` | supplied by the client (Oct 9 deck, slide 7): office nameplate | 1916×821 |
+| `locations` (full-width banner) | Sept 26 deck, slide 11 | 2127×739 |
+| `home` | regenerated 2026-10-11 from the Oct 9 homepage mockup with OpenAI `gpt-image-2` image edit, SYNC logo on cap and shirt | 1536×1024 |
+| `careers` | 2026-10-11: SYNC logo added to both shirts with an image edit (client request) | 1536×1024 |
+| `about`, `quality`, `contact`, all six `markets-*`, all four `solutions-*` | generated 2026-10-02 with OpenAI `gpt-image-2`, high quality, using the prompts below | 1536×1024 |
 
-**AI-generated people** appear in `quality`, `careers`, `contact` and (blurred,
-in the background) `markets-medical`. They are not SYNC employees. Regenerate
+The homepage hero rotates through `home`, `about` and `solutions-molding`
+(`HOME_ROTATION` in `src/lib/heroes.ts`). The market and solution photos are
+also reused, faded, behind the homepage cards.
+
+Image URLs carry a `?v=<hash>` of the file, so replacing a photo under the same
+name shows up immediately.
+
+**AI-generated people** appear in `home`, `quality`, `careers`, `contact` and
+(blurred, in the background) `markets-medical`. They are not SYNC employees. Regenerate
 without people if the client prefers.
 
 **Note:** the Locations map has the four plant names drawn into the image. When

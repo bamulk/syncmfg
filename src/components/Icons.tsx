@@ -130,6 +130,29 @@ export function AdditionalIcon({ className }: Props) {
   );
 }
 
+export function GearIcon({ className }: Props) {
+  return (
+    <Svg className={className}>
+      <circle cx="12" cy="12" r="3.2" />
+      <path d="M12 2.8v2.6M12 18.6v2.6M2.8 12h2.6M18.6 12h2.6M5.5 5.5l1.8 1.8M16.7 16.7l1.8 1.8M18.5 5.5l-1.8 1.8M7.3 16.7l-1.8 1.8" />
+      <circle cx="12" cy="12" r="6.6" />
+    </Svg>
+  );
+}
+
+export function PeopleIcon({ className }: Props) {
+  return (
+    <Svg className={className}>
+      <circle cx="12" cy="8" r="3" />
+      <path d="M6.2 19.5c.5-3 2.8-5 5.8-5s5.3 2 5.8 5" />
+      <circle cx="4.8" cy="9.8" r="2" />
+      <path d="M1.8 17.5c.3-2 1.5-3.3 3.3-3.6" />
+      <circle cx="19.2" cy="9.8" r="2" />
+      <path d="M22.2 17.5c-.3-2-1.5-3.3-3.3-3.6" />
+    </Svg>
+  );
+}
+
 /* ---------- Utility ---------- */
 
 export function CheckIcon({ className }: Props) {

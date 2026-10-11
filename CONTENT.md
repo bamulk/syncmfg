@@ -85,6 +85,29 @@ Choices made that need a yes/no:
 7. **Latex dip molding** isn't in the Solutions list (slide 5 predates Canton).
    Say if it should be added.
 
+## Oct 9 update — applied from the two `Website Update Oct 9` decks
+
+Client-approved copy now on: the whole homepage (hero, stats band, Solutions,
+Markets, Why SYNC, Locations, closing CTA), /contact (hero, RFQ intro, form
+wording), /careers (hero, Working at SYNC, Why people choose SYNC), the
+Newsroom hero (now "News & Updates") and the About timeline heading.
+
+Design changes from the mockups: rotating homepage hero photos, faded photos
+behind the Solutions and Markets cards, and state silhouettes behind the
+Locations cards.
+
+Not done, waiting on the client:
+
+1. **Canton press release** — the .docx/.pdf are SharePoint links that can't be
+   opened from here. Needs the file itself.
+2. **Plant photos / homepage photo ideas** — also SharePoint folders. The
+   homepage rotation currently uses three existing photos; the list is
+   `HOME_ROTATION` in `src/lib/heroes.ts`.
+3. **Dip molding** is named in the new homepage copy but is still not in the
+   Solutions list (which family should it go under?).
+4. The homepage mockup put "AS9100 Certified | ITAR Registered" beside the
+   Request a Quote button; the site still shows it in the strip above the menu.
+
 ## Things invented that need a decision before launch
 
 These are placeholders that look real and will ship as fact if nobody checks

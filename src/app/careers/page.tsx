@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
 import { getHero } from "@/lib/heroes";
-import {
-  contacts,
-  joinedCompanies,
-  locations,
-  numberWord,
-  plantCount,
-} from "@/lib/site";
+import { contacts, locations, stateList } from "@/lib/site";
 import { CheckIcon, MailIcon, PinIcon } from "@/components/Icons";
 import {
   Container,
@@ -20,8 +14,7 @@ import {
 
 export const metadata: Metadata = {
   title: "Careers",
-  description:
-    "Careers at SYNC Manufacturing — skilled trades, engineering, quality and operations roles across our Nevada, Illinois and California plants.",
+  description: `Careers at SYNC Manufacturing — skilled trades, engineering, quality and operations roles across our ${stateList} plants.`,
 };
 
 /* DRAFT — the deck specifies "a generic landing page, then work to an
@@ -61,12 +54,38 @@ const roleAreas = [
   },
 ];
 
-const whyWorkHere = [
-  "Long-tenured teams — many of our people have run these presses for decades",
-  "Cross-plant career paths across rubber, plastics and tooling",
-  "Work on aerospace, defense and medical programs that matter",
-  "Stable, growing ownership with new capacity in development",
-  "On-the-job training in compounding, molding and tooling trades",
+/* Copy from "Website Update Oct 9 2022.pptx", slides 4–5 (client-approved). */
+const working = [
+  "Great manufacturing starts with people who know their craft. Across Sync, our teams bring years of hands-on experience in molding, compounding, tooling, machining, cutting, bonding, and other specialized manufacturing processes.",
+  "We’re building on that experience by investing in our people, our facilities and the future of American manufacturing. Whether you’ve spent decades running a press or are just beginning a career in manufacturing, Sync is a place to learn, contribute and grow.",
+  "As our organization expands, so do the opportunities. Our manufacturing locations offer exposure to different processes, markets, and technologies, all connected by a shared commitment to quality, safety, hard work, and caring for our customers.",
+];
+
+const whyChooseSync = [
+  {
+    title: "Experienced teams and skilled trades",
+    body: "work alongside people who have spent years mastering specialized manufacturing processes.",
+  },
+  {
+    title: "Opportunities to learn and grow",
+    body: "develop new skills through hands-on training, mentorship, and expanded responsibilities.",
+  },
+  {
+    title: "Work that matters",
+    body: "support customers in aerospace, defense, medical, utilities, industrial, and other demanding markets.",
+  },
+  {
+    title: "Investment in manufacturing",
+    body: "we continue to invest in equipment, facilities, technology and additional capabilities.",
+  },
+  {
+    title: "A growing U.S. manufacturing organization",
+    body: "build your career with a company focused on long-term growth and domestic manufacturing.",
+  },
+  {
+    title: "A culture built around the work",
+    body: "practical problem-solving, teamwork, and pride in making quality products.",
+  },
 ];
 
 export default function CareersPage() {
@@ -74,8 +93,8 @@ export default function CareersPage() {
     <>
       <PageHero
         eyebrow="Careers"
-        title="Build parts that have to work."
-        intro={`SYNC hires skilled trades, engineers and operations professionals across ${numberWord(plantCount)} manufacturing plants — with more locations coming soon.`}
+        title="Build what matters. Grow with us."
+        intro="Join skilled manufacturing, engineering, quality, and operations teams across Sync’s growing North American manufacturing network. Bring your experience, learn new skills, and help us build the next generation of American manufacturing."
         image={getHero("careers")}
         breadcrumb={[
           { label: "Home", href: "/" },
@@ -89,27 +108,27 @@ export default function CareersPage() {
             <div>
               <SectionHeading
                 eyebrow="Working at SYNC"
-                title={`${numberWord(joinedCompanies.length, true)} companies’ worth of craft, in one place`}
+                title="Built by skilled people. Growing together."
               />
               <div className="mt-8">
-                <Prose
-                  paragraphs={[
-                    "The companies that became SYNC were bought for their people as much as their presses. Compounding rubber, setting a 46-inch compression tool, cutting steel for a new mold — these are trades learned over years, and our plants are full of people who learned them here.",
-                    "Unifying under one name opened those paths up. A quality engineer in Carson City and a tooling engineer in Glendora now work inside the same organization, with the same systems and the same room to move.",
-                  ]}
-                />
+                <Prose paragraphs={working} />
               </div>
 
               <div className="mt-10">
-                <Eyebrow>Why people stay</Eyebrow>
-                <ul className="mt-5 space-y-3">
-                  {whyWorkHere.map((w) => (
+                <Eyebrow>Why people choose SYNC</Eyebrow>
+                <ul className="mt-5 space-y-3.5">
+                  {whyChooseSync.map((w) => (
                     <li
-                      key={w}
-                      className="flex items-start gap-3 text-[15px] leading-snug text-ink"
+                      key={w.title}
+                      className="flex items-start gap-3 text-[15px] leading-relaxed text-muted"
                     >
                       <CheckIcon className="mt-0.5 h-5 w-5 shrink-0 text-blue" />
-                      {w}
+                      <span>
+                        <span className="font-semibold text-navy">
+                          {w.title}
+                        </span>{" "}
+                        — {w.body}
+                      </span>
                     </li>
                   ))}
                 </ul>

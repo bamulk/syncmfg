@@ -295,11 +295,13 @@ export function CheckList({
 }
 
 export function CtaBand({
+  eyebrow,
   title,
   intro,
   primary = { href: "/contact", label: "Request a quote" },
   secondary,
 }: {
+  eyebrow?: string;
   title: string;
   intro?: string | readonly string[];
   primary?: { href: string; label: string };
@@ -311,6 +313,11 @@ export function CtaBand({
       <Container className="relative py-16 sm:py-20">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-2xl">
+            {eyebrow && (
+              <div className="mb-3">
+                <Eyebrow tone="light">{eyebrow}</Eyebrow>
+              </div>
+            )}
             <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl">
               {title}
             </h2>

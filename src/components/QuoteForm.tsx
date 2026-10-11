@@ -195,20 +195,23 @@ export default function QuoteForm() {
 
       <div>
         <label htmlFor="message" className={labelClass}>
-          Tell us about the part <span className="text-blue">*</span>
+          Tell us about your application <span className="text-blue">*</span>
         </label>
         <textarea
           id="message"
           name="message"
           required
           rows={6}
-          placeholder="Material, dimensions, tolerances, service conditions, target timeline — and anything that has gone wrong with the part before."
+          placeholder="Part requirements, materials, dimensions, tolerances, service conditions, estimated volumes, target timing, and any current manufacturing challenges."
           className={`mt-2 ${inputClass} resize-y`}
         />
         <p className="mt-2 text-sm text-muted">
-          Have drawings? Submit this form first and reply to our confirmation
-          email with your files attached — that keeps prints out of a public
-          upload.
+          <span className="font-semibold text-navy">
+            Have drawings or specifications?
+          </span>{" "}
+          Submit the form first, then reply to the confirmation email with your
+          files attached. This helps us protect customer information and
+          technical documentation.
         </p>
       </div>
 
@@ -243,7 +246,7 @@ export default function QuoteForm() {
           {status !== "sending" && <ArrowIcon />}
         </button>
         <p className="text-sm text-muted">
-          We respond to every RFQ within two business days.
+          Our team typically responds to RFQs within two business days.
         </p>
       </div>
     </form>

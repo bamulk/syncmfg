@@ -6,9 +6,9 @@ import { ArrowIcon } from "@/components/Icons";
 import { Container, CtaBand, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Press Releases",
+  title: "News & Updates",
   description:
-    "News and acquisition announcements from SYNC Manufacturing and Langdale Holdings.",
+    "Company news, manufacturing developments, capability expansions and updates from across Sync Manufacturing and Langdale Holdings.",
 };
 
 export default function PressIndexPage() {
@@ -16,8 +16,8 @@ export default function PressIndexPage() {
     <>
       <PageHero
         eyebrow="Newsroom"
-        title="Press Releases"
-        intro="Acquisition announcements and company news from SYNC Manufacturing and Langdale Holdings."
+        title="News & Updates"
+        intro="Company news, manufacturing developments, capability expansions and updates from across Sync Manufacturing and Langdale Holdings."
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "About Us", href: "/about" },
