@@ -33,7 +33,9 @@ export default async function PressReleasePage({ params }: Params) {
   return (
     <>
       <PageHero
-        eyebrow={`${release.dateLabel} · ${release.location}`}
+        eyebrow={[release.kicker, release.dateLabel, release.location]
+          .filter(Boolean)
+          .join(" · ")}
         title={release.title}
         breadcrumb={[
           { label: "Home", href: "/" },
@@ -50,27 +52,68 @@ export default async function PressReleasePage({ params }: Params) {
                 {release.summary}
               </p>
               <div className="mt-9 space-y-5">
-                <p className="text-[17px] leading-relaxed text-muted">
-                  <span className="font-semibold uppercase tracking-wide text-navy">
-                    {release.location}
-                  </span>
-                  <span className="mx-2 text-gray-metal">&mdash;</span>
-                  {release.body[0]}
-                </p>
-                {release.body.slice(1).map((p, i) => (
-                  <p key={i} className="text-[17px] leading-relaxed text-muted">
-                    {p}
-                  </p>
-                ))}
+                {release.body.map((block, i) => {
+                  if (typeof block === "string") {
+                    return (
+                      <p
+                        key={i}
+                        className="text-[17px] leading-relaxed text-muted"
+                      >
+                        {i === 0 && (
+                          <>
+                            <span className="font-semibold uppercase tracking-wide text-navy">
+                              {release.location}
+                            </span>
+                            <span className="mx-2 text-gray-metal">
+                              &mdash;
+                            </span>
+                          </>
+                        )}
+                        {block}
+                      </p>
+                    );
+                  }
+                  if ("quote" in block) {
+                    return (
+                      <figure
+                        key={i}
+                        className="my-8 rounded-lg bg-surface px-7 py-6"
+                      >
+                        <blockquote className="text-[17px] italic leading-relaxed text-navy">
+                          &ldquo;{block.quote}&rdquo;
+                        </blockquote>
+                        <figcaption className="mt-4 text-sm font-semibold text-navy">
+                          {block.by}
+                        </figcaption>
+                      </figure>
+                    );
+                  }
+                  return (
+                    <p
+                      key={i}
+                      className="text-[17px] font-semibold leading-relaxed text-navy"
+                    >
+                      {block.strong}
+                    </p>
+                  );
+                })}
               </div>
 
-              <div className="mt-12 rounded-lg border border-line bg-surface p-6">
-                <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-navy">
-                  About {site.name}
-                </h2>
-                <p className="mt-3 text-[15px] leading-relaxed text-muted">
-                  {site.description}
-                </p>
+              <div className="mt-12 space-y-5 rounded-lg border border-line bg-surface p-6">
+                {(
+                  release.about ?? [
+                    { heading: `About ${site.name}`, text: site.description },
+                  ]
+                ).map((a) => (
+                  <div key={a.heading}>
+                    <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-navy">
+                      {a.heading}
+                    </h2>
+                    <p className="mt-3 text-[15px] leading-relaxed text-muted">
+                      {a.text}
+                    </p>
+                  </div>
+                ))}
               </div>
 
               <div className="mt-8 border-t border-line pt-6">

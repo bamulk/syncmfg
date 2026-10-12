@@ -9,7 +9,13 @@ import {
   stateList,
 } from "@/lib/site";
 import { getHero } from "@/lib/heroes";
-import { CheckIcon, MailIcon, PhoneIcon, PinIcon } from "@/components/Icons";
+import {
+  ArrowIcon,
+  CheckIcon,
+  MailIcon,
+  PhoneIcon,
+  PinIcon,
+} from "@/components/Icons";
 import {
   Container,
   CtaBand,
@@ -104,6 +110,16 @@ export default function LocationsPage() {
                       ))}
                     </ul>
                   </div>
+
+                  {l.pressSlug && (
+                    <Link
+                      href={`/about/press/${l.pressSlug}`}
+                      className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-blue hover:gap-3"
+                    >
+                      Read the acquisition announcement
+                      <ArrowIcon />
+                    </Link>
+                  )}
                 </div>
 
                 {/* Contact card */}

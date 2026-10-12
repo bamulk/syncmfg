@@ -90,6 +90,8 @@ export type Location = {
   description?: string;
   capabilities: string[];
   mapQuery: string;
+  /** Slug of the press release announcing this plant, if there is one */
+  pressSlug?: string;
 };
 
 export const locations: Location[] = [
@@ -192,6 +194,7 @@ export const locations: Location[] = [
       "Semi-automated production",
     ],
     mapQuery: "5175 Stoneham Rd, Canton, OH 44720",
+    pressSlug: "canton-acquisition",
   },
 ];
 
@@ -245,16 +248,17 @@ export const acquisitionTimeline = [
     shortName: "SYNC",
     abbr: "SYNC",
     slug: null,
-    note: "Four companies unify under a single name, brand, and quality system.",
+    // Wording follows the Canton announcement (Oct 1, 2026), which describes
+    // the brand as being rolled out across Langdale's operations over time.
+    note: "The Sync Manufacturing brand is established to bring Langdale’s manufacturing businesses together under one name.",
   },
   {
-    // DRAFT — month not supplied; announcement is
-    // Sync_Manufacturing_MDI_Aptyx_Canton_Acquisition_Announcement.docx
-    date: "2026",
+    // Effective October 1, 2026, per "Canton Acquisition Announcement.docx".
+    date: "October 2026",
     company: "MDI / Aptyx",
     shortName: "MDI / Aptyx",
     abbr: "MDI",
-    slug: null,
+    slug: "canton-acquisition",
     note: "Canton, Ohio — latex dip molding and engineered elastomer components.",
   },
 ] as const;

@@ -146,7 +146,7 @@ export default function HistoryPage() {
             title="Acquisition announcements"
             intro="Every step of the platform's growth, as announced."
           />
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {pressReleases.map((p) => (
               <Link
                 key={p.slug}

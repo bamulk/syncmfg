@@ -43,7 +43,7 @@ grep -rn "DRAFT\|TODO" src/
 | `Sync_Plastic_Molding_Capability_Web_Developer_Brief.docx` | /solutions/molding | `src/lib/solutions.ts` |
 | ~~`Sync_Manufacturing_Website_History_FINAL.docx`~~ ✅ replaced by Sept 26 deck copy | /about/history | `src/app/about/history/page.tsx` |
 | ~~`Langdale_Holdings_Landing_Page_Web_Developer_Brief.docx`~~ ✅ replaced by Sept 26 deck copy | /about/langdale | `src/app/about/langdale/page.tsx` |
-| `Sync_Manufacturing_MDI_Aptyx_Canton_Acquisition_Announcement.docx` (SharePoint link, not accessible) | new press release | `src/lib/press.ts` |
+| ~~Canton acquisition announcement~~ ✅ added verbatim 2026-10-12 from `Canton Acquisition Announcement.docx` | /about/press/canton-acquisition | `src/lib/press.ts` |
 | `Langdale_Holdings_Southwest_Plastics_Acquisition_FINAL.docx` | press release | `src/lib/press.ts` |
 | `Langdale_Holdings_REDCO_Acquisition_FINAL.docx` | press release | `src/lib/press.ts` |
 | `Langdale_Holdings_REDCO_Santa_Fe_Rubber_Acquisition_FINAL.docx` | press release | `src/lib/press.ts` |
@@ -72,7 +72,7 @@ Choices made that need a yes/no:
 
 1. **Canton HR inbox** wasn't supplied, so Canton applicants are routed to
    `HR@syncmfg.com`. (Canton's phone, (330) 966-2111, was added 2026-10-11.)
-2. **Canton acquisition date** is shown as "2026" — the deck didn't give a month.
+2. ~~Canton acquisition date~~ — now October 1, 2026, per the announcement.
 3. **Locations slogan.** The deck says "Background slogan" without the words; I
    used *"One network. Coast to coast."*
 4. **"Remove Mexico but keep Coming soon"** was read as: drop Mexico, keep an
@@ -98,8 +98,11 @@ Locations cards.
 
 Not done, waiting on the client:
 
-1. **Canton press release** — the .docx/.pdf are SharePoint links that can't be
-   opened from here. Needs the file itself.
+1. ~~Canton press release~~ — added 2026-10-12. Note the announcement calls
+   Canton "the first business to operate under the new Sync Manufacturing
+   brand" with other operations to "transition" later, while the site (per the
+   earlier decks) already presents all four plants as SYNC. The client should
+   confirm that is intended.
 2. **Plant photos / homepage photo ideas** — also SharePoint folders. The
    homepage rotation currently uses three existing photos; the list is
    `HOME_ROTATION` in `src/lib/heroes.ts`.
