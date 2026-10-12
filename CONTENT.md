@@ -140,16 +140,15 @@ them.
 
 ## Logo
 
-`public/sync-logo.png` was extracted from the PowerPoint and had its white
-background keyed out; `sync-logo-white.png` is a reversed version for the dark
-footer; `sync-mark.png` is the cube alone, used as the favicon.
+`public/sync-logo.png` (800×240, transparent) comes from the artwork embedded
+in the client's `Canton Acquisition Announcement.docx` (1536×1024 source),
+swapped in 2026-10-12. `sync-logo-white.png` is the reversed version for the
+dark footer; `sync-mark.png` is the cube alone on a 512×512 canvas, used as the
+favicon.
 
-**The source is only 329 × 104 px.** It looks fine at current sizes but will not
-survive a large hero treatment or print. Ask Sync's designer for the vector
-(`.ai`, `.eps` or `.svg`) and drop it in — the brand guide on slide 2 specifies a
-blue gradient cube with metallic gray lower faces, which a vector would preserve.
-
----
+This is sharp at every size the site uses. A true vector (`.ai`, `.eps` or
+`.svg`) from Sync's designer would still be the better long-term source,
+especially for print.
 
 ## Photography
 

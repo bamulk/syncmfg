@@ -21,10 +21,10 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
           <div>
             <Image
-              src="/sync-logo-white.png"
+              src="/sync-logo-white.png?v=2"
               alt="SYNC Manufacturing"
-              width={329}
-              height={104}
+              width={800}
+              height={240}
               className="h-10 w-auto"
             />
             <p className="mt-5 max-w-sm text-[15px] leading-relaxed">

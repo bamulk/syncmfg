@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     description: site.description,
   },
   icons: {
-    icon: "/sync-mark.png",
-    apple: "/sync-mark.png",
+    icon: "/sync-mark.png?v=2",
+    apple: "/sync-mark.png?v=2",
   },
 };
 

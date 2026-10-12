@@ -60,10 +60,10 @@ export default function Header() {
         <div className="flex h-[72px] items-center justify-between gap-6">
           <Link href="/" className="flex shrink-0 items-center" aria-label="SYNC Manufacturing home">
             <Image
-              src="/sync-logo.png"
+              src="/sync-logo.png?v=2"
               alt="SYNC Manufacturing"
-              width={329}
-              height={104}
+              width={800}
+              height={240}
               priority
               className="h-9 w-auto sm:h-10"
             />
