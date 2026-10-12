@@ -60,9 +60,10 @@ Use `text-navy`, `bg-blue`, etc. Don't hardcode hex values in components.
 `POST /api/contact` sends via Resend's REST API. Set in the hosting environment:
 
 ```
-RESEND_API_KEY=re_...
+RESEND_API_KEY=...        # added by the Resend integration on Vercel
+RESEND_EMAIL_DOMAIN=...   # added by the integration
 CONTACT_TO=<the inbox that should receive RFQs>
-CONTACT_FROM=SYNC Manufacturing <rfq@syncmfg.com>
+CONTACT_FROM=...          # optional; defaults to rfq@<RESEND_EMAIL_DOMAIN>
 ```
 
 Each submission sends two emails: the RFQ to `CONTACT_TO` (reply-to is the

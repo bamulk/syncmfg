@@ -15,11 +15,12 @@ import { NextResponse } from "next/server";
  *      so it has to exist. It carries fixed text only (nothing the sender
  *      typed), so the form cannot be used to relay a message to a third party.
  *
- * Set in the hosting environment:
- *   RESEND_API_KEY   Resend API key (sending access is enough)
- *   CONTACT_TO       where RFQs land; comma-separated for several inboxes
- *   CONTACT_FROM     sender on the verified domain,
- *                    e.g. "SYNC Manufacturing <rfq@syncmfg.com>"
+ * Settings (hosting environment):
+ *   RESEND_API_KEY       set by the Resend integration on Vercel
+ *   RESEND_EMAIL_DOMAIN  set by the integration: the verified sending domain
+ *   CONTACT_TO           where RFQs land; comma-separated for several inboxes
+ *   CONTACT_FROM         optional sender override. Defaults to
+ *                        "SYNC Manufacturing <rfq@RESEND_EMAIL_DOMAIN>"
  */
 
 const CONFIRMATION_SUBJECT = "We received your request | SYNC Manufacturing";
@@ -128,7 +129,10 @@ export async function POST(request: Request) {
 
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.CONTACT_TO;
-  const from = process.env.CONTACT_FROM;
+  const domain = process.env.RESEND_EMAIL_DOMAIN;
+  const from =
+    process.env.CONTACT_FROM ??
+    (domain ? `SYNC Manufacturing <rfq@${domain}>` : undefined);
 
   if (!apiKey || !to || !from) {
     console.info("[contact] RFQ received (email not configured):", data);
