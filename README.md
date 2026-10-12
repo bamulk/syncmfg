@@ -61,9 +61,15 @@ Use `text-navy`, `bg-blue`, etc. Don't hardcode hex values in components.
 
 ```
 RESEND_API_KEY=re_...
-CONTACT_TO=sales@syncmfg.com
-CONTACT_FROM=SYNC Website <website@syncmfg.com>
+CONTACT_TO=<the inbox that should receive RFQs>
+CONTACT_FROM=SYNC Manufacturing <rfq@syncmfg.com>
 ```
+
+Each submission sends two emails: the RFQ to `CONTACT_TO` (reply-to is the
+customer), and a fixed-text confirmation to the customer (reply-to is
+`CONTACT_TO`), which is the email the form tells them to reply to with drawings.
+`syncmfg.com` must be verified in Resend first; the domain's DMARC policy is
+`quarantine`, so unverified mail would land in spam.
 
 Without those it logs submissions to the server console and still returns
 success, so the form works in local dev. It validates required fields and email

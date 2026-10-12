@@ -8,11 +8,49 @@ import { NextResponse } from "next/server";
  * to the server console and the form still reports success, so the UI can be
  * exercised end to end.
  *
- * Before launch, set in the hosting environment:
- *   RESEND_API_KEY   Resend API key
- *   CONTACT_TO       where RFQs land, e.g. sales@syncmfg.com
- *   CONTACT_FROM     verified sender, e.g. "SYNC Website <website@syncmfg.com>"
+ * Two emails go out per submission:
+ *   1. the RFQ itself, to CONTACT_TO, with reply-to set to the customer;
+ *   2. a short confirmation to the customer, with reply-to set to CONTACT_TO.
+ *      The form tells customers to reply to it with their drawings attached,
+ *      so it has to exist. It carries fixed text only (nothing the sender
+ *      typed), so the form cannot be used to relay a message to a third party.
+ *
+ * Set in the hosting environment:
+ *   RESEND_API_KEY   Resend API key (sending access is enough)
+ *   CONTACT_TO       where RFQs land; comma-separated for several inboxes
+ *   CONTACT_FROM     sender on the verified domain,
+ *                    e.g. "SYNC Manufacturing <rfq@syncmfg.com>"
  */
+
+const CONFIRMATION_SUBJECT = "We received your request | SYNC Manufacturing";
+
+const CONFIRMATION_HTML = `<div style="font-family:Arial,sans-serif;color:#01234c;font-size:15px;line-height:1.6;max-width:560px">
+<p>Thank you for contacting SYNC Manufacturing. We have received your request and our team typically responds to RFQs within two business days.</p>
+<p><strong>Have drawings or specifications?</strong> Reply to this email with your files attached and they will be added to your request.</p>
+<p style="color:#5a6b80;font-size:13px">If your documents are export-controlled (ITAR/EAR), please do not email them. Reply to let us know and we will arrange a controlled transfer.</p>
+<p>SYNC Manufacturing<br><a href="https://syncmfg.com" style="color:#0070d6">syncmfg.com</a></p>
+</div>`;
+
+const CONFIRMATION_TEXT = `Thank you for contacting SYNC Manufacturing. We have received your request and our team typically responds to RFQs within two business days.
+
+Have drawings or specifications? Reply to this email with your files attached and they will be added to your request.
+
+If your documents are export-controlled (ITAR/EAR), please do not email them. Reply to let us know and we will arrange a controlled transfer.
+
+SYNC Manufacturing
+https://syncmfg.com`;
+
+async function sendEmail(apiKey: string, message: Record<string, unknown>) {
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(message),
+  });
+  return { ok: res.ok, detail: res.ok ? "" : await res.text() };
+}
 
 const FIELDS = [
   "name",
@@ -97,24 +135,19 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true, delivered: false });
   }
 
+  const recipients = to.split(",").map((t) => t.trim());
+
   try {
-    const res = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from,
-        to: to.split(",").map((t) => t.trim()),
-        reply_to: data.email,
-        subject: `RFQ — ${data.company}${data.market ? ` (${data.market})` : ""}`,
-        html,
-      }),
+    const sent = await sendEmail(apiKey, {
+      from,
+      to: recipients,
+      reply_to: data.email,
+      subject: `RFQ — ${data.company}${data.market ? ` (${data.market})` : ""}`,
+      html,
     });
 
-    if (!res.ok) {
-      console.error("[contact] Resend rejected the send:", await res.text());
+    if (!sent.ok) {
+      console.error("[contact] Resend rejected the send:", sent.detail);
       return NextResponse.json(
         { error: "We could not send your message. Please email us directly." },
         { status: 502 },
@@ -126,6 +159,24 @@ export async function POST(request: Request) {
       { error: "We could not send your message. Please email us directly." },
       { status: 502 },
     );
+  }
+
+  // The RFQ is delivered at this point; a failed confirmation must not turn
+  // the submission into an error for the customer.
+  try {
+    const confirmed = await sendEmail(apiKey, {
+      from,
+      to: [data.email],
+      reply_to: recipients,
+      subject: CONFIRMATION_SUBJECT,
+      html: CONFIRMATION_HTML,
+      text: CONFIRMATION_TEXT,
+    });
+    if (!confirmed.ok) {
+      console.error("[contact] Confirmation not sent:", confirmed.detail);
+    }
+  } catch (err) {
+    console.error("[contact] Confirmation failed:", err);
   }
 
   return NextResponse.json({ ok: true, delivered: true });
