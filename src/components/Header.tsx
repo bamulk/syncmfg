@@ -34,129 +34,138 @@ export default function Header() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-white/95 backdrop-blur">
-      {/* Utility strip */}
-      <div className="hidden border-b border-line bg-surface lg:block">
+    <>
+      <header className="sticky top-0 z-50 border-b border-line bg-white/95 backdrop-blur">
+        {/* Utility strip */}
+        <div className="hidden border-b border-line bg-surface lg:block">
+          <Container>
+            <div className="flex h-9 items-center justify-end gap-6 text-xs text-muted">
+              <span className="font-medium tracking-wide">
+                AS9100 Certified &middot; ITAR Registered
+              </span>
+              <span aria-hidden="true" className="text-line">
+                |
+              </span>
+              <a
+                href="tel:+18007332648"
+                className="flex items-center gap-1.5 font-medium hover:text-blue"
+              >
+                <PhoneIcon className="h-3.5 w-3.5" />
+                800.733.2648
+              </a>
+            </div>
+          </Container>
+        </div>
+
         <Container>
-          <div className="flex h-9 items-center justify-end gap-6 text-xs text-muted">
-            <span className="font-medium tracking-wide">
-              AS9100 Certified &middot; ITAR Registered
-            </span>
-            <span aria-hidden="true" className="text-line">
-              |
-            </span>
-            <a
-              href="tel:+18007332648"
-              className="flex items-center gap-1.5 font-medium hover:text-blue"
+          <div className="flex h-[72px] items-center justify-between gap-6">
+            <Link
+              href="/"
+              className="flex shrink-0 items-center"
+              aria-label="SYNC Manufacturing home"
             >
-              <PhoneIcon className="h-3.5 w-3.5" />
-              800.733.2648
-            </a>
+              <Image
+                src="/sync-logo.png?v=2"
+                alt="SYNC Manufacturing"
+                width={800}
+                height={240}
+                priority
+                className="h-9 w-auto sm:h-10"
+              />
+            </Link>
+
+            {/* Desktop nav */}
+            <nav className="hidden lg:block" aria-label="Main">
+              <ul className="flex items-center">
+                {nav.map((item) => (
+                  <li key={item.href} className="group relative">
+                    <Link
+                      href={item.href}
+                      className={`flex items-center gap-1 px-4 py-6 text-[15px] font-semibold transition-colors ${
+                        isActive(item.href)
+                          ? "text-blue"
+                          : "text-navy hover:text-blue"
+                      }`}
+                    >
+                      {item.label}
+                      {item.children && (
+                        <ChevronIcon className="h-3.5 w-3.5 transition-transform group-hover:rotate-180" />
+                      )}
+                    </Link>
+
+                    {item.children && (
+                      <div className="invisible absolute left-0 top-full w-64 translate-y-1 opacity-0 transition-all group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
+                        <ul className="rounded-lg border border-line bg-white py-2 shadow-[0_12px_32px_rgba(1,35,76,.12)]">
+                          {item.children.map((child) => (
+                            <li key={child.href}>
+                              <Link
+                                href={child.href}
+                                className={`block px-4 py-2.5 text-[14px] font-medium transition-colors hover:bg-surface hover:text-blue ${
+                                  pathname === child.href
+                                    ? "text-blue"
+                                    : "text-navy"
+                                }`}
+                              >
+                                {child.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </nav>
+
+            <div className="hidden shrink-0 lg:block">
+              <Link
+                href="/contact#quote"
+                className="inline-flex items-center rounded-md bg-blue px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#0060bb]"
+              >
+                Request a Quote
+              </Link>
+            </div>
+
+            {/* Mobile trigger */}
+            <button
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              aria-expanded={open}
+              aria-controls="mobile-nav"
+              className="-mr-2 inline-flex h-11 w-11 items-center justify-center rounded-md text-navy lg:hidden"
+            >
+              <span className="sr-only">
+                {open ? "Close menu" : "Open menu"}
+              </span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.8}
+                strokeLinecap="round"
+                className="h-6 w-6"
+                aria-hidden="true"
+              >
+                {open ? (
+                  <path d="M6 6l12 12M18 6 6 18" />
+                ) : (
+                  <path d="M3.5 7h17M3.5 12h17M3.5 17h17" />
+                )}
+              </svg>
+            </button>
           </div>
         </Container>
-      </div>
+      </header>
 
-      <Container>
-        <div className="flex h-[72px] items-center justify-between gap-6">
-          <Link href="/" className="flex shrink-0 items-center" aria-label="SYNC Manufacturing home">
-            <Image
-              src="/sync-logo.png?v=2"
-              alt="SYNC Manufacturing"
-              width={800}
-              height={240}
-              priority
-              className="h-9 w-auto sm:h-10"
-            />
-          </Link>
-
-          {/* Desktop nav */}
-          <nav className="hidden lg:block" aria-label="Main">
-            <ul className="flex items-center">
-              {nav.map((item) => (
-                <li key={item.href} className="group relative">
-                  <Link
-                    href={item.href}
-                    className={`flex items-center gap-1 px-4 py-6 text-[15px] font-semibold transition-colors ${
-                      isActive(item.href)
-                        ? "text-blue"
-                        : "text-navy hover:text-blue"
-                    }`}
-                  >
-                    {item.label}
-                    {item.children && (
-                      <ChevronIcon className="h-3.5 w-3.5 transition-transform group-hover:rotate-180" />
-                    )}
-                  </Link>
-
-                  {item.children && (
-                    <div className="invisible absolute left-0 top-full w-64 translate-y-1 opacity-0 transition-all group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
-                      <ul className="rounded-lg border border-line bg-white py-2 shadow-[0_12px_32px_rgba(1,35,76,.12)]">
-                        {item.children.map((child) => (
-                          <li key={child.href}>
-                            <Link
-                              href={child.href}
-                              className={`block px-4 py-2.5 text-[14px] font-medium transition-colors hover:bg-surface hover:text-blue ${
-                                pathname === child.href
-                                  ? "text-blue"
-                                  : "text-navy"
-                              }`}
-                            >
-                              {child.label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </nav>
-
-          <div className="hidden shrink-0 lg:block">
-            <Link
-              href="/contact#quote"
-              className="inline-flex items-center rounded-md bg-blue px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#0060bb]"
-            >
-              Request a Quote
-            </Link>
-          </div>
-
-          {/* Mobile trigger */}
-          <button
-            type="button"
-            onClick={() => setOpen((v) => !v)}
-            aria-expanded={open}
-            aria-controls="mobile-nav"
-            className="-mr-2 inline-flex h-11 w-11 items-center justify-center rounded-md text-navy lg:hidden"
-          >
-            <span className="sr-only">
-              {open ? "Close menu" : "Open menu"}
-            </span>
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={1.8}
-              strokeLinecap="round"
-              className="h-6 w-6"
-              aria-hidden="true"
-            >
-              {open ? (
-                <path d="M6 6l12 12M18 6 6 18" />
-              ) : (
-                <path d="M3.5 7h17M3.5 12h17M3.5 17h17" />
-              )}
-            </svg>
-          </button>
-        </div>
-      </Container>
-
-      {/* Mobile drawer */}
+      {/* Mobile drawer. This must stay OUTSIDE <header>: the header's
+          backdrop-blur makes it the containing block for position:fixed
+          children, which collapsed the drawer to the header's own height
+          (invisible). As a sibling it is positioned against the viewport. */}
       {open && (
         <div
           id="mobile-nav"
-          className="fixed inset-x-0 bottom-0 top-[72px] overflow-y-auto border-t border-line bg-white lg:hidden"
+          className="fixed inset-x-0 bottom-0 top-[73px] z-40 overflow-y-auto overscroll-contain bg-white lg:hidden"
         >
           <Container className="py-4">
             <ul className="divide-y divide-line">
@@ -229,6 +238,6 @@ export default function Header() {
           </Container>
         </div>
       )}
-    </header>
+    </>
   );
 }
