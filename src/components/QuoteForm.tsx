@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from "@vercel/analytics";
 import { useState } from "react";
 import { markets } from "@/lib/markets";
 import { solutions } from "@/lib/solutions";
@@ -35,6 +36,11 @@ export default function QuoteForm() {
         throw new Error(body.error ?? "Something went wrong.");
       }
       setStatus("sent");
+      // Shows up under Events in Vercel Web Analytics (custom events need a
+      // Pro or Enterprise Vercel plan). No personal details are sent.
+      track("RFQ submitted", {
+        market: String(data.market || "Not given"),
+      });
     } catch (err) {
       setStatus("error");
       setError(

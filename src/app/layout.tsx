@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { site } from "@/lib/site";
@@ -50,6 +51,9 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        {/* Vercel Web Analytics: cookie-free page-view counts. Records
+            nothing until Web Analytics is enabled on the Vercel project. */}
+        <Analytics />
       </body>
     </html>
   );

@@ -29,7 +29,7 @@ const sections = [
   {
     heading: "Analytics and cookies",
     body: [
-      "This site may use privacy-respecting analytics to understand which pages are useful. Analytics data is aggregated and is not used to identify individual visitors.",
+      "This site uses Vercel Web Analytics to understand which pages are useful. It counts page views without cookies, and the data is aggregated and not used to identify individual visitors.",
     ],
   },
   {
