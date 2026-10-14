@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { contacts, site } from "@/lib/site";
 import { Container, PageHero } from "@/components/ui";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Privacy Policy",
   description: `How ${site.name} collects and uses information submitted through syncmfg.com.`,
-};
+  path: "/privacy",
+});
 
 /* DRAFT — placeholder policy. Have counsel review and replace before launch;
    the specifics below describe what this site actually does today. */
@@ -58,7 +60,10 @@ export default function PrivacyPage() {
                 <h2 className="text-xl font-bold text-navy">{s.heading}</h2>
                 <div className="mt-4 space-y-4">
                   {s.body.map((p, i) => (
-                    <p key={i} className="text-[17px] leading-relaxed text-muted">
+                    <p
+                      key={i}
+                      className="text-[17px] leading-relaxed text-muted"
+                    >
                       {p}
                     </p>
                   ))}

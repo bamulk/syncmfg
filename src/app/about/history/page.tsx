@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { acquisitionTimeline } from "@/lib/site";
 import { pressReleases } from "@/lib/press";
@@ -12,11 +13,12 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Our History",
   description:
     "Decades of manufacturing experience brought together under one name: the history of SYNC Manufacturing.",
-};
+  path: "/about/history",
+});
 
 /* Copy from "Website Updates Sept 26.pptx", slide 10 (client-approved). */
 const chapters = [
@@ -96,7 +98,10 @@ export default function HistoryPage() {
                     const last = i === acquisitionTimeline.length - 1;
                     const isSync = t.abbr === "SYNC";
                     return (
-                      <li key={t.company} className="relative flex gap-5 pb-8 last:pb-0">
+                      <li
+                        key={t.company}
+                        className="relative flex gap-5 pb-8 last:pb-0"
+                      >
                         {!last && (
                           <span
                             className="absolute left-[9px] top-5 h-full w-px bg-line"
@@ -105,7 +110,9 @@ export default function HistoryPage() {
                         )}
                         <span
                           className={`relative z-10 mt-1 h-[18px] w-[18px] shrink-0 rounded-full border-[3px] border-surface ${
-                            isSync ? "bg-blue ring-4 ring-blue/20" : "bg-gray-metal"
+                            isSync
+                              ? "bg-blue ring-4 ring-blue/20"
+                              : "bg-gray-metal"
                           }`}
                           aria-hidden="true"
                         />
@@ -169,7 +176,10 @@ export default function HistoryPage() {
       <CtaBand
         title="The next chapter is the part you need made."
         intro="Specialized plants, a full range of processes and decades of combined process knowledge — pointed at your program."
-        secondary={{ href: "/about/langdale", label: "About Langdale Holdings" }}
+        secondary={{
+          href: "/about/langdale",
+          label: "About Langdale Holdings",
+        }}
       />
     </>
   );

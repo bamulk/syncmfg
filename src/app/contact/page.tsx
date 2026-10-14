@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { getHero } from "@/lib/heroes";
 import Link from "next/link";
 import QuoteForm from "@/components/QuoteForm";
@@ -6,11 +7,12 @@ import { contacts, locations } from "@/lib/site";
 import { CheckIcon, MailIcon, PhoneIcon, PinIcon } from "@/components/Icons";
 import { Container, Eyebrow, IconBadge, PageHero } from "@/components/ui";
 
-export const metadata: Metadata = {
-  title: "Contact Us",
+export const metadata: Metadata = pageMetadata({
+  title: "Contact Us & Request a Quote",
   description:
     "Request a quote from SYNC Manufacturing, or contact our Carson City, Blackstone or Glendora plants directly.",
-};
+  path: "/contact",
+});
 
 const whatToInclude = [
   "Drawing or sketch, even a rough one",

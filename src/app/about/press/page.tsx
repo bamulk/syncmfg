@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { pressReleases } from "@/lib/press";
 import { contacts } from "@/lib/site";
 import { ArrowIcon } from "@/components/Icons";
 import { Container, CtaBand, PageHero } from "@/components/ui";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "News & Updates",
   description:
     "Company news, manufacturing developments, capability expansions and updates from across Sync Manufacturing and Langdale Holdings.",
-};
+  path: "/about/press",
+});
 
 export default function PressIndexPage() {
   return (
@@ -21,7 +23,7 @@ export default function PressIndexPage() {
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "About Us", href: "/about" },
-          { label: "Press", href: "/about/press" },
+          { label: "News & Updates", href: "/about/press" },
         ]}
       />
 

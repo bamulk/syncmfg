@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { markets } from "@/lib/markets";
@@ -5,6 +6,8 @@ import { solutions } from "@/lib/solutions";
 import { acquisitionTimeline, locations, plantCount } from "@/lib/site";
 import { pressReleases } from "@/lib/press";
 import { getHero, getHomeHeroes } from "@/lib/heroes";
+import { organizationSchema, pageMetadata } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import HeroRotator from "@/components/HeroRotator";
 import { StateShape } from "@/components/StateShape";
 import {
@@ -29,6 +32,14 @@ import {
 /* Copy on this page is from "Website Update Oct 9 Home Page.pptx"
    (client-approved). Counts come from src/lib, so adding a plant or a
    capability updates them. */
+
+export const metadata: Metadata = pageMetadata({
+  title: "SYNC Manufacturing | Precision Rubber & Plastic Components",
+  description:
+    "Precision rubber and plastic components for aerospace, defense, medical, utilities, oil & gas and industrial programs, from molding and cutting to compounding.",
+  path: "/",
+  absolute: true,
+});
 
 const capabilityCount = solutions.reduce(
   (n, s) => n + s.capabilities.length,
@@ -73,6 +84,7 @@ export default function HomePage() {
 
   return (
     <>
+      <JsonLd data={organizationSchema(locations)} />
       {/* ---------------- Hero ---------------- */}
       <section className="bg-steel-field relative overflow-hidden">
         {/* Photo sits behind the headline only, not the stats band below */}

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getMarket, markets } from "@/lib/markets";
 import { getSolution } from "@/lib/solutions";
 import { getHero } from "@/lib/heroes";
+import { pageMetadata } from "@/lib/seo";
 import { ArrowIcon, marketIcons, solutionIcons } from "@/components/Icons";
 import {
   CheckList,
@@ -25,10 +26,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const market = getMarket(slug);
   if (!market) return {};
-  return {
-    title: `${market.name} Manufacturing`,
+  return pageMetadata({
+    title: `${market.name} Rubber & Plastic Components`,
     description: market.intro,
-  };
+    path: `/markets/${market.slug}`,
+  });
 }
 
 export default async function MarketPage({ params }: Params) {

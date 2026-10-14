@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPressRelease, pressReleases } from "@/lib/press";
 import { contacts, site } from "@/lib/site";
+import { articleSchema, pageMetadata } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import { ArrowIcon } from "@/components/Icons";
 import { Container, CtaBand, PageHero } from "@/components/ui";
 
@@ -16,11 +18,12 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const release = getPressRelease(slug);
   if (!release) return {};
-  return {
+  return pageMetadata({
     title: release.title,
     description: release.summary,
-    openGraph: { type: "article", publishedTime: release.date },
-  };
+    path: `/about/press/${release.slug}`,
+    article: { publishedTime: release.date },
+  });
 }
 
 export default async function PressReleasePage({ params }: Params) {
@@ -32,6 +35,14 @@ export default async function PressReleasePage({ params }: Params) {
 
   return (
     <>
+      <JsonLd
+        data={articleSchema({
+          title: release.title,
+          summary: release.summary,
+          date: release.date,
+          path: `/about/press/${release.slug}`,
+        })}
+      />
       <PageHero
         eyebrow={[release.kicker, release.dateLabel, release.location]
           .filter(Boolean)
@@ -40,7 +51,7 @@ export default async function PressReleasePage({ params }: Params) {
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "About Us", href: "/about" },
-          { label: "Press", href: "/about/press" },
+          { label: "News & Updates", href: "/about/press" },
         ]}
       />
 

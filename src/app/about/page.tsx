@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { acquisitionTimeline, locations, site } from "@/lib/site";
 import { getHero } from "@/lib/heroes";
@@ -13,11 +14,12 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "About Us",
   description:
-    "SYNC Manufacturing brings together established rubber and plastics manufacturers under one organization, giving customers broader capabilities, consistent quality, and a single point of contact.",
-};
+    "SYNC Manufacturing brings established rubber and plastics manufacturers together under one organization: broader capabilities, consistent quality, one point of contact.",
+  path: "/about",
+});
 
 /* Copy from "Website Updates Sept 26.pptx", slides 2–3 (client-approved). */
 const overview = [

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { getHero } from "@/lib/heroes";
 import { CheckIcon } from "@/components/Icons";
 import {
@@ -11,11 +12,12 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Quality & Compliance",
   description:
     "SYNC Manufacturing operates an AS9100-certified quality system and is ITAR registered, with full lot traceability across all facilities.",
-};
+  path: "/about/quality",
+});
 
 /* DRAFT — the deck lists only "ITAR" and "AS9100" for this page. Certificate
    numbers, registrar, scope statements and audit dates must come from Quality
@@ -91,10 +93,7 @@ export default function QualityPage() {
 
           <div className="mt-14 grid gap-6 lg:grid-cols-2">
             {certifications.map((c) => (
-              <div
-                key={c.name}
-                className="rounded-xl border border-line p-8"
-              >
+              <div key={c.name} className="rounded-xl border border-line p-8">
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <h2 className="text-2xl font-bold text-navy">{c.name}</h2>

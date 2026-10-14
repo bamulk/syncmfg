@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { organizationSchema, pageMetadata } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import Link from "next/link";
 import {
   contacts,
@@ -25,14 +27,16 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
-  title: "Locations",
+export const metadata: Metadata = pageMetadata({
+  title: "Manufacturing Locations",
   description: `SYNC Manufacturing operates ${numberWord(plantCount)} plants across ${stateList}, connected by one organization and a single point of contact.`,
-};
+  path: "/locations",
+});
 
 export default function LocationsPage() {
   return (
     <>
+      <JsonLd data={organizationSchema(locations)} />
       <PageHero
         eyebrow="Locations"
         title="One network. Coast to coast."

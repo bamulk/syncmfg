@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import {
   contacts,
   futureLocations,
@@ -16,11 +17,12 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Langdale Holdings",
   description:
     "Langdale Holdings is privately held and family-owned, acquiring established North American manufacturers and investing in their future.",
-};
+  path: "/about/langdale",
+});
 
 /* Copy from "Website Updates Sept 26.pptx", slides 4–8 (client-approved). */
 const body = [

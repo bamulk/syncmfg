@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getSolution, solutions } from "@/lib/solutions";
 import { markets } from "@/lib/markets";
 import { getHero } from "@/lib/heroes";
+import { pageMetadata } from "@/lib/seo";
 import { ArrowIcon, CheckIcon, solutionIcons } from "@/components/Icons";
 import {
   Container,
@@ -24,7 +25,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const solution = getSolution(slug);
   if (!solution) return {};
-  return { title: solution.name, description: solution.intro };
+  return pageMetadata({
+    title: solution.seoTitle,
+    description: solution.intro,
+    path: `/solutions/${solution.slug}`,
+  });
 }
 
 export default async function SolutionPage({ params }: Params) {

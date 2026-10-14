@@ -24,6 +24,8 @@ export type Capability = {
 export type Solution = {
   slug: string;
   name: string;
+  /** Search-result title: names the services people actually search for */
+  seoTitle: string;
   icon: "molding" | "cutting" | "compounding" | "additional";
   /** DRAFT */
   eyebrow: string;
@@ -38,6 +40,7 @@ export const solutions: Solution[] = [
   {
     slug: "molding",
     name: "Molding Solutions",
+    seoTitle: "Rubber & Plastic Molding Services",
     icon: "molding",
     eyebrow: "Thermoset, thermoplastic, silicone",
     intro:
@@ -102,6 +105,7 @@ export const solutions: Solution[] = [
   {
     slug: "cutting",
     name: "Cutting Solutions",
+    seoTitle: "Die Cutting & Kiss Cutting Services",
     icon: "cutting",
     eyebrow: "Precision converting",
     intro:
@@ -128,6 +132,7 @@ export const solutions: Solution[] = [
   {
     slug: "compounding-and-bonding",
     name: "Compounding & Bonding Solutions",
+    seoTitle: "Rubber Compounding & Rubber-to-Metal Bonding",
     icon: "compounding",
     eyebrow: "Materials engineered in house",
     intro:
@@ -166,6 +171,7 @@ export const solutions: Solution[] = [
   {
     slug: "additional",
     name: "Additional Solutions",
+    seoTitle: "PFAS-Free Alternatives & Scan-to-Part Modeling",
     icon: "additional",
     eyebrow: "Where programs get unstuck",
     intro:

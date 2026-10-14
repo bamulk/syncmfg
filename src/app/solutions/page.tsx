@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { solutions } from "@/lib/solutions";
 import { numberWord } from "@/lib/site";
@@ -16,11 +17,12 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Solutions & Capabilities",
   description:
     "Molding, cutting, compounding and bonding solutions from SYNC Manufacturing — including thermoset, thermoplastic injection, LSR and compression molding to 46x46.",
-};
+  path: "/solutions",
+});
 
 export default function SolutionsPage() {
   return (

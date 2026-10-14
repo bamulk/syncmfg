@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { breadcrumbSchema } from "@/lib/seo";
+import JsonLd from "./JsonLd";
 import Link from "next/link";
 import { ArrowIcon, CheckIcon } from "./Icons";
 
@@ -53,7 +55,9 @@ export function SectionHeading({
     >
       {eyebrow && (
         <div className="mb-3">
-          <Eyebrow tone={tone === "light" ? "light" : "blue"}>{eyebrow}</Eyebrow>
+          <Eyebrow tone={tone === "light" ? "light" : "blue"}>
+            {eyebrow}
+          </Eyebrow>
         </div>
       )}
       <h2
@@ -163,7 +167,8 @@ export function PageHero({
         style={
           split
             ? {
-                maskImage: "linear-gradient(to right, #000 30%, transparent 60%)",
+                maskImage:
+                  "linear-gradient(to right, #000 30%, transparent 60%)",
                 WebkitMaskImage:
                   "linear-gradient(to right, #000 30%, transparent 60%)",
               }
@@ -173,6 +178,7 @@ export function PageHero({
       <Container
         className={`relative ${split ? "py-20 sm:py-24 lg:py-28" : "py-16 sm:py-20"}`}
       >
+        {breadcrumb && <JsonLd data={breadcrumbSchema(breadcrumb)} />}
         {breadcrumb && (
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex flex-wrap items-center gap-2 text-sm text-[#9fb8d4]">
@@ -237,7 +243,9 @@ export function Card({
   className?: string;
 }) {
   const cls = `group block rounded-lg border border-line bg-white p-6 transition-all ${
-    href ? "hover:-translate-y-0.5 hover:border-blue/40 hover:shadow-[0_8px_24px_rgba(1,35,76,.09)]" : ""
+    href
+      ? "hover:-translate-y-0.5 hover:border-blue/40 hover:shadow-[0_8px_24px_rgba(1,35,76,.09)]"
+      : ""
   } ${className}`;
   return href ? (
     <Link href={href} className={cls}>
@@ -259,7 +267,9 @@ export function IconBadge({
 }) {
   const dims = { sm: "h-10 w-10", md: "h-12 w-12", lg: "h-14 w-14" }[size];
   const colors =
-    tone === "navy" ? "bg-navy text-white" : "bg-white/10 text-white ring-1 ring-white/20";
+    tone === "navy"
+      ? "bg-navy text-white"
+      : "bg-white/10 text-white ring-1 ring-white/20";
   return (
     <span
       className={`inline-flex shrink-0 items-center justify-center rounded-full ${dims} ${colors}`}

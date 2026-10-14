@@ -1,21 +1,24 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { markets } from "@/lib/markets";
+import { numberWord } from "@/lib/site";
 import { ArrowIcon, marketIcons } from "@/components/Icons";
 import { Container, CtaBand, IconBadge, PageHero } from "@/components/ui";
 
-export const metadata: Metadata = {
-  title: "Markets",
+export const metadata: Metadata = pageMetadata({
+  title: "Markets We Serve",
   description:
     "SYNC Manufacturing serves aerospace, defense, medical, utilities, oil & gas and industrial markets with precision molded rubber and plastic components.",
-};
+  path: "/markets",
+});
 
 export default function MarketsPage() {
   return (
     <>
       <PageHero
         eyebrow="Markets"
-        title="Six markets. One standard of evidence."
+        title={`${numberWord(markets.length, true)} markets. One standard of evidence.`}
         intro="Every market we serve has its own qualification path, documentation requirements and material constraints. We build to the one your program answers to."
         breadcrumb={[
           { label: "Home", href: "/" },

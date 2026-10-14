@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { site } from "@/lib/site";
+import { ogImage } from "@/lib/seo";
 import "./globals.css";
 
 const inter = Inter({
@@ -18,13 +19,14 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description: site.description,
+  // Pages override these through pageMetadata() in src/lib/seo.ts.
   openGraph: {
     type: "website",
     siteName: site.name,
-    url: site.url,
-    title: `${site.name} | Precision Molded Rubber & Plastics`,
-    description: site.description,
+    locale: "en_US",
+    images: [ogImage],
   },
+  twitter: { card: "summary_large_image", images: [ogImage.url] },
   icons: {
     icon: "/sync-mark.png?v=2",
     apple: "/sync-mark.png?v=2",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { getHero } from "@/lib/heroes";
 import { contacts, locations, stateList } from "@/lib/site";
 import { CheckIcon, MailIcon, PinIcon } from "@/components/Icons";
@@ -12,10 +13,11 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
-  title: "Careers",
+export const metadata: Metadata = pageMetadata({
+  title: "Manufacturing Careers",
   description: `Careers at SYNC Manufacturing — skilled trades, engineering, quality and operations roles across our ${stateList} plants.`,
-};
+  path: "/careers",
+});
 
 /* DRAFT — the deck specifies "a generic landing page, then work to an
    interactive page." This is the generic version: each plant routes to its own
