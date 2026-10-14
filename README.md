@@ -84,9 +84,10 @@ a public form.
 
 ## Deploying
 
-The site is hosted on the client's Vercel project (`syncmfg`, serving
-syncmfg-pi.vercel.app). That project has **no Git connection**, so pushing to
-GitHub does not deploy. Deploy the committed tree with:
+The site is hosted on the client's Vercel project (`syncmfg`), live at
+https://syncmfg.com. `www.syncmfg.com` and the old preview address
+`syncmfg-pi.vercel.app` both redirect (308) to it. The project has **no Git
+connection**, so pushing to GitHub does not deploy. Deploy the committed tree with:
 
 ```bash
 python3 scripts/deploy.py
