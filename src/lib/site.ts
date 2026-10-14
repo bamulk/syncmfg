@@ -204,6 +204,9 @@ export const futureLocations = [{ label: "More locations", note: "Coming soon" }
 
 export const contacts = {
   corporateHr: "HR@syncmfg.com",
+  // Tobe Allenbrand, President & CEO of Langdale Holdings — the Langdale
+  // page's "start the conversation" button emails him directly.
+  langdale: "tobea@syncmfg.com",
   // DRAFT — confirm the general inbox before launch
   sales: "sales@syncmfg.com",
   info: "info@syncmfg.com",

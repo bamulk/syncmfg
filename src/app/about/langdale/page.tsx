@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import {
+  contacts,
   futureLocations,
   joinedCompanies,
   locations,
@@ -137,7 +138,11 @@ export default function LangdalePage() {
           "For owners considering succession or a sale, Langdale offers a long-term home for businesses built on decades of manufacturing knowledge, strong customer relationships and experienced people.",
           "We believe preserving North American manufacturing means more than keeping machines running. It means protecting the know-how, craftsmanship and relationships that make these businesses valuable — while investing in the people, systems and capacity needed for the future.",
         ]}
-        primary={{ href: "/contact", label: "Let’s start the conversation" }}
+        // Owners and partners write to Langdale directly, not through the RFQ form.
+        primary={{
+          href: `mailto:${contacts.langdale}?subject=${encodeURIComponent("Langdale Holdings inquiry")}`,
+          label: "Let’s start the conversation",
+        }}
       />
     </>
   );

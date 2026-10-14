@@ -99,11 +99,19 @@ export function Button({
     light: "bg-white text-navy hover:bg-[#eaf2fb]",
   }[variant];
 
+  const cls = `inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-semibold transition-colors ${styles} ${className}`;
+
+  // Email and phone links are plain anchors, not client-side routes.
+  if (/^(mailto|tel):/.test(href)) {
+    return (
+      <a href={href} className={cls}>
+        {children}
+      </a>
+    );
+  }
+
   return (
-    <Link
-      href={href}
-      className={`inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-semibold transition-colors ${styles} ${className}`}
-    >
+    <Link href={href} className={cls}>
       {children}
     </Link>
   );
