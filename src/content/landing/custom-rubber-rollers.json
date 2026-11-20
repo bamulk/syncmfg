@@ -1,0 +1,339 @@
+{
+ "slug": "custom-rubber-rollers",
+ "kind": "solution",
+ "family": "compounding-and-bonding",
+ "title": "Precision Rubber Rollers & Custom Roller Assemblies",
+ "subtitle": "Custom Compounds. Precision Manufacturing. Made in the USA.",
+ "tagline": null,
+ "intro": [
+  "SYNC Manufacturing produces engineered rubber-covered rollers and custom roller assemblies for OEMs requiring precision, specialized elastomer materials, and dependable manufacturing support.",
+  "Through our Carson City, Nevada operation, we combine in-house rubber compounding, metal core and shaft manufacturing, rubber-to-metal bonding, precision grinding, and finishing to produce rollers tailored to demanding industrial applications.",
+  "From new roller development and production manufacturing to refurbishment and replacement, our team works with engineers and equipment manufacturers to deliver solutions built around their specific requirements."
+ ],
+ "ctas": [
+  {
+   "label": "Request a Quote",
+   "href": "/contact#quote"
+  },
+  {
+   "label": "Discuss Your Roller Application",
+   "href": "/contact"
+  }
+ ],
+ "hero": {
+  "src": "/images/landing/custom-rubber-rollers/image1.jpg",
+  "alt": "Custom rubber-covered rollers and wheels"
+ },
+ "gallery": [
+  {
+   "src": "/images/landing/custom-rubber-rollers/image2.jpg",
+   "alt": "Rubber-covered roller with bearing",
+   "width": 1430,
+   "height": 806
+  },
+  {
+   "src": "/images/landing/custom-rubber-rollers/image3.jpg",
+   "alt": "Red rubber roller on a steel shaft",
+   "width": 1431,
+   "height": 806
+  },
+  {
+   "src": "/images/landing/custom-rubber-rollers/image4.jpg",
+   "alt": "Gray and black rubber rollers and grooved shaft",
+   "width": 1424,
+   "height": 803
+  },
+  {
+   "src": "/images/landing/custom-rubber-rollers/image5.jpg",
+   "alt": "Yellow rubber-covered rollers on steel shafts",
+   "width": 1424,
+   "height": 715
+  },
+  {
+   "src": "/images/landing/custom-rubber-rollers/image6.jpg",
+   "alt": "Long red rubber roller on a steel shaft",
+   "width": 1424,
+   "height": 803
+  },
+  {
+   "src": "/images/landing/custom-rubber-rollers/image7.jpg",
+   "alt": "Red rubber roller",
+   "width": 1431,
+   "height": 806
+  },
+  {
+   "src": "/images/landing/custom-rubber-rollers/image8.jpg",
+   "alt": "Grooved and stepped red and black rubber rollers",
+   "width": 1431,
+   "height": 806
+  },
+  {
+   "src": "/images/landing/custom-rubber-rollers/image9.jpg",
+   "alt": "Blue, black and orange rubber rollers with stepped and spiral profiles",
+   "width": 1430,
+   "height": 806
+  },
+  {
+   "src": "/images/landing/custom-rubber-rollers/image10.jpg",
+   "alt": "Small rubber rollers, wheels and spiral-grooved roller",
+   "width": 1430,
+   "height": 806
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Custom Rubber Roller Manufacturing Capabilities",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Engineered from the core to the finished assembly."
+    },
+    {
+     "t": "p",
+     "text": "Roller performance depends on more than the rubber covering. Material selection, core geometry, bond integrity, dimensional accuracy, and surface finish all influence how a roller performs in its intended application."
+    },
+    {
+     "t": "p",
+     "text": "Our manufacturing experience includes:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Precision rubber-covered rollers",
+      "Industrial nip and pinch rollers",
+      "Stepped and grooved rubber rollers",
+      "Silicone rubber rollers",
+      "HNBR rubber rollers",
+      "Fluorosilicone rubber rollers",
+      "Feed and drive rollers",
+      "Rubber-to-metal bonded assemblies",
+      "Replacement roller manufacturing",
+      "Roller refurbishment and precision regrinding"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Our integrated manufacturing capabilities allow us to support the process from compound selection and metal core manufacturing through finished roller production."
+    }
+   ]
+  },
+  {
+   "heading": "Custom Elastomer Materials",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Selecting the right rubber compound for the application."
+    },
+    {
+     "t": "p",
+     "text": "Different operating environments demand different elastomer properties."
+    },
+    {
+     "t": "p",
+     "text": "Factors such as temperature, chemical exposure, abrasion, traction, hardness, and compression behavior can influence material selection and roller service life."
+    },
+    {
+     "t": "p",
+     "text": "Our manufacturing experience includes specialty roller applications using materials such as:"
+    },
+    {
+     "t": "h4",
+     "text": "HNBR — Hydrogenated Nitrile Rubber"
+    },
+    {
+     "t": "p",
+     "text": "Considered for applications requiring resistance to wear, oils, elevated temperatures, and demanding mechanical conditions."
+    },
+    {
+     "t": "h4",
+     "text": "Fluorosilicone Rubber"
+    },
+    {
+     "t": "p",
+     "text": "Considered for specialized applications involving temperature exposure and certain fuels, oils, or chemical environments."
+    },
+    {
+     "t": "h4",
+     "text": "Silicone Rubber"
+    },
+    {
+     "t": "p",
+     "text": "Used in applications requiring flexibility and temperature performance, including certain precision handling and processing systems."
+    },
+    {
+     "t": "h4",
+     "text": "Other Engineered Elastomers"
+    },
+    {
+     "t": "p",
+     "text": "Additional rubber compounds and formulations may be evaluated based on performance requirements, geometry and manufacturing feasibility."
+    },
+    {
+     "t": "p",
+     "text": "Material recommendations are application-specific and subject to technical review."
+    }
+   ]
+  },
+  {
+   "heading": "Roller Applications and Industries Served",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Film Processing and Flexible Packaging"
+    },
+    {
+     "t": "p",
+     "text": "Precision rubber rollers play a critical role in film handling, web tension, material transport, coating and laminating operations."
+    },
+    {
+     "t": "p",
+     "text": "Potential products include nip rollers, tension rollers, feed rollers, pressure rollers and specialized web-handling assemblies."
+    },
+    {
+     "t": "h3",
+     "text": "Printing, Labeling and Converting Equipment"
+    },
+    {
+     "t": "p",
+     "text": "Rollers influence material movement, contact pressure, registration and repeatability in printing and labeling systems."
+    },
+    {
+     "t": "p",
+     "text": "We support custom roller geometries, elastomer selection and precision manufacturing requirements for specialized equipment."
+    },
+    {
+     "t": "h3",
+     "text": "Industrial Machinery and Automation"
+    },
+    {
+     "t": "p",
+     "text": "Custom rubber-covered rollers are used to feed, transport, position and process materials in automated manufacturing systems."
+    },
+    {
+     "t": "p",
+     "text": "Our capabilities support OEMs requiring application-specific roller dimensions, shaft configurations, surface properties and materials."
+    },
+    {
+     "t": "h3",
+     "text": "Specialty Coating and Advanced Materials"
+    },
+    {
+     "t": "p",
+     "text": "Specialized roller compounds and geometries can support demanding coating, film processing and advanced-material manufacturing processes."
+    },
+    {
+     "t": "p",
+     "text": "Applications are evaluated based on operating conditions, precision requirements and material compatibility."
+    }
+   ]
+  },
+  {
+   "heading": "Complete Roller Manufacturing and Finishing",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Integrated manufacturing capabilities under one roof."
+    },
+    {
+     "t": "p",
+     "text": "Our Carson City operation combines specialized rubber manufacturing with metalworking and secondary processing capabilities."
+    },
+    {
+     "t": "p",
+     "text": "Services include:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Custom elastomer compounding",
+      "Metal core and shaft machining",
+      "Rubber-to-metal bonding",
+      "Rubber molding and processing",
+      "CNC machining",
+      "Precision roller grinding",
+      "Roller finishing and assembly",
+      "Inspection to customer specifications"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "This integrated approach helps simplify supplier coordination and supports consistent manufacturing from initial development through repeat production."
+    }
+   ]
+  },
+  {
+   "heading": "New Rollers, Replacement Parts and Refurbishment",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Whether you're developing new machinery, sourcing production rollers, or evaluating a replacement for an existing component, our team can review your requirements."
+    },
+    {
+     "t": "p",
+     "text": "We support OEM production requirements and custom replacement roller applications, including refurbishment of eligible existing roller assemblies."
+    },
+    {
+     "t": "p",
+     "text": "Our engineering and production teams evaluate roller geometry, material specifications, operating conditions, and volume requirements to determine the appropriate manufacturing approach."
+    }
+   ]
+  },
+  {
+   "heading": "Why SYNC Manufacturing?",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Experienced rubber manufacturing"
+    },
+    {
+     "t": "p",
+     "text": "Our Carson City operation traces its rubber manufacturing experience to 1948, including precision rubber-covered rollers and specialty industrial products."
+    },
+    {
+     "t": "h4",
+     "text": "Integrated technical capabilities"
+    },
+    {
+     "t": "p",
+     "text": "In-house compounding, metalworking, bonding, grinding and assembly provide a coordinated approach to custom roller production."
+    },
+    {
+     "t": "h4",
+     "text": "U.S.-based manufacturing"
+    },
+    {
+     "t": "p",
+     "text": "Our Carson City, Nevada facility provides domestic manufacturing and engineering support for equipment manufacturers across the United States."
+    },
+    {
+     "t": "h4",
+     "text": "Responsive customer collaboration"
+    },
+    {
+     "t": "p",
+     "text": "We work directly with customers to evaluate drawings, discuss material requirements, address manufacturing challenges and support new production programs."
+    }
+   ]
+  }
+ ],
+ "faq": [],
+ "closing": {
+  "heading": "Let's Review Your Roller Application",
+  "subheading": null,
+  "paragraphs": [
+   "Developing a new roller? Looking for a manufacturing partner? Need a replacement for an existing custom roller?",
+   "Send our team your requirements, including available drawings, roller dimensions, material specifications, operating conditions and estimated annual quantities."
+  ],
+  "ctas": [
+   {
+    "label": "Request a Quote",
+    "href": "/contact#quote"
+   },
+   {
+    "label": "Discuss Your Roller Application",
+    "href": "/contact"
+   }
+  ]
+ },
+ "source": "Custom Rubber Rollers.docx"
+}

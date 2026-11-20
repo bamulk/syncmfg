@@ -1,0 +1,635 @@
+{
+ "slug": "compression-molding",
+ "kind": "solution",
+ "family": "molding",
+ "title": "Compression Molding Services",
+ "subtitle": "Custom Rubber, Silicone & Thermoset Plastic Components",
+ "tagline": "Precision molding. Engineered materials. Built for demanding applications.",
+ "intro": [
+  "SYNC Manufacturing provides custom compression molding services for OEMs requiring durable, high-performance rubber, silicone, and thermoset plastic components.",
+  "Our manufacturing capabilities include large-format compression molding, precision rubber components, rubber-to-metal bonded assemblies, engineered elastomers, and rigid thermoset plastics.",
+  "With decades of specialized manufacturing experience, SYNC combines material expertise, engineering resources, tooling capabilities, and production flexibility to support customers across aerospace, defense, industrial equipment, utilities, oil and gas, and other demanding markets.",
+  "From prototype development to recurring production programs, we work with customers to determine the right material, tooling, and manufacturing process for each application."
+ ],
+ "ctas": [
+  {
+   "label": "Request a Quote",
+   "href": "/contact#quote"
+  },
+  {
+   "label": "Explore Our Molding Solutions",
+   "href": "/solutions/molding"
+  }
+ ],
+ "hero": {
+  "src": "/images/landing/compression-molding/image1.jpg",
+  "alt": "Assortment of compression molded rubber seals, grommets, bushings and boots"
+ },
+ "gallery": [
+  {
+   "src": "/images/landing/compression-molding/image2.jpg",
+   "alt": "Orange and teal molded rubber and silicone components",
+   "width": 1430,
+   "height": 806
+  },
+  {
+   "src": "/images/landing/compression-molding/image3.jpg",
+   "alt": "Molded rubber, silicone and thermoset parts in several colors",
+   "width": 1430,
+   "height": 806
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What Is Compression Molding?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Compression molding is a manufacturing process that uses heat and pressure to form rubber, silicone, or thermoset plastic materials into custom components."
+    },
+    {
+     "t": "p",
+     "text": "During the process, a measured amount of material, often called a preform or charge, is placed directly into a heated mold cavity. The mold is then closed under pressure, causing the material to flow and conform to the desired geometry."
+    },
+    {
+     "t": "p",
+     "text": "Heat and pressure initiate the curing process, transforming the material into a finished component with its intended physical and mechanical properties."
+    },
+    {
+     "t": "p",
+     "text": "Once curing is complete, the mold opens, and the finished part is removed for any required trimming, inspection, or secondary operations."
+    },
+    {
+     "t": "p",
+     "text": "Compression molding is widely used to manufacture industrial components requiring specialized materials, robust construction, and reliable performance."
+    },
+    {
+     "t": "h3",
+     "text": "Advantages of Compression Molding"
+    },
+    {
+     "t": "h4",
+     "text": "Large Component Capability"
+    },
+    {
+     "t": "p",
+     "text": "Compression molding is particularly well suited for large and thick-section components that may be difficult or uneconomical to produce using other molding processes."
+    },
+    {
+     "t": "h4",
+     "text": "Tooling Economics"
+    },
+    {
+     "t": "p",
+     "text": "Compression molds can offer lower tooling complexity and investment compared with some injection and transfer molding applications, particularly for simpler part geometries."
+    },
+    {
+     "t": "h4",
+     "text": "Material Versatility"
+    },
+    {
+     "t": "p",
+     "text": "A broad selection of rubber, silicone, and rigid thermoset materials can be compression molded to meet application-specific requirements."
+    },
+    {
+     "t": "h4",
+     "text": "Engineered Material Performance"
+    },
+    {
+     "t": "p",
+     "text": "Compression molding supports components designed for abrasion resistance, chemical exposure, temperature extremes, vibration isolation, and mechanical durability."
+    },
+    {
+     "t": "h4",
+     "text": "Production Flexibility"
+    },
+    {
+     "t": "p",
+     "text": "The process can accommodate prototype programs, specialized lower-volume components, and ongoing production requirements."
+    },
+    {
+     "t": "h4",
+     "text": "Bonded Assemblies"
+    },
+    {
+     "t": "p",
+     "text": "Compression molding can be used to produce rubber-to-metal and other bonded components that combine multiple materials into a finished assembly."
+    }
+   ]
+  },
+  {
+   "heading": "Our Compression Molding Capabilities",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SYNC provides a broad range of compression molding solutions to accommodate different component sizes, material specifications, and production requirements."
+    },
+    {
+     "t": "h3",
+     "text": "Custom Rubber Compression Molding"
+    },
+    {
+     "t": "p",
+     "text": "We manufacture custom rubber components designed around specific mechanical, environmental, and performance requirements."
+    },
+    {
+     "t": "p",
+     "text": "Our capabilities support a variety of molded components, including:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Seals and gaskets",
+      "Industrial bumpers and pads",
+      "Rubber bushings and mounts",
+      "Vibration isolators",
+      "Valve seats and sealing components",
+      "Rubber rollers and roller coverings",
+      "Protective boots and bellows",
+      "Specialized OEM components"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Our technical teams help customers evaluate material properties, part geometry, tooling requirements, and manufacturing economics."
+    },
+    {
+     "t": "h3",
+     "text": "Large-Format Compression Molding"
+    },
+    {
+     "t": "p",
+     "text": "SYNC offers large-format compression molding capabilities for oversized and heavy-duty rubber components."
+    },
+    {
+     "t": "p",
+     "text": "Our manufacturing resources include high-tonnage hydraulic presses and large mold configurations designed to accommodate substantial part geometries."
+    },
+    {
+     "t": "p",
+     "text": "These capabilities are particularly valuable for industrial equipment, utilities, flow-control applications, and other demanding environments where component size and material performance are critical."
+    },
+    {
+     "t": "p",
+     "text": "Large-format compression molding may provide an effective manufacturing solution for components that are difficult to produce using smaller molding equipment or conventional injection molding processes."
+    },
+    {
+     "t": "h3",
+     "text": "Silicone Compression Molding"
+    },
+    {
+     "t": "p",
+     "text": "Silicone compression molding is used to manufacture components requiring flexibility, thermal stability, weather resistance, and specialized electrical or sealing properties."
+    },
+    {
+     "t": "p",
+     "text": "Typical applications include:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Silicone seals and gaskets",
+      "Protective covers",
+      "Flexible connectors",
+      "Industrial insulation components",
+      "Custom molded silicone parts",
+      "Specialized equipment components"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Our teams help select silicone materials and molding processes based on environmental exposure, dimensional requirements, and intended service conditions."
+    },
+    {
+     "t": "h3",
+     "text": "Rubber-to-Metal Bonding"
+    },
+    {
+     "t": "p",
+     "text": "SYNC manufactures bonded assemblies that combine engineered elastomers with metal substrates."
+    },
+    {
+     "t": "p",
+     "text": "Bonding rubber to metal can provide vibration isolation, sealing, wear resistance, and integrated mechanical performance."
+    },
+    {
+     "t": "p",
+     "text": "Typical applications include:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Motor and equipment mounts",
+      "Bonded bushings",
+      "Valve components",
+      "Industrial rollers",
+      "Vibration-dampening assemblies",
+      "Custom metal-reinforced rubber components"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Our manufacturing expertise supports substrate preparation, bonding systems, tooling, molding, and finishing operations appropriate to the application."
+    },
+    {
+     "t": "h3",
+     "text": "Thermoset Plastic Compression Molding"
+    },
+    {
+     "t": "p",
+     "text": "In addition to rubber and silicone, SYNC offers compression molding capabilities for rigid thermoset plastic components."
+    },
+    {
+     "t": "p",
+     "text": "These materials are used where applications require properties such as electrical insulation, dimensional stability, mechanical strength, and temperature resistance."
+    },
+    {
+     "t": "p",
+     "text": "Typical components include industrial housings, panels, electrical components, protective parts, and engineered plastic assemblies."
+    }
+   ]
+  },
+  {
+   "heading": "Rubber Materials & Custom Compounding",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Material selection is critical to the performance and durability of compression molded components."
+    },
+    {
+     "t": "p",
+     "text": "SYNC works with a broad range of standard and specialty elastomer formulations and offers custom rubber compounding capabilities to address specific application requirements."
+    },
+    {
+     "t": "h3",
+     "text": "Common Compression Molding Materials"
+    },
+    {
+     "t": "h4",
+     "text": "Natural Rubber (NR)"
+    },
+    {
+     "t": "p",
+     "text": "Provides excellent elasticity, resilience, and abrasion resistance for industrial and mechanical applications."
+    },
+    {
+     "t": "h4",
+     "text": "EPDM"
+    },
+    {
+     "t": "p",
+     "text": "Offers strong resistance to ozone, weathering, water, and selected chemicals, making it suitable for outdoor and industrial environments."
+    },
+    {
+     "t": "h4",
+     "text": "Nitrile Rubber (NBR)"
+    },
+    {
+     "t": "p",
+     "text": "Widely used in applications requiring resistance to petroleum-based oils, fuels, and lubricants."
+    },
+    {
+     "t": "h4",
+     "text": "Silicone Rubber (VMQ)"
+    },
+    {
+     "t": "p",
+     "text": "Provides flexibility across a broad temperature range, with excellent weathering characteristics and specialized electrical properties."
+    },
+    {
+     "t": "h4",
+     "text": "Neoprene (CR)"
+    },
+    {
+     "t": "p",
+     "text": "Offers balanced mechanical properties with resistance to weathering and selected oils and industrial environments."
+    },
+    {
+     "t": "h4",
+     "text": "Styrene-Butadiene Rubber (SBR)"
+    },
+    {
+     "t": "p",
+     "text": "A versatile material commonly selected for abrasion resistance and general industrial applications."
+    },
+    {
+     "t": "h4",
+     "text": "Fluoroelastomers (FKM)"
+    },
+    {
+     "t": "p",
+     "text": "Engineered for applications requiring elevated-temperature performance and resistance to selected oils, fuels, and aggressive chemicals."
+    },
+    {
+     "t": "h4",
+     "text": "Specialty Elastomers"
+    },
+    {
+     "t": "p",
+     "text": "Additional materials, including HNBR, butyl rubber, polyurethane, and other engineered compounds, may be selected based on component requirements."
+    },
+    {
+     "t": "h3",
+     "text": "Custom Rubber Compounding"
+    },
+    {
+     "t": "p",
+     "text": "SYNC's material expertise extends beyond standard rubber compounds."
+    },
+    {
+     "t": "p",
+     "text": "Our compounding capabilities support the development and adjustment of elastomer formulations to achieve application-specific properties such as:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Durometer and hardness",
+      "Tensile strength and elongation",
+      "Compression set resistance",
+      "Abrasion and tear resistance",
+      "Chemical compatibility",
+      "Temperature performance",
+      "Electrical properties",
+      "Environmental resistance"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "By combining material knowledge with manufacturing expertise, SYNC helps customers balance component performance, manufacturability, and cost."
+    }
+   ]
+  },
+  {
+   "heading": "Engineering, Tooling & Manufacturing Support",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Successful compression molding requires more than capable equipment."
+    },
+    {
+     "t": "p",
+     "text": "Our engineering and manufacturing teams work with customers to evaluate material selection, component design, tooling, and production requirements."
+    },
+    {
+     "t": "h3",
+     "text": "Design for Manufacturability"
+    },
+    {
+     "t": "p",
+     "text": "Our engineering support includes evaluation of:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Part geometry and wall thickness",
+      "Material flow and cavity filling",
+      "Mold parting lines and flash",
+      "Shrinkage and dimensional tolerances",
+      "Cure requirements",
+      "Insert and bonding considerations",
+      "Tooling design and production efficiency"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Mold Design & Tooling"
+    },
+    {
+     "t": "p",
+     "text": "SYNC offers tooling development, machining, maintenance, and modification resources to support compression molded components."
+    },
+    {
+     "t": "p",
+     "text": "Our manufacturing teams coordinate tooling requirements with production processes to improve component quality and long-term manufacturing reliability."
+    },
+    {
+     "t": "h3",
+     "text": "Secondary Operations"
+    },
+    {
+     "t": "p",
+     "text": "Our capabilities include trimming, die cutting, machining, finishing, bonding, inspection, and value-added assembly, depending on component requirements."
+    },
+    {
+     "t": "p",
+     "text": "These services help reduce the number of suppliers and manufacturing steps required to deliver finished components."
+    },
+    {
+     "t": "h3",
+     "text": "Quality & Process Control"
+    },
+    {
+     "t": "p",
+     "text": "Our quality approach emphasizes consistency, dimensional accuracy, material performance, and reliable production processes."
+    },
+    {
+     "t": "p",
+     "text": "Depending on customer requirements and manufacturing location, quality activities may include material testing, dimensional inspection, lot traceability, first-article inspection, process monitoring, and documented quality controls."
+    }
+   ]
+  },
+  {
+   "heading": "Industries & Applications",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SYNC supports OEMs and industrial customers requiring compression molded components for demanding operating environments."
+    },
+    {
+     "t": "h3",
+     "text": "Aerospace & Defense"
+    },
+    {
+     "t": "p",
+     "text": "Specialized elastomer components, vibration isolators, protective parts, sealing systems, and bonded assemblies designed around demanding application requirements."
+    },
+    {
+     "t": "h3",
+     "text": "Utilities & Electrical Infrastructure"
+    },
+    {
+     "t": "p",
+     "text": "Large molded rubber components, protective pads, valve components, electrical insulation, and durable industrial parts used in utility equipment."
+    },
+    {
+     "t": "h3",
+     "text": "Flow Control & Water Infrastructure"
+    },
+    {
+     "t": "p",
+     "text": "Custom valve seats, seals, rubber-lined components, bonded assemblies, and wear-resistant parts used in valves, pumps, and fluid-handling systems."
+    },
+    {
+     "t": "h3",
+     "text": "Oil & Gas"
+    },
+    {
+     "t": "p",
+     "text": "Engineered seals, protective components, vibration-dampening products, and industrial rubber parts designed for application-specific chemical, pressure, and temperature conditions."
+    },
+    {
+     "t": "h3",
+     "text": "Industrial Equipment & Machinery"
+    },
+    {
+     "t": "p",
+     "text": "Heavy-duty bumpers, bushings, rubber rollers, mechanical mounts, bellows, vibration isolators, and molded protective components."
+    },
+    {
+     "t": "h3",
+     "text": "Medical & Specialized Equipment"
+    },
+    {
+     "t": "p",
+     "text": "Custom silicone and engineered elastomer parts manufactured to applicable material, quality, and dimensional requirements."
+    }
+   ]
+  },
+  {
+   "heading": "Compression Molding vs. Transfer Molding vs. Injection Molding",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Selecting the right molding process depends on component geometry, material requirements, production volume, and tooling economics."
+    },
+    {
+     "t": "h3",
+     "text": "Compression Molding"
+    },
+    {
+     "t": "p",
+     "text": "Often well suited for large components, thick cross sections, relatively straightforward geometries, and specialized rubber or thermoset materials."
+    },
+    {
+     "t": "h3",
+     "text": "Transfer Molding"
+    },
+    {
+     "t": "p",
+     "text": "Can provide advantages for complex geometries, molded-in inserts, bonded assemblies, and applications requiring controlled material flow into closed mold cavities."
+    },
+    {
+     "t": "h3",
+     "text": "Injection Molding"
+    },
+    {
+     "t": "p",
+     "text": "May offer advantages for complex components and repeat production, particularly when part volumes and cycle-time requirements justify the tooling and equipment investment."
+    },
+    {
+     "t": "p",
+     "text": "SYNC offers multiple molding processes, allowing our engineering teams to evaluate the most appropriate manufacturing solution rather than relying on a single process."
+    }
+   ]
+  },
+  {
+   "heading": "Specialized Expertise. One Manufacturing Partner.",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SYNC Manufacturing combines decades of experience in rubber molding, engineered thermoset plastics, material compounding, tooling, and precision manufacturing."
+    },
+    {
+     "t": "p",
+     "text": "Our organization brings together established manufacturing businesses with complementary capabilities, giving customers access to specialized resources through a coordinated manufacturing partner."
+    },
+    {
+     "t": "p",
+     "text": "We continue investing in equipment, technical expertise, and manufacturing infrastructure to support increasingly demanding OEM applications."
+    },
+    {
+     "t": "p",
+     "text": "Whether the requirement involves a large industrial rubber component, a precision molded seal, or a complex bonded assembly, SYNC focuses on delivering the right combination of material performance, manufacturing quality, and long-term reliability."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is compression molding used for?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Compression molding is commonly used to manufacture rubber, silicone, and thermoset plastic components such as seals, gaskets, vibration isolators, valve components, bushings, industrial pads, and bonded assemblies."
+    }
+   ]
+  },
+  {
+   "q": "Is compression molding suitable for large rubber parts?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Compression molding is particularly well suited for many large-format and thick-section rubber components. The maximum part dimensions depend on the available press capacity, mold configuration, and material requirements."
+    }
+   ]
+  },
+  {
+   "q": "What is the difference between compression molding and transfer molding?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Compression molding places material directly into the mold cavity before applying heat and pressure. Transfer molding forces material from a separate chamber into a closed mold cavity."
+    },
+    {
+     "t": "p",
+     "text": "Transfer molding can be advantageous for complex shapes and inserts, while compression molding may provide tooling and processing advantages for larger or simpler components."
+    }
+   ]
+  },
+  {
+   "q": "Can different rubber materials be compression molded?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Common materials include natural rubber, EPDM, nitrile, silicone, neoprene, SBR, and specialty elastomers."
+    }
+   ]
+  },
+  {
+   "q": "Can compression molding be used for rubber-to-metal bonded parts?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. With suitable substrate preparation, bonding chemistry, material selection, and tooling, rubber can be bonded to metal during compression molding."
+    }
+   ]
+  },
+  {
+   "q": "Does SYNC support prototype and production quantities?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. SYNC supports prototype development, specialized low-volume applications, and recurring production programs. The most appropriate manufacturing process depends on the component and program requirements."
+    }
+   ]
+  },
+  {
+   "q": "Can SYNC help determine the right rubber compound?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Our material and engineering teams can evaluate hardness, chemical exposure, operating temperature, mechanical requirements, and other performance specifications to help identify suitable elastomer formulations."
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "heading": "Partner With SYNC Manufacturing",
+  "subheading": "Engineered Rubber. Large-Format Capability. Precision Manufacturing.",
+  "paragraphs": [
+   "Whether you're developing a new component, transferring an existing program, or seeking a reliable U.S. manufacturing partner, SYNC offers the technical resources and compression molding expertise to support your application.",
+   "From material selection and tooling to production and finishing, our team works to deliver components engineered for performance and manufactured for reliability."
+  ],
+  "ctas": [
+   {
+    "label": "Request a Quote",
+    "href": "/contact#quote"
+   },
+   {
+    "label": "Contact Our Team",
+    "href": "/contact"
+   }
+  ]
+ },
+ "source": "Compression Molding .docx"
+}

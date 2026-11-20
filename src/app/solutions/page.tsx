@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
+import { getLanding } from "@/lib/landing";
+import { getHero } from "@/lib/heroes";
 import Link from "next/link";
 import { solutions } from "@/lib/solutions";
 import { numberWord } from "@/lib/site";
@@ -10,6 +12,7 @@ const capabilityCount = solutions.reduce(
 );
 import { ArrowIcon, CheckIcon, solutionIcons } from "@/components/Icons";
 import {
+  CardPhoto,
   Container,
   CtaBand,
   IconBadge,
@@ -20,7 +23,7 @@ import {
 export const metadata: Metadata = pageMetadata({
   title: "Solutions & Capabilities",
   description:
-    "Molding, cutting, compounding and bonding solutions from SYNC Manufacturing — including thermoset, thermoplastic injection, LSR and compression molding to 46x46.",
+    "Molding, cutting, compounding and bonding solutions from SYNC Manufacturing — including thermoset, thermoplastic injection, LSR and compression molding to 48x48.",
   path: "/solutions",
 });
 
@@ -70,15 +73,15 @@ export default function SolutionsPage() {
                   </div>
 
                   <ul className="grid gap-3 sm:grid-cols-2 lg:content-start">
-                    {s.capabilities.map((c) => (
-                      <li
-                        key={c.slug}
-                        className="rounded-lg border border-line p-5"
-                      >
-                        <div className="flex items-start gap-2.5">
+                    {s.capabilities.map((c) => {
+                      const page = getLanding(c.slug);
+                      const photo =
+                        page?.hero ?? getHero(`solutions-${s.slug}`);
+                      const inner = (
+                        <div className="relative flex items-start gap-2.5">
                           <CheckIcon className="mt-0.5 h-5 w-5 shrink-0 text-blue" />
                           <div>
-                            <h3 className="font-semibold leading-snug text-navy">
+                            <h3 className="font-semibold leading-snug text-navy group-hover:text-blue">
                               {c.name}
                             </h3>
                             <p className="mt-1.5 text-sm leading-relaxed text-muted">
@@ -86,8 +89,35 @@ export default function SolutionsPage() {
                             </p>
                           </div>
                         </div>
-                      </li>
-                    ))}
+                      );
+                      return (
+                        <li key={c.slug}>
+                          {page ? (
+                            <Link
+                              href={`/solutions/${s.slug}/${c.slug}`}
+                              className="group relative block h-full overflow-hidden rounded-lg border border-line p-5 transition-colors hover:border-blue/40"
+                            >
+                              {photo && (
+                                <CardPhoto
+                                  src={photo.src}
+                                  position={
+                                    "position" in photo
+                                      ? photo.position
+                                      : undefined
+                                  }
+                                  width="w-[55%]"
+                                />
+                              )}
+                              {inner}
+                            </Link>
+                          ) : (
+                            <div className="h-full rounded-lg border border-line p-5">
+                              {inner}
+                            </div>
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               );

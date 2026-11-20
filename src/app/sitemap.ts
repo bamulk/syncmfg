@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { markets } from "@/lib/markets";
 import { solutions } from "@/lib/solutions";
 import { pressReleases } from "@/lib/press";
+import { capabilityHref, capabilityPages } from "@/lib/landing";
 import { site } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -35,6 +36,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${site.url}/solutions/${s.slug}`,
       changeFrequency: "monthly" as const,
       priority: 0.8,
+    })),
+    ...capabilityPages().map((p) => ({
+      url: `${site.url}${capabilityHref(p)}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
     })),
     ...pressReleases.map((p) => ({
       url: `${site.url}/about/press/${p.slug}`,

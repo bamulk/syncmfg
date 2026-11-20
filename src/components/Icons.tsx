@@ -232,6 +232,19 @@ export function PinIcon({ className }: Props) {
   );
 }
 
+export function ValveIcon({ className }: Props) {
+  return (
+    <Svg className={className ?? "h-5 w-5"}>
+      {/* Gate valve: handwheel, stem and body on a pipe run */}
+      <path d="M8.5 3.5h7" />
+      <path d="M12 3.5v5" />
+      <path d="M2.5 13h4M17.5 13h4" />
+      <path d="M2.5 10.5v5M21.5 10.5v5" />
+      <path d="M6.5 10.5 9 8.5h6l2.5 2v5L15 17.5H9l-2.5-2Z" />
+    </Svg>
+  );
+}
+
 export const marketIcons = {
   aerospace: AerospaceIcon,
   defense: DefenseIcon,
@@ -239,6 +252,7 @@ export const marketIcons = {
   utilities: UtilitiesIcon,
   oil: OilIcon,
   industrial: IndustrialIcon,
+  valve: ValveIcon,
 };
 
 export const solutionIcons = {

@@ -80,3 +80,10 @@ factory floor).
 Save as `public/images/heroes/<slot>.jpg` (exact slot name from the table), then
 commit and push. To change the alt text or the crop focus, edit the slot in
 `src/lib/heroes.ts` (`position` takes CSS `object-position`, e.g. `"60% 40%"`).
+
+## Capability page photos (Nov 20)
+
+Photos from Tobe's Word docs, resized to 1600px JPEG, live in
+`public/images/landing/<slug>/`. Each page's JSON names its hero and gallery,
+with alt text. To swap a photo, replace the file and keep the name, or edit the
+`hero` / `gallery` entries in `src/content/landing/<slug>.json`.

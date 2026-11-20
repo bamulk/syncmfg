@@ -5,8 +5,10 @@ import { getSolution, solutions } from "@/lib/solutions";
 import { markets } from "@/lib/markets";
 import { getHero } from "@/lib/heroes";
 import { pageMetadata } from "@/lib/seo";
+import { getLanding } from "@/lib/landing";
 import { ArrowIcon, CheckIcon, solutionIcons } from "@/components/Icons";
 import {
+  CardPhoto,
   Container,
   CtaBand,
   Eyebrow,
@@ -38,6 +40,7 @@ export default async function SolutionPage({ params }: Params) {
   if (!solution) notFound();
 
   const Icon = solutionIcons[solution.icon];
+  const familyPhoto = getHero(`solutions-${solution.slug}`);
   const others = solutions.filter((s) => s.slug !== solution.slug);
   const servedMarkets = markets.filter((m) =>
     m.relatedSolutions.includes(solution.slug),
@@ -78,23 +81,24 @@ export default async function SolutionPage({ params }: Params) {
                   {solution.capabilities.length} processes in this family
                 </h3>
                 <ul className="mt-8 space-y-4">
-                  {solution.capabilities.map((c) => (
-                    <li
-                      key={c.slug}
-                      id={c.slug}
-                      className="rounded-lg border border-line p-6 scroll-mt-28"
-                    >
-                      <div className="flex items-start gap-3">
+                  {solution.capabilities.map((c) => {
+                    const page = getLanding(c.slug);
+                    const href = page
+                      ? `/solutions/${solution.slug}/${c.slug}`
+                      : undefined;
+                    const photo = page?.hero ?? familyPhoto;
+                    const body = (
+                      <div className="relative flex items-start gap-3">
                         <CheckIcon className="mt-1 h-5 w-5 shrink-0 text-blue" />
                         <div className="flex-1">
                           <h4 className="text-lg font-bold text-navy">
                             {c.name}
                           </h4>
-                          <p className="mt-2 text-[15px] leading-relaxed text-muted">
+                          <p className="mt-2 max-w-md text-[15px] leading-relaxed text-muted">
                             {c.summary}
                           </p>
                           {c.detail && (
-                            <p className="mt-2 text-[15px] leading-relaxed text-muted">
+                            <p className="mt-2 max-w-md text-[15px] leading-relaxed text-muted">
                               {c.detail}
                             </p>
                           )}
@@ -112,10 +116,39 @@ export default async function SolutionPage({ params }: Params) {
                               ))}
                             </dl>
                           )}
+                          {href && (
+                            <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue group-hover:gap-3">
+                              Learn more
+                              <ArrowIcon />
+                            </span>
+                          )}
                         </div>
                       </div>
-                    </li>
-                  ))}
+                    );
+                    const cls =
+                      "group relative block overflow-hidden rounded-lg border border-line bg-white p-6 transition-all";
+                    return (
+                      <li key={c.slug} id={c.slug} className="scroll-mt-28">
+                        {href ? (
+                          <Link
+                            href={href}
+                            className={`${cls} hover:-translate-y-0.5 hover:border-blue/40 hover:shadow-[0_8px_24px_rgba(1,35,76,.09)]`}
+                          >
+                            {photo && (
+                              <CardPhoto
+                                src={photo.src}
+                                position={"position" in photo ? photo.position : undefined}
+                                width="w-[48%]"
+                              />
+                            )}
+                            {body}
+                          </Link>
+                        ) : (
+                          <div className={cls}>{body}</div>
+                        )}
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             </div>

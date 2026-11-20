@@ -136,8 +136,9 @@ export const locations: Location[] = [
     focus:
       "Large-format compression molding, rubber rollers, and industrial and utility components.",
     capabilities: [
-      "Compression molding 8x8 to 46x46",
+      "Compression molding 8x8 to 48x48",
       "Transfer molding",
+      "Silicone molding",
       "New rubber rollers",
       "Refurbished rubber rollers",
       "Die cutting",

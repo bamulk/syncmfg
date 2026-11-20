@@ -1,0 +1,748 @@
+{
+ "slug": "rubber-compounding",
+ "kind": "solution",
+ "family": "compounding-and-bonding",
+ "title": "Custom Rubber Compounding Services",
+ "subtitle": "Engineered Elastomer Formulations for Demanding Applications",
+ "tagline": "The right material makes the difference.",
+ "intro": [
+  "SYNC Manufacturing provides custom rubber compounding services for OEMs requiring engineered elastomer materials with specific mechanical, thermal, chemical, and environmental performance characteristics.",
+  "Unlike manufacturers limited to commercially available rubber compounds, SYNC combines in-house formulation development, specialized mixing equipment, material testing, and precision molding expertise to create rubber solutions around the requirements of each application.",
+  "Our capabilities include custom elastomer formulation, compound modification, small-batch rubber mixing, material selection, developmental testing, and integration with compression molding, transfer molding, rubber-to-metal bonding, and industrial roller manufacturing.",
+  "Drawing upon more than 75 years of rubber engineering and manufacturing heritage, SYNC helps customers solve complex material challenges while supporting dependable production and long-term component performance."
+ ],
+ "ctas": [
+  {
+   "label": "Request a Quote",
+   "href": "/contact#quote"
+  },
+  {
+   "label": "Explore Our Compounding & Bonding Solutions",
+   "href": "/solutions/compounding-and-bonding"
+  }
+ ],
+ "hero": {
+  "src": "/images/landing/rubber-compounding/image1.jpg",
+  "alt": "SYNC technician working rubber compound on a two-roll mill"
+ },
+ "gallery": [
+  {
+   "src": "/images/landing/rubber-compounding/image2.jpg",
+   "alt": "SYNC rubber compounding and mixing room",
+   "width": 1429,
+   "height": 1071
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What Is Rubber Compounding?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Rubber compounding is the process of combining natural or synthetic elastomer polymers with carefully selected ingredients to achieve specific material properties."
+    },
+    {
+     "t": "p",
+     "text": "A rubber compound typically contains a base elastomer along with reinforcing fillers, processing aids, curing agents, and other additives selected to achieve the desired performance."
+    },
+    {
+     "t": "p",
+     "text": "The formulation determines how the rubber behaves during manufacturing and throughout its service life."
+    },
+    {
+     "t": "p",
+     "text": "For example, two rubber compounds made from the same base polymer can exhibit significantly different hardness, tensile strength, compression set, abrasion resistance, chemical compatibility, and temperature performance."
+    },
+    {
+     "t": "p",
+     "text": "Custom compounding allows these characteristics to be engineered around the intended application rather than relying entirely on standard material formulations."
+    },
+    {
+     "t": "h3",
+     "text": "Advantages of Custom Rubber Compounding"
+    },
+    {
+     "t": "h4",
+     "text": "Application-Specific Performance"
+    },
+    {
+     "t": "p",
+     "text": "Formulations can be developed or adjusted around operating temperatures, chemical exposure, mechanical loads, and environmental requirements."
+    },
+    {
+     "t": "h4",
+     "text": "Greater Material Control"
+    },
+    {
+     "t": "p",
+     "text": "In-house formulation and mixing provide additional control over raw material selection, compound development, and manufacturing consistency."
+    },
+    {
+     "t": "h4",
+     "text": "Improved Component Reliability"
+    },
+    {
+     "t": "p",
+     "text": "Selecting the correct elastomer formulation helps improve resistance to premature wear, environmental degradation, and other application-specific failure mechanisms."
+    },
+    {
+     "t": "h4",
+     "text": "Manufacturing Optimization"
+    },
+    {
+     "t": "p",
+     "text": "Rubber compounds can be engineered for both finished-part performance and compatibility with the selected molding or bonding process."
+    },
+    {
+     "t": "h4",
+     "text": "Material Development Flexibility"
+    },
+    {
+     "t": "p",
+     "text": "Existing formulations can be evaluated and modified to address changing specifications, performance requirements, or material availability."
+    },
+    {
+     "t": "h4",
+     "text": "Integrated Manufacturing"
+    },
+    {
+     "t": "p",
+     "text": "Combining compounding and molding expertise helps reduce coordination between separate material suppliers and component manufacturers."
+    }
+   ]
+  },
+  {
+   "heading": "Our Rubber Compounding Capabilities",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SYNC combines established material-development expertise with specialized manufacturing resources to support a broad range of rubber and elastomer applications."
+    },
+    {
+     "t": "h3",
+     "text": "Custom Elastomer Formulation"
+    },
+    {
+     "t": "p",
+     "text": "Our material specialists work with customers to develop rubber compounds around defined performance requirements."
+    },
+    {
+     "t": "p",
+     "text": "Compound development considers the intended environment, mechanical loading, chemical exposure, manufacturing process, and required physical properties."
+    },
+    {
+     "t": "p",
+     "text": "Formulations may be developed to address:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Hardness and durometer requirements",
+      "Tensile strength and elongation",
+      "Compression set resistance",
+      "Abrasion and tear resistance",
+      "Chemical and fluid compatibility",
+      "Temperature performance",
+      "Electrical insulation or conductivity",
+      "Environmental aging",
+      "Dynamic mechanical performance",
+      "Color and appearance"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "In-House Rubber Mixing"
+    },
+    {
+     "t": "p",
+     "text": "SYNC's rubber manufacturing expertise includes internal mixing equipment and rubber mills used to prepare custom elastomer compounds."
+    },
+    {
+     "t": "p",
+     "text": "In-house mixing allows formulations to be produced and evaluated in controlled batches, supporting material development, specialized requirements, and ongoing manufacturing programs."
+    },
+    {
+     "t": "p",
+     "text": "Our material and production teams coordinate compound preparation with the intended molding or manufacturing process."
+    },
+    {
+     "t": "h3",
+     "text": "Rubber Development Laboratory"
+    },
+    {
+     "t": "p",
+     "text": "Material development is supported by laboratory resources and experienced personnel."
+    },
+    {
+     "t": "p",
+     "text": "Development activities may include evaluating existing formulations, preparing trial compounds, measuring physical properties, and refining materials to better meet application requirements."
+    },
+    {
+     "t": "p",
+     "text": "This capability helps customers address material-performance challenges before committing to long-term production."
+    },
+    {
+     "t": "h3",
+     "text": "Existing Compound Library"
+    },
+    {
+     "t": "p",
+     "text": "SYNC's compounding expertise is built upon an extensive collection of established elastomer formulations developed over decades of rubber manufacturing experience."
+    },
+    {
+     "t": "p",
+     "text": "For many applications, an existing compound can provide a practical starting point."
+    },
+    {
+     "t": "p",
+     "text": "When additional performance characteristics are required, the formulation can be evaluated and adjusted to meet the intended specifications."
+    },
+    {
+     "t": "p",
+     "text": "This approach can reduce unnecessary development effort while preserving the flexibility of custom formulation."
+    },
+    {
+     "t": "h3",
+     "text": "Small-Batch & Specialized Compounding"
+    },
+    {
+     "t": "p",
+     "text": "Some applications require relatively small quantities of specialized elastomer materials."
+    },
+    {
+     "t": "p",
+     "text": "SYNC's mixing capabilities support smaller-batch formulations for development, qualification, and specialized production programs."
+    },
+    {
+     "t": "p",
+     "text": "Batch size and availability depend on the selected compound, equipment, and manufacturing requirements."
+    }
+   ]
+  },
+  {
+   "heading": "Rubber Materials & Elastomer Expertise",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Different elastomer families offer distinct performance advantages. Selecting the correct base polymer is the foundation of successful compound development."
+    },
+    {
+     "t": "p",
+     "text": "SYNC works with a broad range of commercial and specialty elastomer materials."
+    },
+    {
+     "t": "h3",
+     "text": "Natural Rubber (NR)"
+    },
+    {
+     "t": "p",
+     "text": "Known for excellent resilience, elasticity, tensile properties, and dynamic performance."
+    },
+    {
+     "t": "p",
+     "text": "Common applications include vibration isolators, industrial mounts, rollers, and mechanically demanding rubber components."
+    },
+    {
+     "t": "h3",
+     "text": "Nitrile Rubber (NBR)"
+    },
+    {
+     "t": "p",
+     "text": "Commonly selected for resistance to petroleum-based oils, fuels, and lubricants."
+    },
+    {
+     "t": "p",
+     "text": "Applications include industrial seals, gaskets, rollers, and components exposed to compatible petroleum fluids."
+    },
+    {
+     "t": "h3",
+     "text": "EPDM"
+    },
+    {
+     "t": "p",
+     "text": "Offers strong resistance to weathering, ozone, water, and many outdoor environmental conditions."
+    },
+    {
+     "t": "p",
+     "text": "Frequently used in utility equipment, industrial seals, protective components, and outdoor applications."
+    },
+    {
+     "t": "h3",
+     "text": "Neoprene (CR)"
+    },
+    {
+     "t": "p",
+     "text": "Provides balanced mechanical properties and resistance to weathering and selected industrial environments."
+    },
+    {
+     "t": "p",
+     "text": "Used in protective components, seals, industrial equipment, and general-purpose rubber applications."
+    },
+    {
+     "t": "h3",
+     "text": "Silicone Rubber (VMQ)"
+    },
+    {
+     "t": "p",
+     "text": "Provides flexibility across a broad temperature range, excellent environmental aging characteristics, and useful electrical properties."
+    },
+    {
+     "t": "p",
+     "text": "Common applications include specialized seals, insulation components, and precision silicone molded parts."
+    },
+    {
+     "t": "h3",
+     "text": "Styrene-Butadiene Rubber (SBR)"
+    },
+    {
+     "t": "p",
+     "text": "A versatile material offering abrasion resistance and general mechanical performance for industrial applications."
+    },
+    {
+     "t": "h3",
+     "text": "Fluoroelastomers (FKM)"
+    },
+    {
+     "t": "p",
+     "text": "Specialized materials selected for elevated-temperature performance and compatibility with certain aggressive chemicals, oils, and fuels."
+    },
+    {
+     "t": "h3",
+     "text": "Hydrogenated Nitrile Rubber (HNBR)"
+    },
+    {
+     "t": "p",
+     "text": "Offers enhanced temperature, oxidation, and mechanical performance compared with many conventional nitrile formulations."
+    },
+    {
+     "t": "h3",
+     "text": "Butyl Rubber (IIR)"
+    },
+    {
+     "t": "p",
+     "text": "Known for low gas permeability, environmental aging resistance, and specialized sealing properties."
+    },
+    {
+     "t": "h3",
+     "text": "Specialty Elastomers"
+    },
+    {
+     "t": "p",
+     "text": "Additional material families may include fluorosilicone, polyisoprene, polybutadiene, epichlorohydrin, acrylic elastomers, and specialty urethane compounds."
+    },
+    {
+     "t": "p",
+     "text": "Material availability and processing suitability are evaluated according to application and manufacturing requirements."
+    }
+   ]
+  },
+  {
+   "heading": "Engineered Material Properties",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "The performance of a custom rubber component depends on more than the base polymer."
+    },
+    {
+     "t": "p",
+     "text": "Compounding allows multiple material characteristics to be balanced to achieve the intended functional performance."
+    },
+    {
+     "t": "h3",
+     "text": "Mechanical Properties"
+    },
+    {
+     "t": "p",
+     "text": "Compounds can be developed around hardness, tensile strength, elongation, resilience, tear strength, abrasion resistance, and fatigue performance."
+    },
+    {
+     "t": "h3",
+     "text": "Temperature Resistance"
+    },
+    {
+     "t": "p",
+     "text": "Material formulations can be evaluated for elevated or reduced operating temperatures, thermal cycling, and long-term heat aging."
+    },
+    {
+     "t": "h3",
+     "text": "Chemical Resistance"
+    },
+    {
+     "t": "p",
+     "text": "Compound selection considers the specific fluids, concentrations, temperatures, and exposure conditions encountered during service."
+    },
+    {
+     "t": "h3",
+     "text": "Compression Set & Sealing Performance"
+    },
+    {
+     "t": "p",
+     "text": "Rubber formulations can be optimized for applications requiring deformation recovery, sealing force retention, and repeated compression."
+    },
+    {
+     "t": "h3",
+     "text": "Electrical Properties"
+    },
+    {
+     "t": "p",
+     "text": "Selected compounds can be formulated for electrical insulation, conductivity, or antistatic performance, depending on the base polymer and additive system."
+    },
+    {
+     "t": "h3",
+     "text": "Environmental Durability"
+    },
+    {
+     "t": "p",
+     "text": "Materials may be developed to address exposure to ozone, ultraviolet radiation, moisture, weathering, and other environmental factors."
+    },
+    {
+     "t": "p",
+     "text": "The goal is to balance the characteristics required by the finished component rather than maximizing one property at the expense of others."
+    }
+   ]
+  },
+  {
+   "heading": "Our Custom Rubber Compounding Process",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Developing the right rubber compound begins with understanding the application's performance requirements."
+    },
+    {
+     "t": "h3",
+     "text": "1. Application & Specification Review"
+    },
+    {
+     "t": "p",
+     "text": "Our technical team evaluates drawings, material specifications, operating conditions, performance targets, and anticipated production requirements."
+    },
+    {
+     "t": "h3",
+     "text": "2. Elastomer & Formulation Selection"
+    },
+    {
+     "t": "p",
+     "text": "We identify suitable base polymers, review existing compound options, and determine whether a new or modified formulation is appropriate."
+    },
+    {
+     "t": "h3",
+     "text": "3. Development & Mixing"
+    },
+    {
+     "t": "p",
+     "text": "Selected ingredients are combined using controlled mixing processes to prepare material for evaluation and manufacturing trials."
+    },
+    {
+     "t": "h3",
+     "text": "4. Material Evaluation & Refinement"
+    },
+    {
+     "t": "p",
+     "text": "Compound properties are evaluated against the application requirements. Where necessary, formulation adjustments are made to address performance or processing considerations."
+    },
+    {
+     "t": "h3",
+     "text": "5. Manufacturing Integration"
+    },
+    {
+     "t": "p",
+     "text": "The selected compound is coordinated with the appropriate compression molding, transfer molding, bonding, or roller manufacturing process."
+    },
+    {
+     "t": "h3",
+     "text": "6. Production & Quality Control"
+    },
+    {
+     "t": "p",
+     "text": "Approved formulations and relevant process requirements are used to support consistent production, material traceability, and customer-specific quality documentation."
+    }
+   ]
+  },
+  {
+   "heading": "Integrated Rubber Compounding & Manufacturing",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Custom compounding offers significant value when material development is connected directly to the manufacturing process."
+    },
+    {
+     "t": "p",
+     "text": "SYNC combines material expertise with specialized rubber processing capabilities."
+    },
+    {
+     "t": "h3",
+     "text": "Compression Molding"
+    },
+    {
+     "t": "p",
+     "text": "Compounds can be selected and developed around compression molding requirements, including material flow, curing characteristics, and finished-part performance."
+    },
+    {
+     "t": "link",
+     "label": "Explore Compression Molding",
+     "href": "/solutions/molding/compression-molding"
+    },
+    {
+     "t": "h3",
+     "text": "Transfer Molding"
+    },
+    {
+     "t": "p",
+     "text": "Material behavior is evaluated to support controlled flow, cavity filling, curing, and dimensional consistency."
+    },
+    {
+     "t": "link",
+     "label": "Explore Transfer Molding",
+     "href": "/solutions/molding/transfer-molding"
+    },
+    {
+     "t": "h3",
+     "text": "Rubber-to-Metal Bonding"
+    },
+    {
+     "t": "p",
+     "text": "Rubber formulations must be compatible with the selected substrate preparation, bonding system, and vulcanization process."
+    },
+    {
+     "t": "p",
+     "text": "Our integrated approach helps coordinate elastomer performance with adhesion requirements."
+    },
+    {
+     "t": "link",
+     "label": "Explore Rubber-to-Metal Bonding",
+     "href": "/solutions/compounding-and-bonding/rubber-to-metal-bonding"
+    },
+    {
+     "t": "h3",
+     "text": "Custom Rubber Rollers"
+    },
+    {
+     "t": "p",
+     "text": "Roller compounds can be selected around hardness, abrasion resistance, traction, chemical exposure, and surface-finish requirements."
+    },
+    {
+     "t": "p",
+     "text": "SYNC supports both new roller manufacturing and refurbishment of existing assemblies."
+    },
+    {
+     "t": "link",
+     "label": "Explore Rubber Roller Manufacturing",
+     "href": "/solutions/compounding-and-bonding/custom-rubber-rollers"
+    },
+    {
+     "t": "h3",
+     "text": "Custom Rubber Components"
+    },
+    {
+     "t": "p",
+     "text": "Our molding expertise supports engineered elastomer products, including seals, gaskets, bushings, vibration isolators, valve parts, and specialized industrial assemblies."
+    },
+    {
+     "t": "link",
+     "label": "Explore Rubber Molding",
+     "href": "/solutions/molding/rubber-molding"
+    }
+   ]
+  },
+  {
+   "heading": "Industries & Applications",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Aerospace & Defense"
+    },
+    {
+     "t": "p",
+     "text": "Engineered elastomers for specialized seals, protective components, vibration isolation, and parts requiring application-specific mechanical and environmental performance."
+    },
+    {
+     "t": "h3",
+     "text": "Utilities & Water Infrastructure"
+    },
+    {
+     "t": "p",
+     "text": "Rubber formulations for valve components, sealing products, utility equipment, and water-handling applications."
+    },
+    {
+     "t": "h3",
+     "text": "Oil & Gas"
+    },
+    {
+     "t": "p",
+     "text": "Specialty elastomer compounds developed around temperature, chemical exposure, pressure, and demanding operating environments."
+    },
+    {
+     "t": "h3",
+     "text": "Industrial Equipment"
+    },
+    {
+     "t": "p",
+     "text": "Compounds for rollers, mounts, bushings, wear components, vibration isolators, and industrial machinery."
+    },
+    {
+     "t": "h3",
+     "text": "Flow Control & Fluid Handling"
+    },
+    {
+     "t": "p",
+     "text": "Elastomer formulations for valve seats, diaphragms, gaskets, sealing assemblies, and specialized pump components."
+    },
+    {
+     "t": "h3",
+     "text": "Medical & Specialized Equipment"
+    },
+    {
+     "t": "p",
+     "text": "Selected elastomer materials for equipment components requiring defined physical properties and application-specific material or quality requirements."
+    }
+   ]
+  },
+  {
+   "heading": "Why Choose SYNC Manufacturing?",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Material Expertise Beyond Standard Rubber Molding"
+    },
+    {
+     "t": "p",
+     "text": "Many rubber manufacturers rely on external suppliers for compound development and material mixing."
+    },
+    {
+     "t": "p",
+     "text": "SYNC's established in-house compounding capabilities provide a more integrated approach."
+    },
+    {
+     "t": "p",
+     "text": "With specialized material-development resources, a comprehensive formulation history, mixing capabilities, and complementary manufacturing processes, we can evaluate both the material and the finished component."
+    },
+    {
+     "t": "p",
+     "text": "This helps customers address manufacturing challenges involving material selection, component performance, production consistency, and sourcing complexity."
+    },
+    {
+     "t": "p",
+     "text": "Our continued investment in technical expertise and manufacturing infrastructure supports both established programs and new product development."
+    },
+    {
+     "t": "h4",
+     "text": "From material formulation to finished component. One trusted manufacturing partner."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is custom rubber compounding?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Custom rubber compounding is the development of elastomer formulations by combining base polymers, fillers, curing agents, and other additives to achieve specified material properties."
+    }
+   ]
+  },
+  {
+   "q": "Does SYNC compound rubber in-house?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. SYNC has established rubber formulation, mixing, and laboratory development capabilities that support custom elastomer manufacturing."
+    }
+   ]
+  },
+  {
+   "q": "What rubber materials can SYNC compound?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Our experience includes natural rubber, nitrile, EPDM, neoprene, silicone, SBR, FKM, and other specialty elastomers. Specific formulations are evaluated based on material availability, processing requirements, and application needs."
+    }
+   ]
+  },
+  {
+   "q": "Can SYNC develop a custom rubber formulation?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Our technical resources support evaluating existing compounds, modifying formulations, and developing application-specific materials."
+    }
+   ]
+  },
+  {
+   "q": "Can SYNC match an existing rubber compound?",
+   "a": [
+    {
+     "t": "p",
+     "text": "SYNC can evaluate existing material specifications, samples, and performance requirements to determine whether an established or newly developed formulation could meet the application."
+    },
+    {
+     "t": "p",
+     "text": "Exact duplication of a proprietary compound may not be possible without its formulation and processing information."
+    }
+   ]
+  },
+  {
+   "q": "Does SYNC support specialized material requirements?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Our material expertise supports applications involving temperature, chemical resistance, electrical performance, hardness, mechanical properties, and other defined requirements."
+    },
+    {
+     "t": "p",
+     "text": "Any regulatory or material-standard conformance must be evaluated for the specific formulation."
+    }
+   ]
+  },
+  {
+   "q": "Can SYNC compound rubber for bonded metal components?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Our rubber compounding and rubber-to-metal bonding capabilities can be coordinated to address the requirements of bonded assemblies."
+    }
+   ]
+  },
+  {
+   "q": "Does SYNC support small-batch rubber compounding?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Our established mixing capabilities support smaller-batch rubber formulations, subject to material, equipment, and program requirements."
+    }
+   ]
+  },
+  {
+   "q": "What information is needed to request a quote?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Useful information includes the intended application, rubber material or specification, required physical properties, operating conditions, estimated volumes, and any existing compound or component samples."
+    },
+    {
+     "t": "p",
+     "text": "Our team can help evaluate material options when a specific formulation has not been selected."
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "heading": "Partner With SYNC Manufacturing",
+  "subheading": "Engineered Rubber Materials. Specialized Manufacturing Expertise.",
+  "paragraphs": [
+   "Whether you're developing a new elastomer component, addressing a material-performance challenge, or searching for a manufacturing partner with in-house rubber compounding capabilities, SYNC can help.",
+   "From formulation development and material evaluation through mixing, molding, bonding, and inspection, our team focuses on providing dependable solutions engineered around your application."
+  ],
+  "ctas": [
+   {
+    "label": "Request a Quote",
+    "href": "/contact#quote"
+   },
+   {
+    "label": "Contact Our Team",
+    "href": "/contact"
+   }
+  ]
+ },
+ "source": "Rubber Compounding .docx"
+}

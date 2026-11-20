@@ -5,6 +5,8 @@ import { getMarket, markets } from "@/lib/markets";
 import { getSolution } from "@/lib/solutions";
 import { getHero } from "@/lib/heroes";
 import { pageMetadata } from "@/lib/seo";
+import { getLanding } from "@/lib/landing";
+import LandingPage from "@/components/LandingPage";
 import { ArrowIcon, marketIcons, solutionIcons } from "@/components/Icons";
 import {
   CheckList,
@@ -26,6 +28,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const market = getMarket(slug);
   if (!market) return {};
+  const landing = getLanding(market.slug);
+  if (landing) {
+    return pageMetadata({
+      title: landing.title,
+      description: landing.intro[0] ?? market.intro,
+      path: `/markets/${market.slug}`,
+    });
+  }
   return pageMetadata({
     title: `${market.name} Rubber & Plastic Components`,
     description: market.intro,
@@ -37,6 +47,22 @@ export default async function MarketPage({ params }: Params) {
   const { slug } = await params;
   const market = getMarket(slug);
   if (!market) notFound();
+
+  // Markets with a full landing doc from the client render that instead.
+  const landing = getLanding(market.slug);
+  if (landing) {
+    return (
+      <LandingPage
+        page={landing}
+        eyebrow="Markets we serve"
+        breadcrumb={[
+          { label: "Home", href: "/" },
+          { label: "Markets", href: "/markets" },
+          { label: market.name, href: `/markets/${market.slug}` },
+        ]}
+      />
+    );
+  }
 
   const Icon = marketIcons[market.icon];
   const related = market.relatedSolutions

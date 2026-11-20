@@ -111,6 +111,30 @@ Not done, waiting on the client:
 4. The homepage mockup put "AS9100 Certified | ITAR Registered" beside the
    Request a Quote button; the site still shows it in the strip above the menu.
 
+## Nov 20 update — applied from Tobe's "November updates" mail and Word docs
+
+- **12 capability pages** at `/solutions/<family>/<capability>`, one per Word doc
+  (Thermoset, Thermoplastic Injection, Transfer, Compression, Silicone
+  Compression, LSR, Rubber, Dip, Rubber Compounding, Rubber-to-Metal Bonding,
+  Custom Rubber Rollers, Refurbished Rubber Rollers). Copy is the client's,
+  stored in `src/content/landing/<slug>.json` and rendered by
+  `src/components/LandingPage.tsx`; only "Sync Manufacturing" was recased to
+  "SYNC Manufacturing".
+- **Valve & Flow Control** is a seventh market (`/markets/valve-and-flow-control`),
+  rendered from its doc. Card and nav copy in `markets.ts` is drawn from it.
+- **Renames per Tobe's list:** "Compression Molding" (size moved to the spec
+  line), "Rubber-to-Metal Bonding", "Custom Rubber Rollers" (was New),
+  "Refurbished Rubber Rollers" (was Refurbish). Slugs changed to match.
+- **Blackstone:** added "Silicone molding"; 46x46 is now 48x48 everywhere except
+  the historic Verona press release.
+- **Photos on links:** capability cards on the family pages and the Solutions
+  page link to the new pages and carry a faded photo like the home cards.
+- **Open:** Thermoset, Thermoplastic, Transfer, Silicone Compression and Dip
+  docs had no photos, so those pages use the plain navy hero and their cards
+  fall back to the family photo. The Valve doc's images are captioned cards on
+  white, used as a gallery, not a hero. The home page's market intro still
+  names six markets (client-approved text).
+
 ## Things invented that need a decision before launch
 
 These are placeholders that look real and will ship as fact if nobody checks

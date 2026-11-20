@@ -33,7 +33,8 @@ export type MarketIcon =
   | "medical"
   | "utilities"
   | "oil"
-  | "industrial";
+  | "industrial"
+  | "valve";
 
 export const markets: Market[] = [
   {
@@ -139,7 +140,7 @@ export const markets: Market[] = [
       "Molded insulating and weather-sealing components for transmission, distribution and substation hardware.",
     body: [
       "Utility components sit outdoors for decades. SYNC compounds elastomers for UV, ozone and temperature-cycling resistance, then molds and tests them against the dielectric and weathering requirements your specification calls out.",
-      "Large-format compression molding at Blackstone handles the oversized parts other shops turn away, up to 46 x 46 inches, without splitting a single component across multiple tools.",
+      "Large-format compression molding at Blackstone handles the oversized parts other shops turn away, up to 48 x 48 inches, without splitting a single component across multiple tools.",
     ],
     applications: [
       "Insulating boots and covers",
@@ -152,7 +153,7 @@ export const markets: Market[] = [
     compliance: [
       "Dielectric-grade compounding",
       "UV and ozone resistance testing",
-      "Large-format tooling to 46x46",
+      "Large-format tooling to 48x48",
     ],
     relatedSolutions: ["molding", "compounding-and-bonding"],
   },
@@ -213,6 +214,43 @@ export const markets: Market[] = [
       "PPAP documentation on request",
     ],
     relatedSolutions: ["cutting", "molding", "compounding-and-bonding"],
+  },
+  {
+    // Copy from Tobe's "Valve & Flow Control Manufacturing" doc (Nov 20, 2026).
+    // The page itself renders that doc from src/content/landing; these fields
+    // feed the cards, nav and metadata.
+    slug: "valve-and-flow-control",
+    name: "Valve & Flow Control",
+    icon: "valve",
+    eyebrow: "Critical flow-control components",
+    intro:
+      "Custom rubber molding, rubber-to-metal bonding and engineered plastics for valve OEMs and flow-control equipment manufacturers.",
+    body: [
+      "SYNC supports critical components used in municipal water distribution, wastewater treatment, industrial processing, utilities, fire-protection equipment and fluid-handling systems.",
+      "From rubber-encapsulated valve wedges and bonded eccentric plugs to molded check-valve flappers, resilient seals and engineered plastic valve components, SYNC combines material knowledge, manufacturing processes and application-specific engineering support.",
+    ],
+    applications: [
+      "Eccentric plug valve components",
+      "Resilient-seated gate valve wedges",
+      "Rubber flapper check valve components",
+      "Butterfly valve components",
+      "Valve seats, seals and gaskets",
+      "Fire hydrant and specialty valve components",
+    ],
+    materials: [
+      "EPDM",
+      "Nitrile (NBR)",
+      "Neoprene (CR)",
+      "Natural rubber (NR)",
+      "Silicone",
+      "Fluoroelastomers (FKM)",
+    ],
+    compliance: [
+      "Rubber-to-metal bond verification",
+      "Water-contact material requirements where applicable",
+      "OEM-specific documentation",
+    ],
+    relatedSolutions: ["compounding-and-bonding", "molding"],
   },
 ];
 

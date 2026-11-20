@@ -1,0 +1,585 @@
+{
+ "slug": "lsr-molding",
+ "kind": "solution",
+ "family": "molding",
+ "title": "Liquid Silicone Rubber (LSR) Molding Services",
+ "subtitle": "Precision Silicone Components for Demanding Applications",
+ "tagline": "Engineered materials. Complex geometries. Consistent performance.",
+ "intro": [
+  "SYNC Manufacturing provides liquid silicone rubber (LSR) molding solutions for OEMs requiring precision, flexibility, and dependable performance in custom silicone components.",
+  "LSR injection molding is well suited for producing intricate components, tight sealing features, and repeatable part geometries. It is particularly valuable for applications requiring controlled material properties, consistent quality, and efficient production.",
+  "Combining specialized silicone manufacturing experience with engineering, tooling, and material-selection expertise, SYNC supports customers in evaluating the right silicone molding technology for their applications.",
+  "From medical equipment and aerospace assemblies to industrial seals and electrical components, our focus is on delivering dependable molded parts that meet the intended service requirements."
+ ],
+ "ctas": [
+  {
+   "label": "Request a Quote",
+   "href": "/contact#quote"
+  },
+  {
+   "label": "Explore Our Molding Capabilities",
+   "href": "/solutions/molding"
+  }
+ ],
+ "hero": {
+  "src": "/images/landing/lsr-molding/image2.jpg",
+  "alt": "Liquid silicone rubber sleeves and caps in teal, pink and lavender"
+ },
+ "gallery": [
+  {
+   "src": "/images/landing/lsr-molding/image1.jpg",
+   "alt": "Batch of liquid silicone rubber molded components",
+   "width": 975,
+   "height": 549
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What Is Liquid Silicone Rubber (LSR) Molding?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Liquid silicone rubber molding is a specialized injection molding process used to produce flexible, durable components from two-part, heat-curable silicone materials."
+    },
+    {
+     "t": "p",
+     "text": "Unlike conventional thermoplastic injection molding, LSR processing typically uses a cooled injection system and a heated mold."
+    },
+    {
+     "t": "p",
+     "text": "Two liquid silicone components are precisely metered and mixed before being injected into the mold cavity. Heat activates a curing reaction that creates a permanently cross-linked elastomer."
+    },
+    {
+     "t": "p",
+     "text": "Once curing is complete, the mold opens and the finished component is removed."
+    },
+    {
+     "t": "p",
+     "text": "The controlled injection process enables manufacturers to produce detailed geometries, thin sections, and precision silicone components with consistent material properties."
+    },
+    {
+     "t": "h3",
+     "text": "Advantages of LSR Molding"
+    },
+    {
+     "t": "h4",
+     "text": "Precision & Repeatability"
+    },
+    {
+     "t": "p",
+     "text": "Controlled material delivery, tooling, and processing support consistent production of complex molded silicone components."
+    },
+    {
+     "t": "h4",
+     "text": "Complex Geometries"
+    },
+    {
+     "t": "p",
+     "text": "LSR's flow characteristics allow it to fill detailed mold features and thin sections that may be challenging with higher-viscosity silicone materials."
+    },
+    {
+     "t": "h4",
+     "text": "High-Volume Manufacturing Potential"
+    },
+    {
+     "t": "p",
+     "text": "LSR injection molding can support efficient automated production, particularly for recurring programs with sufficient volume to justify specialized tooling."
+    },
+    {
+     "t": "h4",
+     "text": "Temperature Resistance"
+    },
+    {
+     "t": "p",
+     "text": "Silicone elastomers can maintain useful mechanical properties across a broad temperature range, depending on the selected formulation."
+    },
+    {
+     "t": "h4",
+     "text": "Environmental Durability"
+    },
+    {
+     "t": "p",
+     "text": "Silicone offers excellent resistance to weathering, ozone, ultraviolet exposure, and many aging conditions."
+    },
+    {
+     "t": "h4",
+     "text": "Material & Application Versatility"
+    },
+    {
+     "t": "p",
+     "text": "LSR is available in a variety of hardness grades and specialized formulations, including materials developed for electrical, medical, optical, and other demanding applications."
+    },
+    {
+     "t": "h4",
+     "text": "Reduced Finishing Requirements"
+    },
+    {
+     "t": "p",
+     "text": "Well-designed LSR molds and properly controlled processes can produce parts with minimal flash, reducing secondary trimming and handling."
+    }
+   ]
+  },
+  {
+   "heading": "Our Liquid Silicone Rubber Molding Solutions",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SYNC supports custom silicone molding applications requiring specialized engineering, material selection, and consistent manufacturing performance."
+    },
+    {
+     "t": "h3",
+     "text": "Precision Silicone Components"
+    },
+    {
+     "t": "p",
+     "text": "LSR injection molding can produce detailed silicone components used in sealing, protection, fluid management, and mechanical assemblies."
+    },
+    {
+     "t": "p",
+     "text": "Typical applications include:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Precision seals and gaskets",
+      "Valves and diaphragms",
+      "Grommets and protective boots",
+      "Flexible connectors",
+      "Electrical insulation components",
+      "Medical equipment components",
+      "Custom silicone assemblies"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": "Complex & Thin-Wall Components"
+    },
+    {
+     "t": "p",
+     "text": "LSR's relatively low viscosity during injection makes it suitable for filling intricate mold cavities."
+    },
+    {
+     "t": "p",
+     "text": "The process is especially valuable when components require detailed sealing features, flexible walls, small geometries, or consistent part definition."
+    },
+    {
+     "t": "p",
+     "text": "Proper tool design, gating, venting, and curing controls remain essential to achieving reliable results."
+    },
+    {
+     "t": "h3",
+     "text": "Insert Molding & Encapsulation"
+    },
+    {
+     "t": "p",
+     "text": "LSR molding can be used to encapsulate compatible inserts or create integrated assemblies combining silicone with other materials."
+    },
+    {
+     "t": "p",
+     "text": "Applications may include electrical contacts, mechanical inserts, protective encapsulation, and specialized components."
+    },
+    {
+     "t": "p",
+     "text": "Material compatibility, insert preparation, bonding requirements, and tooling design must be evaluated for each application."
+    },
+    {
+     "t": "h3",
+     "text": "Repeat Production & Automation"
+    },
+    {
+     "t": "p",
+     "text": "LSR injection molding can support automated material delivery, controlled injection cycles, and repeatable production."
+    },
+    {
+     "t": "p",
+     "text": "Depending on component design and production requirements, automation can help reduce manual handling, improve consistency, and support efficient manufacturing."
+    },
+    {
+     "t": "h3",
+     "text": "Specialized Silicone Materials"
+    },
+    {
+     "t": "p",
+     "text": "LSR formulations can be selected to meet requirements involving hardness, temperature performance, mechanical strength, tear resistance, electrical properties, color, and applicable material specifications."
+    },
+    {
+     "t": "p",
+     "text": "Our engineering teams help evaluate material options based on the intended operating environment and component requirements."
+    }
+   ]
+  },
+  {
+   "heading": "LSR Materials & Engineering Expertise",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Selecting the right silicone formulation is critical to component performance."
+    },
+    {
+     "t": "p",
+     "text": "LSR materials are commonly based on two-component, platinum-catalyzed addition-cure silicone systems. Material properties can vary substantially by grade and formulation."
+    },
+    {
+     "t": "h3",
+     "text": "Common LSR Material Options"
+    },
+    {
+     "t": "h4",
+     "text": "General-Purpose LSR"
+    },
+    {
+     "t": "p",
+     "text": "Provides a balance of flexibility, mechanical properties, and temperature performance for industrial and engineered components."
+    },
+    {
+     "t": "h4",
+     "text": "Medical-Grade LSR"
+    },
+    {
+     "t": "p",
+     "text": "Specialized formulations may be selected for medical applications requiring defined material characteristics, biological evaluation, and regulatory documentation."
+    },
+    {
+     "t": "h4",
+     "text": "High-Strength LSR"
+    },
+    {
+     "t": "p",
+     "text": "Formulations designed to improve tensile or tear performance in demanding mechanical applications."
+    },
+    {
+     "t": "h4",
+     "text": "Electrical-Grade LSR"
+    },
+    {
+     "t": "p",
+     "text": "Materials selected for dielectric performance, insulation, or other specified electrical characteristics."
+    },
+    {
+     "t": "h4",
+     "text": "Specialty LSR Formulations"
+    },
+    {
+     "t": "p",
+     "text": "Additional grades may offer properties such as low compression set, optical clarity, specific hardness, or particular environmental resistance."
+    },
+    {
+     "t": "h3",
+     "text": "Material Selection Considerations"
+    },
+    {
+     "t": "p",
+     "text": "Our engineering evaluation may include:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Operating temperature",
+      "Fluid and chemical compatibility",
+      "Hardness and flexibility",
+      "Compression set",
+      "Tensile and tear strength",
+      "Dimensional requirements",
+      "Electrical properties",
+      "Color and appearance",
+      "Product lifecycle expectations",
+      "Required documentation and material specifications"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Engineering, Tooling & Process Support",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Precision LSR molding requires careful coordination between component design, material behavior, tooling, and manufacturing conditions."
+    },
+    {
+     "t": "h3",
+     "text": "Design for Manufacturability"
+    },
+    {
+     "t": "p",
+     "text": "Our engineering approach considers wall thickness, draft requirements, parting lines, material flow, gating, venting, shrinkage, and part removal."
+    },
+    {
+     "t": "p",
+     "text": "Early design evaluation can identify opportunities to improve manufacturability, reduce unnecessary tooling complexity, and support consistent finished-part quality."
+    },
+    {
+     "t": "h3",
+     "text": "Mold Design & Tooling"
+    },
+    {
+     "t": "p",
+     "text": "LSR molds require specialized consideration of sealing surfaces, cavity tolerances, venting, temperature distribution, and material delivery."
+    },
+    {
+     "t": "p",
+     "text": "Proper tooling design helps manage flash, dimensional variation, curing consistency, and production efficiency."
+    },
+    {
+     "t": "h3",
+     "text": "Material & Process Selection"
+    },
+    {
+     "t": "p",
+     "text": "SYNC's broader silicone molding expertise allows customers to evaluate LSR injection molding alongside compression and transfer molding."
+    },
+    {
+     "t": "p",
+     "text": "The optimal manufacturing process depends on component geometry, material requirements, tooling investment, annual volume, and quality expectations."
+    },
+    {
+     "t": "h3",
+     "text": "Quality & Inspection"
+    },
+    {
+     "t": "p",
+     "text": "Manufacturing controls and inspection requirements are established around customer specifications and application needs."
+    },
+    {
+     "t": "p",
+     "text": "Depending on the program, these may include dimensional verification, material documentation, process monitoring, lot traceability, and customer-specific inspection or validation requirements."
+    }
+   ]
+  },
+  {
+   "heading": "Industries & Applications",
+   "blocks": [
+    {
+     "t": "h3",
+     "text": "Medical & Healthcare Equipment"
+    },
+    {
+     "t": "p",
+     "text": "Precision silicone seals, valves, diaphragms, protective components, and specialized parts used in medical equipment and device assemblies."
+    },
+    {
+     "t": "p",
+     "text": "Medical applications require appropriate material selection, documented specifications, and applicable manufacturing controls."
+    },
+    {
+     "t": "h3",
+     "text": "Aerospace & Defense"
+    },
+    {
+     "t": "p",
+     "text": "Custom silicone components used in environmental protection, sealing, insulation, and specialized equipment assemblies."
+    },
+    {
+     "t": "p",
+     "text": "Material performance and quality requirements are evaluated based on the individual program."
+    },
+    {
+     "t": "h3",
+     "text": "Electrical & Electronics"
+    },
+    {
+     "t": "p",
+     "text": "Electrical insulation, protective seals, connector components, flexible housings, and encapsulated assemblies."
+    },
+    {
+     "t": "h3",
+     "text": "Industrial Equipment"
+    },
+    {
+     "t": "p",
+     "text": "Precision seals, flexible components, protective parts, and specialized silicone assemblies used in manufacturing and industrial machinery."
+    },
+    {
+     "t": "h3",
+     "text": "Utilities & Infrastructure"
+    },
+    {
+     "t": "p",
+     "text": "Environmental seals, protective components, and electrically insulating silicone products used in industrial and utility equipment."
+    },
+    {
+     "t": "h3",
+     "text": "Flow Control & Fluid Handling"
+    },
+    {
+     "t": "p",
+     "text": "Valves, diaphragms, gaskets, and precision sealing components manufactured to application-specific fluid, temperature, and mechanical requirements."
+    }
+   ]
+  },
+  {
+   "heading": "LSR Injection Molding vs. Silicone Compression Molding",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Both processes manufacture silicone rubber components, but they differ significantly in material handling, tooling, and production economics."
+    },
+    {
+     "t": "h3",
+     "text": "Liquid Silicone Rubber Injection Molding"
+    },
+    {
+     "t": "p",
+     "text": "LSR injection molding uses liquid silicone materials delivered through controlled mixing and injection systems."
+    },
+    {
+     "t": "p",
+     "text": "It is often well suited for intricate geometries, smaller components, consistent repeat production, and applications that benefit from automation."
+    },
+    {
+     "t": "h3",
+     "text": "Silicone Compression Molding"
+    },
+    {
+     "t": "p",
+     "text": "Compression molding typically uses high-consistency silicone rubber placed directly into a heated mold."
+    },
+    {
+     "t": "p",
+     "text": "It can offer advantages for larger components, specialized geometries, lower production volumes, and programs where tooling flexibility is important."
+    },
+    {
+     "t": "h3",
+     "text": "Silicone Transfer Molding"
+    },
+    {
+     "t": "p",
+     "text": "Transfer molding moves uncured silicone from a separate chamber into a closed mold."
+    },
+    {
+     "t": "p",
+     "text": "The process can be particularly useful for complex geometries, encapsulated inserts, and specialized applications requiring controlled material placement."
+    },
+    {
+     "t": "h3",
+     "text": "Choosing the Right Silicone Molding Process"
+    },
+    {
+     "t": "p",
+     "text": "SYNC brings together complementary silicone molding expertise to help customers evaluate the manufacturing process best suited to their specific application."
+    },
+    {
+     "t": "p",
+     "text": "Our objective is to balance component performance, manufacturing quality, tooling requirements, production efficiency, and long-term cost."
+    }
+   ]
+  },
+  {
+   "heading": "Specialized Expertise. One Manufacturing Partner.",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SYNC Manufacturing brings together established manufacturing businesses with extensive experience in engineered elastomers, silicone processing, material development, precision tooling, and custom manufacturing."
+    },
+    {
+     "t": "p",
+     "text": "By combining complementary capabilities under one organization, we provide customers with access to broader technical resources and manufacturing solutions through a single partner."
+    },
+    {
+     "t": "p",
+     "text": "Our continued investment in specialized manufacturing processes supports customers seeking dependable production, responsive engineering, and long-term supply relationships."
+    },
+    {
+     "t": "h4",
+     "text": "Multiple processes. Specialized expertise. One trusted manufacturing partner."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does LSR stand for?",
+   "a": [
+    {
+     "t": "p",
+     "text": "LSR stands for Liquid Silicone Rubber, a two-component silicone elastomer commonly processed through specialized injection molding equipment."
+    }
+   ]
+  },
+  {
+   "q": "What is the difference between LSR and conventional silicone rubber?",
+   "a": [
+    {
+     "t": "p",
+     "text": "LSR is typically supplied as two liquid components and processed through controlled injection molding systems. High-consistency silicone rubber (HCR) is more commonly processed through compression, transfer, or specialized injection molding methods."
+    },
+    {
+     "t": "p",
+     "text": "Both materials cure into silicone elastomers but require different processing approaches."
+    }
+   ]
+  },
+  {
+   "q": "What products can be manufactured using LSR molding?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Common examples include seals, gaskets, diaphragms, valves, flexible connectors, protective components, and precision silicone assemblies."
+    }
+   ]
+  },
+  {
+   "q": "Is LSR molding suitable for high-volume production?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. LSR injection molding can be well suited for high-volume production, particularly where automated material delivery and repeatable cycles justify the investment in specialized tooling and equipment."
+    }
+   ]
+  },
+  {
+   "q": "Can LSR be used in medical applications?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Certain LSR formulations are designed for medical applications. Suitability depends on the specific material, patient-contact requirements, manufacturing controls, testing, and applicable regulatory standards."
+    }
+   ]
+  },
+  {
+   "q": "Can LSR components be manufactured in different hardness levels?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. LSR materials are available in a range of Shore A hardness grades, with specialty formulations selected according to the application."
+    }
+   ]
+  },
+  {
+   "q": "Is LSR resistant to oils and chemicals?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Chemical compatibility depends on the silicone formulation, the specific chemical or fluid, temperature, and exposure duration. General-purpose LSR is not universally resistant to fuels, oils, or aggressive chemicals."
+    }
+   ]
+  },
+  {
+   "q": "How do I determine whether LSR or compression molding is the better option?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Part geometry, material requirements, tooling investment, production volume, and dimensional tolerances all influence process selection. SYNC can review the application and evaluate the available molding options."
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "heading": "Partner With SYNC Manufacturing",
+  "subheading": "Precision Silicone Molding. Engineered for Performance.",
+  "paragraphs": [
+   "Whether you're developing a new silicone component, transferring an existing program, or evaluating alternative molding technologies, SYNC offers technical expertise and manufacturing resources to support your requirements.",
+   "Our team can help review your material specifications, component design, tooling needs, and production objectives to identify an appropriate manufacturing solution."
+  ],
+  "ctas": [
+   {
+    "label": "Request a Quote",
+    "href": "/contact#quote"
+   },
+   {
+    "label": "Contact Our Team",
+    "href": "/contact"
+   }
+  ]
+ },
+ "source": "LSR Molding.docx"
+}

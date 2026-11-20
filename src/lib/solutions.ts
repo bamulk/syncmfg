@@ -44,7 +44,7 @@ export const solutions: Solution[] = [
     icon: "molding",
     eyebrow: "Thermoset, thermoplastic, silicone",
     intro:
-      "Thermoset, thermoplastic and silicone molding under one roof, from micro LSR components to 46 x 46 inch compression tools.",
+      "Thermoset, thermoplastic and silicone molding under one roof, from micro LSR components to 48 x 48 inch compression tools.",
     body: [
       "Choosing the process is half of the engineering. A part that is wrong for transfer molding may be ideal for compression; a design that fights an injection tool may mold cleanly in silicone. SYNC runs all of them, so the recommendation you get is driven by your part rather than by the one press we happen to own.",
       "Tooling is designed and built in house wherever it shortens the development loop. That keeps first-article timelines short and keeps tool maintenance, cavity repair and engineering changes with the same team that cut the steel.",
@@ -70,10 +70,10 @@ export const solutions: Solution[] = [
       },
       {
         slug: "compression-molding",
-        name: "Compression Molding 8x8 to 46x46",
+        name: "Compression Molding",
         summary:
-          "Large-format capacity up to 46 x 46 inches for oversized seals, pads and utility components.",
-        specs: [{ label: "Platen range", value: "8x8 in. to 46x46 in." }],
+          "Large-format capacity up to 48 x 48 inches for oversized seals, pads and utility components.",
+        specs: [{ label: "Platen range", value: "8x8 in. to 48x48 in." }],
       },
       {
         slug: "silicone-compression-molding",
@@ -136,7 +136,7 @@ export const solutions: Solution[] = [
     icon: "compounding",
     eyebrow: "Materials engineered in house",
     intro:
-      "Custom rubber compounding, rubber-to-metal bonding, and new and refurbished rubber rollers.",
+      "Custom rubber compounding, rubber-to-metal bonding, and custom and refurbished rubber rollers.",
     body: [
       "SYNC mixes its own rubber. That is unusual for a molder, and it is the reason we can tune a compound to your service conditions instead of asking your application to tolerate a catalog material.",
       "The same materials capability underpins our bonding and roller work: adhesion systems are selected for the substrate and the duty cycle, and refurbished rollers come back with a documented durometer and finish rather than whatever the shop had on hand.",
@@ -150,19 +150,19 @@ export const solutions: Solution[] = [
       },
       {
         slug: "rubber-to-metal-bonding",
-        name: "Rubber to Metal Bonding",
+        name: "Rubber-to-Metal Bonding",
         summary:
           "Bonded assemblies for mounts, isolators and sealing hardware, with surface preparation and adhesion testing in process.",
       },
       {
-        slug: "new-rubber-rollers",
-        name: "New Rubber Rollers",
+        slug: "custom-rubber-rollers",
+        name: "Custom Rubber Rollers",
         summary:
           "Covered rollers built to your core, durometer, crown and finish specification.",
       },
       {
-        slug: "refurbish-rubber-rollers",
-        name: "Refurbish Rubber Rollers",
+        slug: "refurbished-rubber-rollers",
+        name: "Refurbished Rubber Rollers",
         summary:
           "Strip, recover, grind and balance existing cores to return equipment to service at a fraction of replacement cost.",
       },

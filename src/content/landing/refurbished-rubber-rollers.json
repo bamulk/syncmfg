@@ -1,0 +1,175 @@
+{
+ "slug": "refurbished-rubber-rollers",
+ "kind": "solution",
+ "family": "compounding-and-bonding",
+ "title": "Rubber Roller Refurbishment, Recovery & Precision Regrinding",
+ "subtitle": "Restore performance. Extend roller life. Reduce replacement costs.",
+ "tagline": null,
+ "intro": [
+  "Industrial rubber rollers experience wear, surface damage, hardening, and changes in their operating characteristics over time. In many cases, the underlying metal core and shaft remain serviceable even when the rubber covering requires replacement.",
+  "SYNC Manufacturing provides rubber roller refurbishment and precision regrinding services through our Carson City, Nevada manufacturing operation.",
+  "By combining rubber compounding, rubber-to-metal bonding, machining, and precision finishing, we help equipment manufacturers and industrial operators restore existing rollers to the requirements of their applications."
+ ],
+ "ctas": [],
+ "hero": {
+  "src": "/images/landing/custom-rubber-rollers/image5.jpg",
+  "alt": "Yellow rubber-covered rollers on steel shafts"
+ },
+ "gallery": [
+  {
+   "src": "/images/landing/refurbished-rubber-rollers/image1.jpg",
+   "alt": "Worn rubber roller before refurbishment and the recovered roller after",
+   "width": 500,
+   "height": 436
+  },
+  {
+   "src": "/images/landing/refurbished-rubber-rollers/image2.jpg",
+   "alt": "Before and after: a worn roller and the same roller refurbished",
+   "width": 1254,
+   "height": 1254
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Our Roller Refurbishment Capabilities",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Depending on roller condition, construction, and application requirements, our services include:"
+    },
+    {
+     "t": "terms",
+     "items": [
+      {
+       "term": "Rubber roller recovering",
+       "text": "Replacing worn or damaged elastomer coverings while retaining serviceable metal cores."
+      },
+      {
+       "term": "Precision roller regrinding",
+       "text": "Restoring roller geometry, surface condition, and dimensional characteristics."
+      },
+      {
+       "term": "Custom elastomer selection",
+       "text": "Evaluating replacement compounds based on hardness, wear, chemical exposure, temperature, and operating conditions."
+      },
+      {
+       "term": "Metal core and shaft evaluation",
+       "text": "Reviewing existing components for suitability for reuse."
+      },
+      {
+       "term": "Specialty roller profiles",
+       "text": "Supporting flat, stepped, grooved, and application-specific roller geometries."
+      },
+      {
+       "term": "Replacement roller manufacturing",
+       "text": "Producing new assemblies when refurbishment is impractical or the existing core is unsuitable."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "When Should a Rubber Roller Be Refurbished?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "A roller may be a candidate for refurbishment when it exhibits:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Surface wear, cuts, or localized damage",
+      "Hardening or deterioration of the rubber covering",
+      "Uneven wear or changes in roller profile",
+      "Loss of traction or inconsistent contact pressure",
+      "Surface irregularities affecting material handling",
+      "Dimensional changes that affect machine performance"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Not every roller can be economically refurbished. Our team evaluates the condition of the roller and the customer's application requirements before recommending an appropriate manufacturing approach."
+    }
+   ]
+  },
+  {
+   "heading": "Supporting Industrial Applications",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Our roller refurbishment capabilities may support equipment used in:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Flexible packaging and film processing",
+      "Printing, labeling, and converting",
+      "Industrial laminating and coating",
+      "Material handling and automation",
+      "Specialty manufacturing equipment",
+      "Industrial feed and drive systems"
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Why Refurbish Instead of Replace?",
+   "blocks": [
+    {
+     "t": "h4",
+     "text": "Preserve existing components"
+    },
+    {
+     "t": "p",
+     "text": "When the core and shaft remain suitable for reuse, recovering can avoid the expense of manufacturing an entirely new roller assembly."
+    },
+    {
+     "t": "h4",
+     "text": "Restore operating characteristics"
+    },
+    {
+     "t": "p",
+     "text": "Appropriate rubber materials and precision finishing can help restore the surface and dimensional characteristics required for the application."
+    },
+    {
+     "t": "h4",
+     "text": "Support equipment continuity"
+    },
+    {
+     "t": "p",
+     "text": "Refurbishment provides an additional sourcing option for specialized rollers, particularly where replacement assemblies require custom manufacturing."
+    },
+    {
+     "t": "h4",
+     "text": "Evaluate material improvements"
+    },
+    {
+     "t": "p",
+     "text": "When appropriate, refurbishment offers an opportunity to review existing elastomer specifications and evaluate alternatives suited to the equipment's operating environment."
+    }
+   ]
+  }
+ ],
+ "faq": [],
+ "closing": {
+  "heading": "Request a Roller Refurbishment Evaluation",
+  "subheading": null,
+  "paragraphs": [
+   "Have a worn, damaged, or discontinued industrial roller?",
+   "Send us your roller dimensions, photographs, available drawings, material specifications, and application requirements.",
+   "Our team can evaluate whether recovering, regrinding, or replacement manufacturing is the appropriate solution.",
+   "SYNC Manufacturing — Precision Rubber Manufacturing. All from one trusted partner."
+  ],
+  "ctas": [
+   {
+    "label": "Request a Refurbishment Quote",
+    "href": "/contact#quote"
+   },
+   {
+    "label": "Contact Our Engineering Team",
+    "href": "/contact"
+   }
+  ]
+ },
+ "source": "Refurbishing Rubber Rollers.docx"
+}

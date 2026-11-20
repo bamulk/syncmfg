@@ -1,0 +1,515 @@
+{
+ "slug": "thermoplastic-injection-molding",
+ "kind": "solution",
+ "family": "molding",
+ "title": "Thermoplastic Injection Molding Services",
+ "subtitle": "Precision Plastic Components. Engineered for Performance.",
+ "tagline": null,
+ "intro": [
+  "SYNC Manufacturing provides custom thermoplastic injection molding services for OEMs requiring precision, consistency, and dependable manufacturing performance.",
+  "With more than 55 years of plastics manufacturing experience through our legacy Southwest Plastics operation, SYNC combines established technical expertise with the resources of a growing North American manufacturing organization.",
+  "From highly engineered plastic components to complex molded assemblies, our capabilities support low-, medium-, and high-volume production across aerospace, defense, medical, industrial, and other demanding markets.",
+  "Our team works with customers throughout the manufacturing process, from material selection and design-for-manufacturability reviews to tooling, production, inspection, and secondary operations."
+ ],
+ "ctas": [
+  {
+   "label": "Request a Quote",
+   "href": "/contact#quote"
+  },
+  {
+   "label": "Explore Our Molding Capabilities",
+   "href": "/solutions/molding"
+  }
+ ],
+ "hero": null,
+ "gallery": [],
+ "sections": [
+  {
+   "heading": "What Is Thermoplastic Injection Molding?",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Thermoplastic injection molding is a manufacturing process used to produce precision plastic components by injecting heated, molten material into a mold cavity."
+    },
+    {
+     "t": "p",
+     "text": "Once the material fills the mold, it cools and solidifies into the desired shape. The mold opens, and the finished component is ejected. The process then repeats, allowing manufacturers to produce consistent parts efficiently across a wide range of production volumes."
+    },
+    {
+     "t": "p",
+     "text": "Unlike thermoset materials, which undergo a permanent chemical curing reaction, thermoplastics can generally be reheated and remelted."
+    },
+    {
+     "t": "p",
+     "text": "This makes thermoplastic injection molding a versatile manufacturing process for components requiring complex geometry, tight dimensional control, and repeatable performance."
+    },
+    {
+     "t": "h3",
+     "text": "Advantages of Thermoplastic Injection Molding"
+    },
+    {
+     "t": "terms",
+     "items": [
+      {
+       "term": "Precision & Repeatability",
+       "text": "Consistent production of complex components with controlled dimensions."
+      },
+      {
+       "term": "Design Flexibility",
+       "text": "Accommodates intricate geometries, integrated features, and molded-in details."
+      },
+      {
+       "term": "Material Versatility",
+       "text": "A broad selection of commodity and high-performance engineering plastics."
+      },
+      {
+       "term": "Production Efficiency",
+       "text": "Scalable manufacturing processes for low-, medium-, and high-volume requirements."
+      },
+      {
+       "term": "Part Consolidation",
+       "text": "Opportunities to integrate multiple features into a single molded component."
+      },
+      {
+       "term": "Cost-Effective Production",
+       "text": "Efficient production cycles and reduced secondary manufacturing requirements when properly engineered."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "The combination of material selection, tooling design, and process control makes thermoplastic injection molding an effective solution for demanding OEM applications."
+    }
+   ]
+  },
+  {
+   "heading": "Our Thermoplastic Injection Molding Capabilities",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SYNC's thermoplastic molding capabilities are supported by experienced manufacturing personnel, precision injection molding equipment, in-house tooling resources, and specialized processing knowledge."
+    },
+    {
+     "t": "h3",
+     "text": "Precision Injection Molding"
+    },
+    {
+     "t": "p",
+     "text": "We manufacture custom thermoplastic components ranging from simple industrial parts to complex geometries with demanding dimensional requirements."
+    },
+    {
+     "t": "p",
+     "text": "Our capabilities support single- and multi-cavity molds and a broad range of production volumes."
+    },
+    {
+     "t": "h3",
+     "text": "Engineered Plastic Components"
+    },
+    {
+     "t": "p",
+     "text": "SYNC processes engineered thermoplastics selected for their mechanical, thermal, electrical, chemical, and dimensional performance."
+    },
+    {
+     "t": "p",
+     "text": "These materials are used in applications where conventional commodity plastics may not provide the required performance characteristics."
+    },
+    {
+     "t": "h3",
+     "text": "Insert Molding"
+    },
+    {
+     "t": "p",
+     "text": "Insert molding allows metal or other compatible components to be incorporated directly into a molded plastic part."
+    },
+    {
+     "t": "p",
+     "text": "Common applications include threaded inserts, electrical contacts, structural reinforcement, and mechanical assemblies."
+    },
+    {
+     "t": "p",
+     "text": "By integrating multiple materials during molding, manufacturers can reduce downstream assembly requirements and create robust finished components."
+    },
+    {
+     "t": "h3",
+     "text": "Overmolding"
+    },
+    {
+     "t": "p",
+     "text": "Overmolding combines compatible materials or molded components into an integrated part."
+    },
+    {
+     "t": "p",
+     "text": "Depending on material selection and product design, this process can provide improved grip, impact protection, sealing, insulation, or product functionality."
+    },
+    {
+     "t": "p",
+     "text": "Our engineering team can evaluate overmolding opportunities based on component requirements, material compatibility, and available manufacturing processes."
+    },
+    {
+     "t": "h3",
+     "text": "Low- to High-Volume Production"
+    },
+    {
+     "t": "p",
+     "text": "SYNC supports a variety of manufacturing programs, from specialized lower-volume components to recurring production requirements."
+    },
+    {
+     "t": "p",
+     "text": "We work with customers to identify suitable tooling, material, and production strategies based on anticipated demand and long-term program needs."
+    }
+   ]
+  },
+  {
+   "heading": "Thermoplastic Materials & Engineering Expertise",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Material selection plays a critical role in determining component performance, manufacturability, and long-term reliability."
+    },
+    {
+     "t": "p",
+     "text": "SYNC works with a wide range of thermoplastic resins, including commodity materials and high-performance engineering polymers."
+    },
+    {
+     "t": "h3",
+     "text": "Common Engineering Thermoplastics"
+    },
+    {
+     "t": "h4",
+     "text": "ABS (Acrylonitrile Butadiene Styrene)"
+    },
+    {
+     "t": "p",
+     "text": "A versatile engineering thermoplastic offering impact resistance, rigidity, and good surface finish for industrial housings, covers, and structural components."
+    },
+    {
+     "t": "h4",
+     "text": "Polycarbonate (PC)"
+    },
+    {
+     "t": "p",
+     "text": "Known for its toughness, dimensional stability, and impact resistance. Commonly used in protective components, enclosures, and demanding industrial applications."
+    },
+    {
+     "t": "h4",
+     "text": "Acetal (POM / Delrin)"
+    },
+    {
+     "t": "p",
+     "text": "An engineering plastic offering low friction, wear resistance, and excellent dimensional characteristics for mechanical components, bushings, gears, and precision parts."
+    },
+    {
+     "t": "h4",
+     "text": "Nylon (Polyamide / PA)"
+    },
+    {
+     "t": "p",
+     "text": "Offers strength, toughness, and wear resistance, with grades suitable for bearings, mechanical components, and industrial equipment."
+    },
+    {
+     "t": "h4",
+     "text": "Polypropylene (PP)"
+    },
+    {
+     "t": "p",
+     "text": "A lightweight thermoplastic offering chemical resistance and cost-effective performance for a variety of molded components."
+    },
+    {
+     "t": "h3",
+     "text": "High-Performance Thermoplastics"
+    },
+    {
+     "t": "h4",
+     "text": "PEEK (Polyetheretherketone)"
+    },
+    {
+     "t": "p",
+     "text": "A high-performance polymer known for thermal stability, mechanical strength, and chemical resistance in demanding operating environments."
+    },
+    {
+     "t": "h4",
+     "text": "PEI (Polyetherimide / ULTEM)"
+    },
+    {
+     "t": "p",
+     "text": "An engineered thermoplastic offering high-temperature performance, dimensional stability, and electrical properties suitable for specialized applications."
+    },
+    {
+     "t": "h4",
+     "text": "PPS (Polyphenylene Sulfide / Ryton)"
+    },
+    {
+     "t": "p",
+     "text": "Offers excellent chemical resistance, thermal stability, and dimensional control for high-performance industrial and electrical applications."
+    },
+    {
+     "t": "h3",
+     "text": "Engineered Resin Formulations"
+    },
+    {
+     "t": "p",
+     "text": "Thermoplastic materials may be modified with specialized additives and reinforcements to achieve application-specific performance."
+    },
+    {
+     "t": "p",
+     "text": "These include:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Glass- and carbon-fiber reinforcement",
+      "Flame-retardant formulations",
+      "UV stabilizers",
+      "Conductive additives",
+      "Lubricants and wear-reducing additives",
+      "Impact modifiers",
+      "Mineral fillers"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Our team assists customers in evaluating material alternatives based on component requirements, manufacturing considerations, and cost."
+    }
+   ]
+  },
+  {
+   "heading": "Engineering & Tooling Support",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Successful injection molding begins well before the first production cycle."
+    },
+    {
+     "t": "p",
+     "text": "SYNC provides engineering and tooling support to improve manufacturability, control costs, and reduce potential issues during production."
+    },
+    {
+     "t": "h3",
+     "text": "Design for Manufacturability (DFM)"
+    },
+    {
+     "t": "p",
+     "text": "Our team evaluates part geometry, material behavior, dimensional requirements, and manufacturing considerations to help customers develop components suited for consistent injection molding."
+    },
+    {
+     "t": "p",
+     "text": "Typical considerations include wall thickness, draft angles, ribs, bosses, gating, shrinkage, and mold ejection."
+    },
+    {
+     "t": "h3",
+     "text": "Tool Design & Mold Manufacturing"
+    },
+    {
+     "t": "p",
+     "text": "Our Glendora operation maintains in-house mold-making capabilities, supporting:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Tool design and development",
+      "Prototype and production tooling",
+      "Tool modifications and engineering changes",
+      "Preventive maintenance and mold repairs",
+      "Single- and multi-cavity mold configurations"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "In-house tooling resources help maintain close coordination between engineering, toolmaking, and production personnel."
+    },
+    {
+     "t": "h3",
+     "text": "CAD Modeling & Prototype Support"
+    },
+    {
+     "t": "p",
+     "text": "Engineering resources support CAD modeling, design evaluation, prototype development, and product refinements before production tooling is finalized."
+    },
+    {
+     "t": "h3",
+     "text": "Secondary Operations & Assembly"
+    },
+    {
+     "t": "p",
+     "text": "SYNC provides value-added services to help customers receive finished components ready for integration into their assemblies."
+    },
+    {
+     "t": "p",
+     "text": "Capabilities include CNC machining, drilling, tapping, grinding, ultrasonic welding, part identification, assembly, inspection, and packaging."
+    }
+   ]
+  },
+  {
+   "heading": "Industries & Applications",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "SYNC manufactures thermoplastic components for OEMs operating across a broad range of industrial and technically demanding markets."
+    },
+    {
+     "t": "h3",
+     "text": "Aerospace & Defense"
+    },
+    {
+     "t": "p",
+     "text": "Precision molded components, electrical housings, mechanical parts, structural inserts, and engineered plastic components designed for demanding operating environments."
+    },
+    {
+     "t": "h3",
+     "text": "Medical & Healthcare"
+    },
+    {
+     "t": "p",
+     "text": "Custom molded plastic components, instrument housings, equipment parts, and specialized components manufactured to applicable customer quality and material requirements."
+    },
+    {
+     "t": "h3",
+     "text": "Industrial Equipment"
+    },
+    {
+     "t": "p",
+     "text": "Gears, bushings, wear components, housings, machine parts, and mechanical assemblies used in industrial equipment and manufacturing systems."
+    },
+    {
+     "t": "h3",
+     "text": "Utilities & Electrical"
+    },
+    {
+     "t": "p",
+     "text": "Insulating components, electrical connectors, protective housings, and precision-molded parts used in electrical equipment and industrial infrastructure."
+    },
+    {
+     "t": "h3",
+     "text": "Flow Control & Fluid Handling"
+    },
+    {
+     "t": "p",
+     "text": "Custom plastic components used in valves, pumps, flow-control assemblies, and fluid-handling equipment."
+    },
+    {
+     "t": "h3",
+     "text": "Automotive & Transportation"
+    },
+    {
+     "t": "p",
+     "text": "Engineered plastic components supporting mechanical assemblies, electrical systems, and specialized transportation applications."
+    }
+   ]
+  },
+  {
+   "heading": "Quality & Manufacturing Consistency",
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Precision injection molding requires more than capable equipment. It demands disciplined process control, experienced manufacturing personnel, and reliable inspection systems."
+    },
+    {
+     "t": "p",
+     "text": "SYNC Glendora operates with an established quality management system and a history of supporting demanding OEM and aerospace manufacturing programs."
+    },
+    {
+     "t": "p",
+     "text": "Our quality and manufacturing resources include:"
+    },
+    {
+     "t": "list",
+     "items": [
+      "AS9100-certified quality management at Glendora",
+      "Coordinate measuring equipment and dimensional inspection",
+      "Optical and vision measurement systems",
+      "Material and process documentation",
+      "First-article inspection support",
+      "Production process monitoring",
+      "Customer-specific quality requirements"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Our goal is to deliver components that meet the intended application requirements while supporting consistent, repeatable manufacturing."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between thermoplastic and thermoset molding?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Thermoplastic injection molding uses materials that soften when heated and solidify when cooled. Thermoset molding uses materials that permanently cure through a chemical reaction."
+    },
+    {
+     "t": "p",
+     "text": "Both processes offer advantages depending on operating temperatures, mechanical requirements, chemical exposure, and part design."
+    }
+   ]
+  },
+  {
+   "q": "What materials can SYNC injection mold?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Our experience includes ABS, polycarbonate, acetal, nylon, polypropylene, PEEK, PEI, PPS, and other engineering thermoplastics."
+    },
+    {
+     "t": "p",
+     "text": "Material selection depends on the application and specific manufacturing requirements."
+    }
+   ]
+  },
+  {
+   "q": "Does SYNC support low-volume production?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Our injection molding operations support low-, medium-, and high-volume programs. Tooling and production strategies are evaluated based on anticipated demand and component requirements."
+    }
+   ]
+  },
+  {
+   "q": "Can SYNC manufacture plastic components with metal inserts?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Insert molding allows metal components and other compatible inserts to be integrated into molded plastic parts."
+    }
+   ]
+  },
+  {
+   "q": "Does SYNC design and manufacture injection molds?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. SYNC Glendora provides tooling design, mold-making, maintenance, repair, and modification services, with additional external tooling resources available when appropriate."
+    }
+   ]
+  },
+  {
+   "q": "Can SYNC help select the right plastic material?",
+   "a": [
+    {
+     "t": "p",
+     "text": "Yes. Our engineering team can review application conditions, dimensional requirements, mechanical loads, chemical exposure, operating temperatures, and cost objectives to help identify suitable material options."
+    }
+   ]
+  }
+ ],
+ "closing": {
+  "heading": "Let's Build Your Next Component",
+  "subheading": "Precision molding. Engineered materials. Specialized manufacturing expertise.",
+  "paragraphs": [
+   "Whether you're developing a new product, transferring an existing program, or looking for a dependable U.S. manufacturing partner, SYNC has the experience and technical resources to support your thermoplastic injection molding requirements."
+  ],
+  "ctas": [
+   {
+    "label": "Request a Quote",
+    "href": "/contact#quote"
+   },
+   {
+    "label": "Contact Our Team",
+    "href": "/contact"
+   }
+  ]
+ },
+ "source": "Thermoplastic Injection Molding.docx"
+}
