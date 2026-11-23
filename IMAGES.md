@@ -16,7 +16,7 @@ Every slot has an image.
 | `locations` (full-width banner) | Sept 26 deck, slide 11 | 2127×739 |
 | `home` | regenerated 2026-10-11 from the Oct 9 homepage mockup with OpenAI `gpt-image-2` image edit, SYNC logo on cap and shirt | 1536×1024 |
 | `careers` | 2026-10-11: SYNC logo added to both shirts with an image edit (client request) | 1536×1024 |
-| `markets-valve-and-flow-control` | butterfly valve photo from the client's Valve & Flow Control document (November 2026) | 837×732 |
+| `markets-valve-and-flow-control`, `capabilities-thermoplastic-injection-molding`, `capabilities-dip-molding` | generated 2026-11-23 with OpenAI `gpt-image-2`, high quality, shared style block below (no people). Header photos for the client documents that came without one | 1536×1024 |
 | `about`, `quality`, `contact`, the other six `markets-*`, all four `solutions-*` | generated 2026-10-02 with OpenAI `gpt-image-2`, high quality, using the prompts below | 1536×1024 |
 
 The homepage hero rotates through `home`, `about` and `solutions-molding`
@@ -25,7 +25,8 @@ also reused, faded, behind the homepage cards.
 
 Photos on the capability landing pages come from the client's Word documents
 and live in `public/images/landing/<page>/`; the import script writes them
-(README, "Client landing pages").
+(README, "Client landing pages"). A document with no photo falls back to a
+`capabilities-<slug>` (or `markets-<slug>`) slot here.
 
 Image URLs carry a `?v=<hash>` of the file, so replacing a photo under the same
 name shows up immediately.
@@ -72,6 +73,9 @@ ChatGPT-generated). Paste the shared style block, then the slot's subject.
 | `solutions-cutting` | Die-cut black and red rubber gaskets with clean punched holes laid out on a steel cutting table, die-cutting press softly blurred behind. |
 | `solutions-compounding-and-bonding` | A sheet of black rubber compound coming off a two-roll mill; in the foreground, rubber-to-metal bonded mounts with machined steel plates. |
 | `solutions-additional` | A blue-light 3D scanner on a tripod capturing a worn black rubber part, with a monitor in the background showing the part as a blue CAD model. |
+| `capabilities-thermoplastic-injection-molding` | An injection molding machine with polished steel mold halves open; a freshly ejected shot of white and blue engineering-plastic housings and clips on the runner. |
+| `capabilities-dip-molding` | A latex dip line: aluminum mandrels rising out of a tank of off-white latex, cured amber latex boots and sleeves on a rack behind. No gloves or medical products. |
+| `markets-valve-and-flow-control` | A blue cast-iron butterfly valve with its black rubber seat in focus, beside a cutaway rubber-encapsulated gate valve wedge, on a steel bench; flanged pipe behind. |
 | `quality` | An inspector in safety glasses measuring a black molded rubber part with digital calipers at an inspection bench; gauges and parts trays nearby. |
 | `careers` | Two machine operators in safety glasses and navy work shirts reviewing a molded part together beside a press; candid, mid-conversation. |
 | `contact` | An engineer at a workbench reviewing a printed technical drawing, with molded rubber and plastic parts laid out beside it. |

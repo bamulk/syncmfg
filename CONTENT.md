@@ -128,8 +128,9 @@ Choices made that the client may want to revisit:
 1. The roller documents place roller work at Carson City, so Carson City now
    lists custom and refurbished rollers. Blackstone still lists rollers too
    (an earlier guess, see item 3 below).
-2. Thermoplastic Injection Molding and Dip Molding came with no photos; their
-   pages use the plain navy hero.
+2. Thermoplastic Injection Molding, Dip Molding and Valve & Flow Control came
+   with no header photo; theirs are AI-generated (IMAGES.md) and can be
+   swapped for real plant photos.
 3. Several documents reuse the same photos, so some heroes repeat
    (thermoset, silicone, transfer and refurbished rollers).
 4. The homepage and Markets copy still name six markets; the cards show seven

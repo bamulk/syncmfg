@@ -6,6 +6,7 @@ import type {
   LandingContent,
   LandingLink,
 } from "@/lib/landing";
+import type { HeroImage } from "@/lib/heroes";
 import { faqSchema } from "@/lib/seo";
 import { ArrowIcon, CheckIcon, ChevronIcon } from "./Icons";
 import JsonLd from "./JsonLd";
@@ -24,6 +25,7 @@ export default function LandingPage({
   breadcrumb,
   quoteHref,
   related,
+  fallbackHero,
 }: {
   content: LandingContent;
   eyebrow: string;
@@ -32,6 +34,8 @@ export default function LandingPage({
   quoteHref: string;
   /** Sidebar list of neighbouring pages, e.g. the rest of the family */
   related?: { heading: string; items: { label: string; href: string; current?: boolean }[] };
+  /** Header photo for a document that came without one (src/lib/heroes.ts) */
+  fallbackHero?: HeroImage;
 }) {
   const resolve = (l: LandingLink) => ({
     label: l.label,
@@ -51,7 +55,7 @@ export default function LandingPage({
         eyebrow={eyebrow}
         title={c.title}
         intro={c.subtitle ?? undefined}
-        image={c.hero ? { ...c.hero, position: "70% 50%" } : undefined}
+        image={c.hero ? { ...c.hero, position: "70% 50%" } : fallbackHero}
         breadcrumb={breadcrumb}
       />
 

@@ -63,6 +63,7 @@ export default async function MarketPage({ params }: Params) {
           { label: market.name, href: `/markets/${market.slug}` },
         ]}
         quoteHref={quoteHref({ market: market.name })}
+        fallbackHero={getHero(`markets-${market.slug}`)}
         related={{
           heading: "Markets we serve",
           items: markets.map((m) => ({

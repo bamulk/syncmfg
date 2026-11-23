@@ -62,9 +62,8 @@ const SLOTS = {
   "markets-utilities": { alt: "Polymer insulator on a transmission tower at dusk" },
   "markets-oil-and-gas": { alt: "Wellhead valves at an oil and gas site" },
   "markets-industrial": { alt: "Heavy industrial equipment with rubber rollers" },
-  // From the client's Valve & Flow Control document (November 2026)
   "markets-valve-and-flow-control": {
-    alt: "Molded rubber butterfly valve seats and components",
+    alt: "Industrial valve with molded rubber seats and seals",
   },
   "solutions-molding": {
     alt: "Compression molding press with an open mold",
@@ -73,6 +72,14 @@ const SLOTS = {
   "solutions-cutting": { alt: "Die-cut rubber gaskets on a cutting table" },
   "solutions-compounding-and-bonding": { alt: "Rubber compound being milled on a two-roll mill" },
   "solutions-additional": { alt: "3D scanner capturing a legacy rubber part" },
+  // Capability landing pages whose client document came without a photo.
+  // Pages with a document photo use that instead (src/content/landing).
+  "capabilities-thermoplastic-injection-molding": {
+    alt: "Injection molding machine with the mold open and molded plastic parts",
+  },
+  "capabilities-dip-molding": {
+    alt: "Latex-dipped forms rising from a dip tank on a dip molding line",
+  },
 } as const satisfies Record<string, { alt: string; position?: string }>;
 
 export type HeroSlot = keyof typeof SLOTS;

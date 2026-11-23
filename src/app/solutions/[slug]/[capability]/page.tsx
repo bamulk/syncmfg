@@ -6,6 +6,7 @@ import {
   getCapabilityPage,
   quoteHref,
 } from "@/lib/capabilities";
+import { getHero } from "@/lib/heroes";
 import { getLanding } from "@/lib/landing";
 import { pageMetadata, serviceSchema } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
@@ -61,6 +62,7 @@ export default async function CapabilityPage({ params }: Params) {
           { label: cap.name, href: path },
         ]}
         quoteHref={quoteHref({ process: cap.name })}
+        fallbackHero={getHero(`capabilities-${cap.slug}`)}
         related={{
           heading: solution.name,
           items: solution.capabilities.map((c) => ({
