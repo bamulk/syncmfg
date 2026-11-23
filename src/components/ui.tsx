@@ -378,3 +378,22 @@ export function Prose({ paragraphs }: { paragraphs: readonly string[] }) {
     </div>
   );
 }
+
+/** Faded photo behind a card's text, fading out toward the copy. */
+export function CardPhoto({ src, position }: { src: string; position?: string }) {
+  return (
+    <div
+      aria-hidden="true"
+      className="pointer-events-none absolute inset-y-0 right-0 w-[62%] opacity-[0.22] transition-opacity duration-300 [mask-image:linear-gradient(to_right,transparent_0%,#000_70%)] group-hover:opacity-[0.34]"
+    >
+      <Image
+        src={src}
+        alt=""
+        fill
+        sizes="(min-width: 640px) 380px, 62vw"
+        className="object-cover"
+        style={{ objectPosition: position ?? "center" }}
+      />
+    </div>
+  );
+}

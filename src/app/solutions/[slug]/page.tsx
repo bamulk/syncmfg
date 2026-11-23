@@ -5,9 +5,14 @@ import { getSolution, solutions } from "@/lib/solutions";
 import { markets } from "@/lib/markets";
 import { getHero } from "@/lib/heroes";
 import { pageMetadata } from "@/lib/seo";
-import { capabilityHref, capabilitySummary } from "@/lib/capabilities";
+import {
+  capabilityHref,
+  capabilityPhoto,
+  capabilitySummary,
+} from "@/lib/capabilities";
 import { ArrowIcon, CheckIcon, solutionIcons } from "@/components/Icons";
 import {
+  CardPhoto,
   Container,
   CtaBand,
   Eyebrow,
@@ -81,13 +86,20 @@ export default async function SolutionPage({ params }: Params) {
                 <ul className="mt-8 space-y-4">
                   {solution.capabilities.map((c) => {
                     const href = capabilityHref(solution, c);
+                    // Faded photo behind the card: the capability's own page
+                    // photo when it has one, else the family photo.
+                    const photo =
+                      capabilityPhoto(c) ?? getHero(`solutions-${solution.slug}`);
                     return (
                     <li
                       key={c.slug}
                       id={c.slug}
-                      className="relative rounded-lg border border-line p-6 scroll-mt-28 transition-colors has-[a:hover]:border-blue/40"
+                      className="group relative overflow-hidden rounded-lg border border-line bg-white p-6 scroll-mt-28 transition-colors has-[a:hover]:border-blue/40"
                     >
-                      <div className="flex items-start gap-3">
+                      {photo && (
+                        <CardPhoto src={photo.src} position={photo.position} />
+                      )}
+                      <div className="relative flex items-start gap-3">
                         <CheckIcon className="mt-1 h-5 w-5 shrink-0 text-blue" />
                         <div className="flex-1">
                           <h4 className="text-lg font-bold text-navy">
@@ -103,7 +115,7 @@ export default async function SolutionPage({ params }: Params) {
                               c.name
                             )}
                           </h4>
-                          <p className="mt-2 text-[15px] leading-relaxed text-muted">
+                          <p className="mt-2 max-w-lg text-[15px] leading-relaxed text-muted">
                             {capabilitySummary(c)}
                           </p>
                           {c.detail && (

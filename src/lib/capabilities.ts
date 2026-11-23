@@ -1,9 +1,17 @@
+import { getHero } from "./heroes";
 import { getLanding } from "./landing";
 import { solutions, type Capability, type Solution } from "./solutions";
 
 /** Link to a capability's own page, or undefined if it has none yet. */
 export function capabilityHref(s: Solution, c: Capability) {
   return c.page ? `/solutions/${s.slug}/${c.slug}` : undefined;
+}
+
+/** Photo for a capability card: its page's header photo, document's first. */
+export function capabilityPhoto(c: Capability) {
+  if (!c.page) return undefined;
+  const hero = getLanding(c.page)?.hero;
+  return hero ? { src: hero.src, position: "70% 50%" } : getHero(`capabilities-${c.slug}`);
 }
 
 /** Card text: the client's own summary when the capability has a page. */
