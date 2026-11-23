@@ -5,7 +5,9 @@ The Vercel project has no Git connection, and the deploy token is scoped too
 narrowly for the `vercel` CLI, so this uploads the files tracked by git through
 Vercel's REST API instead.
 
-Usage:  python3 scripts/deploy.py
+Usage:  python3 scripts/deploy.py            production (syncmfg.com)
+        python3 scripts/deploy.py --preview  preview URL only; someone with
+                                             production rights can promote it
 Needs:  VERCEL_TOKEN=... in .env.local (gitignored), and a clean working tree.
 """
 import concurrent.futures as cf
@@ -17,6 +19,8 @@ import sys
 import time
 import urllib.error
 import urllib.request
+
+PREVIEW = "--preview" in sys.argv[1:]
 
 REPO = pathlib.Path(__file__).resolve().parent.parent
 TEAM = "team_Dz4Q6zfzv21fNZ29JLWnearq"
@@ -96,7 +100,7 @@ s, r = call(
     {
         "name": "syncmfg",
         "project": PROJECT,
-        "target": "production",
+        **({} if PREVIEW else {"target": "production"}),
         "files": [{k: f[k] for k in ("file", "sha", "size")} for f in files],
         "meta": {"githubCommitSha": sha, "deployedFrom": "scripts/deploy.py"},
     },
