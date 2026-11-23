@@ -87,6 +87,19 @@ export function IndustrialIcon({ className }: Props) {
   );
 }
 
+export function ValveIcon({ className }: Props) {
+  return (
+    <Svg className={className}>
+      <path d="M2.5 12.5v6M21.5 12.5v6" />
+      <path d="M2.5 15.5h3.5M18 15.5h3.5" />
+      <path d="M6 12.5h12v6H6z" />
+      <path d="M12 12.5V6.5" />
+      <path d="M8 4.5h8" />
+      <path d="M12 4.5v2" />
+    </Svg>
+  );
+}
+
 /* ---------- Solutions ---------- */
 
 export function MoldingIcon({ className }: Props) {
@@ -239,6 +252,7 @@ export const marketIcons = {
   utilities: UtilitiesIcon,
   oil: OilIcon,
   industrial: IndustrialIcon,
+  valve: ValveIcon,
 };
 
 export const solutionIcons = {

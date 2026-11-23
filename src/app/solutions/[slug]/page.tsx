@@ -5,6 +5,7 @@ import { getSolution, solutions } from "@/lib/solutions";
 import { markets } from "@/lib/markets";
 import { getHero } from "@/lib/heroes";
 import { pageMetadata } from "@/lib/seo";
+import { capabilityHref, capabilitySummary } from "@/lib/capabilities";
 import { ArrowIcon, CheckIcon, solutionIcons } from "@/components/Icons";
 import {
   Container,
@@ -78,20 +79,32 @@ export default async function SolutionPage({ params }: Params) {
                   {solution.capabilities.length} processes in this family
                 </h3>
                 <ul className="mt-8 space-y-4">
-                  {solution.capabilities.map((c) => (
+                  {solution.capabilities.map((c) => {
+                    const href = capabilityHref(solution, c);
+                    return (
                     <li
                       key={c.slug}
                       id={c.slug}
-                      className="rounded-lg border border-line p-6 scroll-mt-28"
+                      className="relative rounded-lg border border-line p-6 scroll-mt-28 transition-colors has-[a:hover]:border-blue/40"
                     >
                       <div className="flex items-start gap-3">
                         <CheckIcon className="mt-1 h-5 w-5 shrink-0 text-blue" />
                         <div className="flex-1">
                           <h4 className="text-lg font-bold text-navy">
-                            {c.name}
+                            {href ? (
+                              // The whole card is the link target
+                              <Link
+                                href={href}
+                                className="after:absolute after:inset-0 hover:text-blue"
+                              >
+                                {c.name}
+                              </Link>
+                            ) : (
+                              c.name
+                            )}
                           </h4>
                           <p className="mt-2 text-[15px] leading-relaxed text-muted">
-                            {c.summary}
+                            {capabilitySummary(c)}
                           </p>
                           {c.detail && (
                             <p className="mt-2 text-[15px] leading-relaxed text-muted">
@@ -112,10 +125,17 @@ export default async function SolutionPage({ params }: Params) {
                               ))}
                             </dl>
                           )}
+                          {href && (
+                            <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue">
+                              {c.name}
+                              <ArrowIcon />
+                            </span>
+                          )}
                         </div>
                       </div>
                     </li>
-                  ))}
+                    );
+                  })}
                 </ul>
               </div>
             </div>
@@ -126,13 +146,13 @@ export default async function SolutionPage({ params }: Params) {
                 className="rounded-lg border border-line p-6"
               >
                 <h3 className="text-sm font-semibold uppercase tracking-[0.16em] text-navy">
-                  On this page
+                  Capabilities
                 </h3>
                 <ul className="mt-4 space-y-2">
                   {solution.capabilities.map((c) => (
                     <li key={c.slug}>
                       <a
-                        href={`#${c.slug}`}
+                        href={capabilityHref(solution, c) ?? `#${c.slug}`}
                         className="text-[15px] leading-snug text-muted hover:text-blue"
                       >
                         {c.name}

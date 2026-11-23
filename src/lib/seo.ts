@@ -132,6 +132,34 @@ export function breadcrumbSchema(crumbs: { label: string; href: string }[]) {
   };
 }
 
+export function faqSchema(items: { q: string; a: string[] }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((i) => ({
+      "@type": "Question",
+      name: i.q,
+      acceptedAnswer: { "@type": "Answer", text: i.a.join(" ") },
+    })),
+  };
+}
+
+export function serviceSchema(s: {
+  name: string;
+  description: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: s.name,
+    description: s.description,
+    url: abs(s.path),
+    areaServed: "US",
+    provider: { "@id": `${site.url}/#organization` },
+  };
+}
+
 export function articleSchema(a: {
   title: string;
   summary: string;

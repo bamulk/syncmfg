@@ -18,8 +18,9 @@ npm install && npm run dev
 src/
   app/
     page.tsx                    home
-    markets/                    index + [slug] (6 markets)
-    solutions/                  index + [slug] (4 families, 15 capabilities)
+    markets/                    index + [slug] (7 markets)
+    solutions/                  index + [slug] (4 families) + [slug]/[capability]
+                                (one page per capability that has a client document)
     about/                      overview, langdale, history, quality, press/[slug]
     locations/  careers/  contact/  privacy/
     api/contact/route.ts        RFQ handler
@@ -28,16 +29,40 @@ src/
     Header.tsx  Footer.tsx      shell
     ui.tsx                      Container, PageHero, Card, CtaBand, CheckList…
     Icons.tsx                   inline SVG set
-    QuoteForm.tsx               RFQ form (client)
+    QuoteForm.tsx               RFQ form (client); reads ?process= / ?market=
+    LandingPage.tsx             renders a client landing page document
+  content/landing/*.json        generated from the client's Word documents
   lib/
     site.ts                     company facts, nav, locations, timeline
     markets.ts  solutions.ts  press.ts
+    landing.ts  capabilities.ts landing page content + capability page helpers
+scripts/
+  deploy.py                     production deploy (see Deploying)
+  import-landing-pages.py       Word documents → src/content/landing
 ```
 
 **All copy lives in `src/lib/`.** Pages read from those files, so updating a
 market or press release is a data edit, not a layout edit. Adding a market to
 `markets.ts` generates its page, nav entry, footer link and sitemap row
 automatically.
+
+### Client landing pages (Word documents)
+
+Since November 2026 the client writes full landing pages as Word documents,
+one per capability (plus Valve & Flow Control under Markets). They are
+converted, word for word, by:
+
+```
+python3 -I scripts/import-landing-pages.py "<folder with the .docx files>"
+```
+
+The script maps each document to a page (`PAGES` at the top), extracts the
+photos into `public/images/landing/<page>/`, and refuses to write anything if
+a single paragraph of the document would be lost or changed. Heading sizes in
+the document decide the structure (title, sections, sub-sections), bold lines
+become card titles and buttons. To change a page, edit the document and re-run
+the script; don't edit the JSON by hand. A capability gets its page by setting
+`page:` in `solutions.ts`; a market by setting `page:` in `markets.ts`.
 
 ## Brand tokens
 

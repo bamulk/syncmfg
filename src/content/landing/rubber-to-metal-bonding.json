@@ -1,0 +1,679 @@
+{
+  "source": "Rubber to Metal Bonding.docx",
+  "title": "Rubber-to-Metal Bonding Services",
+  "subtitle": "Engineered Rubber & Metal Assemblies for Demanding Applications",
+  "tagline": "Precision molding. Specialized materials. Reliable adhesion.",
+  "intro": [
+    "SYNC Manufacturing provides custom rubber-to-metal bonding services for OEMs requiring durable, high-performance components that combine the structural strength of metal with the flexibility, resilience, and sealing properties of engineered elastomers.",
+    "Our capabilities include vulcanization bonding, compression molding, transfer molding, adhesive bonding, mechanical encapsulation, custom rubber compounding, and metal insert manufacturing.",
+    "Drawing upon decades of specialized manufacturing experience, SYNC produces bonded components for aerospace, defense, utilities, flow control, oil and gas, and industrial equipment applications.",
+    "From vibration isolators and industrial mounts to bonded valve assemblies, rubber-covered rollers, and custom seals, our engineering teams work with customers to identify the appropriate materials, bonding methods, and manufacturing processes."
+  ],
+  "cta": [
+    {
+      "label": "Request a Quote",
+      "href": "quote"
+    },
+    {
+      "label": "Explore Our Bonding Capabilities",
+      "href": "/solutions/compounding-and-bonding"
+    }
+  ],
+  "summary": "SYNC Manufacturing provides custom rubber-to-metal bonding services for OEMs requiring durable, high-performance components that combine the structural strength of metal with the flexibility, resilience, and sealing properties of engineered elastomers.",
+  "sections": [
+    {
+      "id": "what-is-rubber-to-metal-bonding",
+      "heading": "What Is Rubber-to-Metal Bonding?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rubber-to-metal bonding is a manufacturing process that joins rubber or another compatible elastomer to a metal substrate to create an integrated component."
+        },
+        {
+          "type": "p",
+          "text": "The metal provides structural strength, rigidity, and mechanical attachment, while the elastomer contributes flexibility, vibration damping, impact absorption, or sealing performance."
+        },
+        {
+          "type": "p",
+          "text": "In a typical vulcanization bonding process, metal inserts are cleaned, prepared, and treated with a bonding system before uncured rubber is molded against the substrate."
+        },
+        {
+          "type": "p",
+          "text": "During molding, heat and pressure cure the elastomer while the bonding system develops adhesion between the rubber and metal."
+        },
+        {
+          "type": "p",
+          "text": "The resulting assembly combines the functional advantages of both materials into a single engineered component."
+        },
+        {
+          "type": "p",
+          "text": "Depending on part design and application requirements, other approaches may include post-cure adhesive bonding or mechanical encapsulation."
+        },
+        {
+          "type": "sub",
+          "heading": "Advantages of Rubber-to-Metal Bonding",
+          "blocks": [
+            {
+              "type": "cards",
+              "items": [
+                {
+                  "title": "Integrated Component Design",
+                  "body": [
+                    "Combining rubber and metal into one assembly can reduce separate components, simplify installation, and eliminate certain secondary assembly steps."
+                  ]
+                },
+                {
+                  "title": "Vibration & Shock Absorption",
+                  "body": [
+                    "Engineered elastomers can reduce vibration transmission, absorb mechanical energy, and protect sensitive industrial equipment."
+                  ]
+                },
+                {
+                  "title": "Sealing Performance",
+                  "body": [
+                    "Bonded rubber surfaces can provide durable sealing interfaces while retaining the structural support of the metal component."
+                  ]
+                },
+                {
+                  "title": "Mechanical Strength & Flexibility",
+                  "body": [
+                    "The combination of metal and rubber allows components to accommodate mechanical loads, deformation, and repeated movement."
+                  ]
+                },
+                {
+                  "title": "Material Customization",
+                  "body": [
+                    "Rubber compounds and bonding systems can be selected to meet application-specific mechanical, thermal, and environmental requirements."
+                  ]
+                },
+                {
+                  "title": "Long-Term Reliability",
+                  "body": [
+                    "Controlled surface preparation, material selection, bonding chemistry, and molding conditions help support consistent adhesion and component durability."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-rubber-to-metal-bonding-capabilities",
+      "heading": "Our Rubber-to-Metal Bonding Capabilities",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC offers several bonding and molding processes to accommodate different materials, part geometries, production volumes, and performance requirements."
+        },
+        {
+          "type": "sub",
+          "heading": "Vulcanization Bonding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Vulcanization bonding chemically joins uncured rubber to a prepared metal substrate during the molding process."
+            },
+            {
+              "type": "p",
+              "text": "An appropriate bonding system is applied to the metal insert before the rubber is molded and cured."
+            },
+            {
+              "type": "p",
+              "text": "The bonding system, elastomer compound, and processing conditions are selected to develop adhesion that meets the intended service requirements."
+            },
+            {
+              "type": "p",
+              "text": "This method is commonly used for components requiring strong adhesion under mechanical loading, vibration, or repeated deformation."
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Compression Molded Bonded Assemblies",
+              "body": [
+                "Compression molding uses heat and pressure to form rubber around prepared metal inserts.",
+                "This process can be particularly effective for larger components, substantial cross sections, industrial mounts, valve parts, and specialized bonded assemblies."
+              ]
+            },
+            {
+              "title": "Transfer Molded Bonded Components",
+              "body": [
+                "Transfer molding moves uncured elastomer into a closed mold containing prepared metal inserts.",
+                "The process can offer advantages for complex geometries, intricate details, multiple inserts, and components requiring controlled material placement."
+              ]
+            },
+            {
+              "title": "Adhesive Bonding",
+              "body": [
+                "Certain applications are better suited to joining previously cured elastomer components to metal using specialized adhesive systems.",
+                "The selected adhesive must be compatible with the rubber compound, metal substrate, operating conditions, and required bond performance."
+              ]
+            },
+            {
+              "title": "Mechanical Encapsulation",
+              "body": [
+                "Mechanical encapsulation uses component geometry to retain rubber around or within a metal insert.",
+                "This method may involve grooves, undercuts, or other interlocking features and can be used independently or alongside chemical adhesion, depending on design requirements."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Metal Insert Manufacturing & Preparation",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "SYNC's manufacturing resources support metal insert machining, preparation, and production."
+            },
+            {
+              "type": "p",
+              "text": "Common substrates include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Carbon steel"
+                },
+                {
+                  "text": "Stainless steel"
+                },
+                {
+                  "text": "Aluminum"
+                },
+                {
+                  "text": "Brass"
+                },
+                {
+                  "text": "Other compatible metal alloys"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Customer-supplied metal inserts can also be evaluated for use in bonded assemblies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rubber-materials-and-custom-compounding",
+      "heading": "Rubber Materials & Custom Compounding",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The performance of a rubber-to-metal bonded component begins with selecting the correct elastomer compound."
+        },
+        {
+          "type": "p",
+          "text": "SYNC's in-house rubber compounding expertise supports specialized formulations for demanding mechanical and environmental applications."
+        },
+        {
+          "type": "sub",
+          "heading": "Common Elastomer Materials",
+          "blocks": [
+            {
+              "type": "cards",
+              "items": [
+                {
+                  "title": "Natural Rubber (NR)",
+                  "body": [
+                    "Excellent resilience, elasticity, and dynamic performance for vibration isolation and mechanical components."
+                  ]
+                },
+                {
+                  "title": "EPDM",
+                  "body": [
+                    "Resistance to ozone, weathering, water, and many outdoor environmental conditions."
+                  ]
+                },
+                {
+                  "title": "Nitrile Rubber (NBR)",
+                  "body": [
+                    "Suitable for applications requiring compatibility with selected petroleum-based oils, fuels, and lubricants."
+                  ]
+                },
+                {
+                  "title": "Neoprene (CR)",
+                  "body": [
+                    "Balanced mechanical properties with useful resistance to weathering and selected industrial environments."
+                  ]
+                },
+                {
+                  "title": "Silicone Rubber (VMQ)",
+                  "body": [
+                    "Flexibility over a broad temperature range, environmental aging resistance, and selected electrical properties."
+                  ]
+                },
+                {
+                  "title": "Styrene-Butadiene Rubber (SBR)",
+                  "body": [
+                    "A versatile compound for general industrial components requiring mechanical durability and abrasion resistance."
+                  ]
+                },
+                {
+                  "title": "Fluoroelastomers (FKM)",
+                  "body": [
+                    "Used in demanding applications involving elevated temperatures and selected aggressive chemicals or fluids."
+                  ]
+                },
+                {
+                  "title": "Specialty Elastomers",
+                  "body": [
+                    "Additional formulations, including HNBR, butyl rubber, urethane elastomers, and other engineered compounds, may be considered depending on application and bonding requirements."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Custom Compound Development",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Our materials expertise supports the evaluation of:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Durometer and hardness"
+                },
+                {
+                  "text": "Tensile strength and elongation"
+                },
+                {
+                  "text": "Compression set resistance"
+                },
+                {
+                  "text": "Tear and abrasion resistance"
+                },
+                {
+                  "text": "Dynamic fatigue performance"
+                },
+                {
+                  "text": "Temperature resistance"
+                },
+                {
+                  "text": "Chemical compatibility"
+                },
+                {
+                  "text": "Environmental aging"
+                },
+                {
+                  "text": "Electrical properties"
+                },
+                {
+                  "text": "Bond adhesion requirements"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Combining rubber compounding with precision molding and bonding expertise allows SYNC to evaluate the performance of the complete component rather than treating the rubber and metal as separate parts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-rubber-to-metal-bonding-process",
+      "heading": "Our Rubber-to-Metal Bonding Process",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Successful rubber-to-metal bonding requires careful coordination throughout the manufacturing process."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "1. Engineering & Material Selection",
+              "body": [
+                "Our engineering teams review component geometry, mechanical loads, service conditions, metal substrates, and elastomer requirements.",
+                "These considerations help determine the appropriate rubber formulation, bonding method, and molding process."
+              ]
+            },
+            {
+              "title": "2. Metal Surface Preparation",
+              "body": [
+                "The metal substrate is prepared to promote reliable adhesion.",
+                "Depending on the material and bonding system, surface preparation may include cleaning, degreasing, abrasive treatment, and other controlled processes."
+              ]
+            },
+            {
+              "title": "3. Bonding System Application",
+              "body": [
+                "Specialized primers, adhesives, or other bonding systems are applied to prepared metal surfaces as appropriate.",
+                "Application methods and process parameters are selected for the particular substrate and elastomer combination."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "4. Molding & Vulcanization",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Prepared metal components are placed into the tooling."
+            },
+            {
+              "type": "p",
+              "text": "Uncured rubber is molded around or against the inserts using the selected compression or transfer molding process."
+            },
+            {
+              "type": "p",
+              "text": "Heat and pressure cure the rubber and develop adhesion between the elastomer and metal substrate."
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "5. Finishing & Inspection",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Finished components undergo appropriate trimming, finishing, and inspection."
+            },
+            {
+              "type": "p",
+              "text": "Depending on customer requirements, quality verification may include visual inspection, dimensional measurements, material-property testing, and adhesion evaluation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "custom-rubber-to-metal-bonded-products",
+      "heading": "Custom Rubber-to-Metal Bonded Products",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC manufactures specialized components for OEMs requiring integrated elastomer and metal assemblies."
+        },
+        {
+          "type": "sub",
+          "heading": "Valve & Flow-Control Components",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Custom bonded rubber products used in industrial valves, pumps, municipal water infrastructure, and fluid-handling equipment."
+            },
+            {
+              "type": "p",
+              "text": "Applications include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Bonded valve plugs"
+                },
+                {
+                  "text": "Check valve components"
+                },
+                {
+                  "text": "Rubber-lined valve assemblies"
+                },
+                {
+                  "text": "Valve seats and sealing components"
+                },
+                {
+                  "text": "Custom industrial flow-control parts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Industrial Mounts & Vibration Isolators",
+              "body": [
+                "Bonded elastomer components designed to reduce vibration transmission, absorb shock, and isolate mechanical loads.",
+                "Products include equipment mounts, motor mounts, vibration isolators, and specialized mechanical assemblies."
+              ]
+            },
+            {
+              "title": "Rubber Rollers & Bonded Shafts",
+              "body": [
+                "Custom rubber-covered rollers combine a metal core or shaft with an engineered elastomer covering.",
+                "Material selection and finishing requirements may be tailored to traction, wear resistance, surface finish, hardness, or other operating characteristics."
+              ]
+            },
+            {
+              "title": "Bonded Bushings & Mechanical Components",
+              "body": [
+                "Engineered bushings, isolators, and metal-reinforced rubber components used to accommodate movement while providing structural support."
+              ]
+            },
+            {
+              "title": "Custom Sealing Assemblies",
+              "body": [
+                "Integrated elastomer and metal components designed for sealing, mounting, environmental protection, and mechanical applications."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-tooling-and-quality-support",
+      "heading": "Engineering, Tooling & Quality Support",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rubber-to-metal bonding involves multiple interacting manufacturing variables. Consistent performance requires technical knowledge of the complete assembly."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Design for Manufacturability",
+              "body": [
+                "SYNC evaluates component geometry, bond areas, metal insert design, rubber thickness, material behavior, tooling, and production requirements."
+              ]
+            },
+            {
+              "title": "Tooling & Precision Machining",
+              "body": [
+                "Our manufacturing resources support mold development, tooling modifications, metal inserts, and related machining operations."
+              ]
+            },
+            {
+              "title": "Material Testing & Bond Verification",
+              "body": [
+                "Material and adhesion requirements are established based on customer specifications and intended service conditions.",
+                "Applicable inspection and testing procedures may include dimensional checks, material-property verification, and bond-strength testing."
+              ]
+            },
+            {
+              "title": "Production Program Support",
+              "body": [
+                "SYNC supports new product development, existing tooling transfers, engineering changes, and ongoing manufacturing requirements.",
+                "Our broader capabilities allow customers to consolidate rubber compounding, molding, bonding, tooling, and related manufacturing services with one partner."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industries-we-serve",
+      "heading": "Industries We Serve",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Aerospace & Defense",
+              "body": [
+                "Engineered elastomer assemblies, vibration-control components, industrial mounts, specialized seals, and protective parts."
+              ]
+            },
+            {
+              "title": "Utilities & Water Infrastructure",
+              "body": [
+                "Bonded valve assemblies, sealing components, and engineered rubber products used in water and utility equipment."
+              ]
+            },
+            {
+              "title": "Oil & Gas",
+              "body": [
+                "Specialized elastomer-to-metal components developed for application-specific temperature, pressure, fluid, and mechanical requirements."
+              ]
+            },
+            {
+              "title": "Industrial Equipment",
+              "body": [
+                "Mounts, bushings, vibration isolators, rubber rollers, and bonded assemblies used in manufacturing machinery."
+              ]
+            },
+            {
+              "title": "Flow Control & Fluid Handling",
+              "body": [
+                "Precision bonded components used in pumps, valves, and fluid-management systems."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-choose-sync-manufacturing",
+      "heading": "Why Choose SYNC Manufacturing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rubber-to-metal bonding is more than an adhesive process."
+        },
+        {
+          "type": "p",
+          "text": "It requires understanding the relationship between metal surface preparation, elastomer formulation, bonding chemistry, component design, tooling, and molding conditions."
+        },
+        {
+          "type": "p",
+          "text": "SYNC brings these specialized capabilities together within a coordinated manufacturing organization."
+        },
+        {
+          "type": "p",
+          "text": "Our engineering, compounding, machining, molding, and quality resources allow us to evaluate complete assemblies and develop practical manufacturing solutions around customer requirements."
+        },
+        {
+          "type": "p",
+          "text": "With decades of established manufacturing experience and continued investment in specialized processes, SYNC is focused on delivering reliable components and long-term manufacturing partnerships."
+        },
+        {
+          "type": "tagline",
+          "text": "Specialized processes. Engineered materials. One trusted manufacturing partner."
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "id": "faq",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is rubber-to-metal bonding?",
+        "a": [
+          "Rubber-to-metal bonding joins elastomer materials to metal substrates to create integrated components combining the properties of both materials."
+        ]
+      },
+      {
+        "q": "How is rubber bonded to metal?",
+        "a": [
+          "Common methods include chemical bonding during vulcanization, adhesive bonding of previously cured rubber, and mechanical encapsulation."
+        ]
+      },
+      {
+        "q": "What metals can be bonded to rubber?",
+        "a": [
+          "Common substrates include steel, stainless steel, aluminum, and brass. Other metals may be evaluated depending on the bonding system and application."
+        ]
+      },
+      {
+        "q": "Which rubber materials can be bonded to metal?",
+        "a": [
+          "Natural rubber, nitrile, EPDM, neoprene, silicone, SBR, and specialized elastomers can be used in appropriate bonding applications."
+        ]
+      },
+      {
+        "q": "Can rubber-to-metal bonding withstand heavy mechanical loads?",
+        "a": [
+          "Properly engineered bonded components can be designed for demanding mechanical applications. Performance depends on rubber formulation, bond design, substrate preparation, service conditions, and manufacturing controls."
+        ]
+      },
+      {
+        "q": "Can SYNC use customer-supplied metal inserts?",
+        "a": [
+          "Yes. SYNC can evaluate customer-supplied metal inserts based on material, dimensional, surface preparation, and manufacturing requirements."
+        ]
+      },
+      {
+        "q": "Does SYNC offer custom rubber compounding?",
+        "a": [
+          "Yes. SYNC has in-house rubber compounding expertise to support specialized mechanical, chemical, thermal, and environmental requirements."
+        ]
+      },
+      {
+        "q": "Can SYNC support existing tooling and production transfers?",
+        "a": [
+          "Yes. Our manufacturing teams can review existing tooling, drawings, material specifications, and production requirements to determine an appropriate transfer strategy."
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Partner With SYNC Manufacturing",
+    "title": "Engineered Bonding. Precision Manufacturing. Reliable Performance.",
+    "body": [
+      "Whether you're developing a new bonded component, improving an existing design, or transferring an established manufacturing program, SYNC provides the expertise and manufacturing resources to support your requirements.",
+      "From rubber compounding and metal preparation to precision molding, bonding, and inspection, our team works to deliver dependable components engineered for demanding applications."
+    ],
+    "cta": [
+      {
+        "label": "Request a Quote",
+        "href": "quote"
+      },
+      {
+        "label": "Contact Our Team",
+        "href": "/contact"
+      }
+    ],
+    "footnote": []
+  },
+  "hero": {
+    "src": "/images/landing/rubber-to-metal-bonding/hero.jpg",
+    "alt": "Rubber-to-metal bonded components with brass and steel inserts"
+  },
+  "gallery": [
+    {
+      "src": "/images/landing/rubber-to-metal-bonding/gallery-1.jpg",
+      "alt": "Rows of bonded rubber-to-metal mounts",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "src": "/images/landing/rubber-to-metal-bonding/gallery-2.jpg",
+      "alt": "Bonded rubber-and-metal roller hub",
+      "width": 1200,
+      "height": 899
+    },
+    {
+      "src": "/images/landing/rubber-to-metal-bonding/gallery-3.jpg",
+      "alt": "Black bonded rubber hub assembly",
+      "width": 1200,
+      "height": 899
+    }
+  ]
+}

@@ -62,6 +62,10 @@ const SLOTS = {
   "markets-utilities": { alt: "Polymer insulator on a transmission tower at dusk" },
   "markets-oil-and-gas": { alt: "Wellhead valves at an oil and gas site" },
   "markets-industrial": { alt: "Heavy industrial equipment with rubber rollers" },
+  // From the client's Valve & Flow Control document (November 2026)
+  "markets-valve-and-flow-control": {
+    alt: "Molded rubber butterfly valve seats and components",
+  },
   "solutions-molding": {
     alt: "Compression molding press with an open mold",
     position: "70% 60%",

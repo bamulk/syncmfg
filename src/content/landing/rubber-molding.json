@@ -1,0 +1,650 @@
+{
+  "source": "Rubber Molding.docx",
+  "title": "Custom Rubber Molding Services",
+  "subtitle": "Engineered Rubber Components for Demanding Applications",
+  "tagline": "Precision molding. Custom compounds. Proven manufacturing expertise.",
+  "intro": [
+    "SYNC Manufacturing provides custom rubber molding services for OEMs requiring high-performance elastomer components engineered for demanding operating environments.",
+    "Our capabilities include compression molding, transfer molding, specialized rubber injection molding, rubber-to-metal bonding, custom compounding, and value-added manufacturing services.",
+    "With decades of experience across our combined manufacturing organization, SYNC brings together material science, engineering expertise, precision tooling, and flexible production capabilities to manufacture custom rubber components for aerospace, defense, medical, industrial, utility, oil and gas, and flow-control applications.",
+    "From complex bonded assemblies to high-volume molded parts, our team works with customers to identify the appropriate material, molding process, and manufacturing solution."
+  ],
+  "cta": [
+    {
+      "label": "Request a Quote",
+      "href": "quote"
+    },
+    {
+      "label": "Explore Our Molding Capabilities",
+      "href": "/solutions/molding"
+    }
+  ],
+  "summary": "SYNC Manufacturing provides custom rubber molding services for OEMs requiring high-performance elastomer components engineered for demanding operating environments.",
+  "sections": [
+    {
+      "id": "what-is-rubber-molding",
+      "heading": "What Is Rubber Molding?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rubber molding is a manufacturing process used to produce custom components from natural or synthetic elastomer materials."
+        },
+        {
+          "type": "p",
+          "text": "During the molding process, uncured rubber is formed within a precision mold using heat and pressure. For most conventional thermoset rubber compounds, a chemical curing process known as vulcanization creates cross-links within the material, producing an elastic component with its intended mechanical and physical properties."
+        },
+        {
+          "type": "p",
+          "text": "The finished rubber component can be engineered to provide sealing, flexibility, vibration isolation, chemical resistance, abrasion resistance, and other characteristics required for its application."
+        },
+        {
+          "type": "p",
+          "text": "Rubber molding is commonly used to manufacture components that must maintain reliable performance under mechanical loads, repeated movement, environmental exposure, or demanding operating conditions."
+        },
+        {
+          "type": "sub",
+          "heading": "Advantages of Custom Rubber Molding",
+          "blocks": [
+            {
+              "type": "cards",
+              "items": [
+                {
+                  "title": "Engineered Material Performance",
+                  "body": [
+                    "Rubber compounds can be selected or formulated to meet specific mechanical, chemical, thermal, and environmental requirements."
+                  ]
+                },
+                {
+                  "title": "Design Flexibility",
+                  "body": [
+                    "Molding processes accommodate a broad range of part geometries, sizes, and functional features."
+                  ]
+                },
+                {
+                  "title": "Sealing & Fluid Control",
+                  "body": [
+                    "Elastomers provide flexibility and deformation characteristics useful for seals, gaskets, diaphragms, and valve components."
+                  ]
+                },
+                {
+                  "title": "Vibration & Impact Resistance",
+                  "body": [
+                    "Rubber materials can absorb mechanical energy, reduce vibration transmission, and protect industrial equipment."
+                  ]
+                },
+                {
+                  "title": "Rubber-to-Metal Bonding",
+                  "body": [
+                    "Elastomers can be bonded to metal and other compatible substrates to produce integrated components and assemblies."
+                  ],
+                  "href": "/solutions/compounding-and-bonding/rubber-to-metal-bonding"
+                },
+                {
+                  "title": "Manufacturing Versatility",
+                  "body": [
+                    "Multiple molding processes allow production strategies to be tailored to part complexity, material properties, and anticipated volume."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-rubber-molding-capabilities",
+      "heading": "Our Rubber Molding Capabilities",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC offers complementary rubber molding processes to support a wide range of applications, materials, and production requirements."
+        },
+        {
+          "type": "sub",
+          "heading": "Rubber Compression Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Compression molding is one of the most widely used processes for manufacturing custom rubber components."
+            },
+            {
+              "type": "p",
+              "text": "A measured amount of uncured rubber is placed directly into a heated mold cavity. Pressure is applied as the mold closes, allowing the material to flow and cure into the intended geometry."
+            },
+            {
+              "type": "p",
+              "text": "Compression molding is particularly useful for larger components, thick-section parts, relatively straightforward geometries, and applications where tooling economics are important."
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "label": "Learn More About Compression Molding",
+                  "href": "/solutions/molding/compression-molding"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Rubber Transfer Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Transfer molding introduces uncured rubber into a heated chamber, where pressure forces it into a closed mold cavity."
+            },
+            {
+              "type": "p",
+              "text": "This process can provide advantages for components with intricate features, metal inserts, and specialized bonding requirements."
+            },
+            {
+              "type": "p",
+              "text": "Typical applications include rubber-to-metal assemblies, seals, bushings, electrical components, and precision industrial parts."
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "label": "Explore Transfer Molding",
+                  "href": "/solutions/molding/transfer-molding"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Rubber Injection Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rubber injection molding uses specialized equipment to introduce prepared elastomer material into a heated mold, where it cures into the finished component."
+            },
+            {
+              "type": "p",
+              "text": "Depending on material and tooling requirements, the process can offer advantages in repeatability, material control, and production efficiency."
+            },
+            {
+              "type": "p",
+              "text": "Injection molding may be particularly effective for recurring production programs involving complex molded components."
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Silicone Rubber Molding",
+              "body": [
+                "SYNC offers silicone rubber molding expertise for applications requiring flexibility, thermal stability, environmental resistance, and specialized mechanical or electrical properties.",
+                "Silicone components can be manufactured using compression, transfer, and appropriately selected injection molding processes."
+              ],
+              "links": [
+                {
+                  "label": "Explore Silicone Molding",
+                  "href": "/solutions/molding/silicone-compression-molding"
+                }
+              ]
+            },
+            {
+              "title": "Large-Format Rubber Molding",
+              "body": [
+                "Our manufacturing capabilities support oversized rubber components and specialized industrial applications that require substantial molding capacity.",
+                "Large-format molding can be particularly valuable for flow-control equipment, industrial machinery, vibration-control components, and heavy-duty rubber assemblies."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Rubber-to-Metal Bonding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "SYNC manufactures bonded components combining engineered elastomers with metal substrates."
+            },
+            {
+              "type": "p",
+              "text": "These assemblies can provide sealing, mechanical support, vibration isolation, wear resistance, and integrated product functionality."
+            },
+            {
+              "type": "p",
+              "text": "Common applications include motor mounts, valve components, bonded bushings, rollers, and vibration-dampening assemblies."
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "label": "Explore Rubber-to-Metal Bonding",
+                  "href": "/solutions/compounding-and-bonding/rubber-to-metal-bonding"
+                }
+              ]
+            }
+          ],
+          "href": "/solutions/compounding-and-bonding/rubber-to-metal-bonding"
+        }
+      ]
+    },
+    {
+      "id": "rubber-materials-and-custom-compounding",
+      "heading": "Rubber Materials & Custom Compounding",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Selecting the correct rubber compound is essential to achieving the required performance, durability, and service life."
+        },
+        {
+          "type": "p",
+          "text": "SYNC works with a broad range of natural and synthetic elastomer materials, supported by in-house compounding expertise and material development resources."
+        },
+        {
+          "type": "sub",
+          "heading": "Common Rubber Materials",
+          "blocks": [
+            {
+              "type": "cards",
+              "items": [
+                {
+                  "title": "Natural Rubber (NR)",
+                  "body": [
+                    "Provides excellent elasticity, resilience, and abrasion resistance for industrial components, vibration-control applications, and mechanical products."
+                  ]
+                },
+                {
+                  "title": "Nitrile Rubber (NBR)",
+                  "body": [
+                    "Commonly selected for resistance to petroleum-based oils, fuels, and lubricants in compatible service environments."
+                  ]
+                },
+                {
+                  "title": "EPDM",
+                  "body": [
+                    "Offers strong resistance to ozone, weathering, water, and many outdoor environmental conditions."
+                  ]
+                },
+                {
+                  "title": "Silicone Rubber (VMQ)",
+                  "body": [
+                    "Provides flexibility across a broad temperature range, with excellent environmental aging characteristics and useful electrical properties."
+                  ]
+                },
+                {
+                  "title": "Neoprene (CR)",
+                  "body": [
+                    "Offers balanced mechanical performance and resistance to weathering and selected industrial fluids."
+                  ]
+                },
+                {
+                  "title": "Styrene-Butadiene Rubber (SBR)",
+                  "body": [
+                    "A versatile elastomer used in applications requiring good abrasion resistance and general mechanical performance."
+                  ]
+                },
+                {
+                  "title": "Fluoroelastomers (FKM)",
+                  "body": [
+                    "Specialized materials selected for elevated-temperature applications and resistance to certain oils, fuels, and aggressive chemicals."
+                  ]
+                },
+                {
+                  "title": "Hydrogenated Nitrile Rubber (HNBR)",
+                  "body": [
+                    "Offers enhanced heat, oil, and mechanical performance compared with many conventional nitrile formulations."
+                  ]
+                },
+                {
+                  "title": "Butyl Rubber (IIR)",
+                  "body": [
+                    "Known for low gas permeability and resistance to weathering and selected chemical environments."
+                  ]
+                },
+                {
+                  "title": "Specialty Elastomers",
+                  "body": [
+                    "Additional materials, including fluorosilicone, polyurethane elastomers, and other engineered compounds, may be evaluated for application-specific requirements."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Custom Rubber Compounding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "SYNC's in-house rubber compounding expertise allows us to go beyond standard commercial material formulations."
+            },
+            {
+              "type": "p",
+              "text": "Our technical resources support compound selection, formulation development, and material testing based on the intended application."
+            },
+            {
+              "type": "p",
+              "text": "Performance characteristics can include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Shore hardness and durometer"
+                },
+                {
+                  "text": "Tensile strength and elongation"
+                },
+                {
+                  "text": "Tear and abrasion resistance"
+                },
+                {
+                  "text": "Compression set"
+                },
+                {
+                  "text": "Chemical and fluid resistance"
+                },
+                {
+                  "text": "Temperature performance"
+                },
+                {
+                  "text": "Electrical conductivity or insulation"
+                },
+                {
+                  "text": "Weathering and environmental resistance"
+                },
+                {
+                  "text": "Color and appearance"
+                },
+                {
+                  "text": "Customer-specific material specifications"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "By integrating material knowledge with molding expertise, SYNC helps customers balance component performance, manufacturing efficiency, and long-term cost."
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "label": "Explore Custom Rubber Compounding",
+                  "href": "/solutions/compounding-and-bonding/rubber-compounding"
+                }
+              ]
+            }
+          ],
+          "href": "/solutions/compounding-and-bonding/rubber-compounding"
+        }
+      ]
+    },
+    {
+      "id": "custom-molded-rubber-products",
+      "heading": "Custom Molded Rubber Products",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC manufactures a broad range of engineered rubber components and assemblies for industrial and OEM applications."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Seals, Gaskets & O-Rings",
+              "body": [
+                "Custom sealing components developed for environmental protection, fluid management, pressure retention, and mechanical assemblies."
+              ]
+            },
+            {
+              "title": "Valve & Flow-Control Components",
+              "body": [
+                "Engineered rubber components for industrial valves, pumps, water infrastructure, and fluid-handling equipment.",
+                "Applications include valve seats, rubber linings, diaphragms, bonded valve components, and specialized sealing assemblies."
+              ]
+            },
+            {
+              "title": "Vibration Isolators & Mounts",
+              "body": [
+                "Rubber components designed to reduce vibration transmission, absorb impact, and protect machinery from mechanical loads."
+              ]
+            },
+            {
+              "title": "Rubber Rollers & Roller Assemblies",
+              "body": [
+                "Precision molded and bonded rubber rollers used in manufacturing, material handling, printing, industrial processing, and other specialized equipment."
+              ]
+            },
+            {
+              "title": "Bushings, Bumpers & Protective Components",
+              "body": [
+                "Custom rubber parts providing mechanical isolation, wear protection, impact resistance, and functional support."
+              ]
+            },
+            {
+              "title": "Bellows, Boots & Flexible Components",
+              "body": [
+                "Flexible protective components designed to accommodate movement, protect mechanical assemblies, and reduce exposure to contaminants."
+              ]
+            },
+            {
+              "title": "Bonded Rubber Assemblies",
+              "body": [
+                "Integrated components combining rubber with metal, fabric, and other compatible substrates."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-tooling-and-manufacturing-support",
+      "heading": "Engineering, Tooling & Manufacturing Support",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Successful rubber molding begins with the correct combination of material, design, tooling, and processing."
+        },
+        {
+          "type": "p",
+          "text": "SYNC provides technical and manufacturing support throughout the product lifecycle."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Design for Manufacturability",
+              "body": [
+                "Our engineering teams evaluate component geometry, material selection, shrinkage, parting lines, flash, tolerances, cure requirements, insert placement, and tooling considerations."
+              ]
+            },
+            {
+              "title": "Precision Tooling & Mold Development",
+              "body": [
+                "Our resources support mold design, tooling development, maintenance, repairs, and engineering modifications."
+              ]
+            },
+            {
+              "title": "Material Development & Testing",
+              "body": [
+                "Rubber formulation expertise and material testing help customers establish appropriate physical properties and manufacturing specifications."
+              ]
+            },
+            {
+              "title": "Value-Added Manufacturing",
+              "body": [
+                "Depending on the component, services may include trimming, die cutting, machining, finishing, roller refurbishment, bonding, inspection, and assembly."
+              ]
+            },
+            {
+              "title": "Quality & Production Control",
+              "body": [
+                "Our quality processes support dimensional verification, material-property requirements, lot traceability, inspection, and customer-specific documentation.",
+                "Applicable certifications and quality procedures are determined by the manufacturing program and production facility."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industries-we-serve",
+      "heading": "Industries We Serve",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Aerospace & Defense",
+              "body": [
+                "Custom seals, vibration isolators, protective components, bonded rubber assemblies, and specialized parts engineered for demanding environments."
+              ]
+            },
+            {
+              "title": "Flow Control & Water Infrastructure",
+              "body": [
+                "Valve seats, bonded valve components, diaphragms, rubber linings, seals, and wear-resistant components for pumps, valves, and fluid-handling equipment."
+              ]
+            },
+            {
+              "title": "Industrial Equipment",
+              "body": [
+                "Rubber rollers, bushings, bumpers, mounts, vibration isolators, protective covers, and custom machine components."
+              ]
+            },
+            {
+              "title": "Utilities & Electrical Equipment",
+              "body": [
+                "Insulating components, environmental seals, protective covers, flexible assemblies, and engineered rubber parts for utility equipment."
+              ]
+            },
+            {
+              "title": "Oil & Gas",
+              "body": [
+                "Specialized elastomer components designed around operating temperatures, chemical compatibility, pressure, and mechanical performance."
+              ]
+            },
+            {
+              "title": "Medical & Healthcare Equipment",
+              "body": [
+                "Custom molded silicone and other engineered elastomer components manufactured to applicable material, dimensional, quality, and program requirements."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-than-a-rubber-molding-supplier",
+      "heading": "More Than a Rubber Molding Supplier",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC Manufacturing combines established rubber manufacturing expertise with complementary plastics, tooling, machining, bonding, compounding, and specialty manufacturing capabilities."
+        },
+        {
+          "type": "p",
+          "text": "Our customers benefit from a manufacturing partner that understands the relationship between material properties, component design, production processes, and long-term product performance."
+        },
+        {
+          "type": "p",
+          "text": "Rather than approaching every requirement with a single manufacturing method, our teams evaluate available processes to identify the most practical solution."
+        },
+        {
+          "type": "p",
+          "text": "As SYNC continues investing in technical expertise, manufacturing infrastructure, and operational capabilities, our focus remains on helping customers simplify sourcing, improve manufacturing reliability, and support long-term production requirements."
+        },
+        {
+          "type": "tagline",
+          "text": "Specialized manufacturing expertise. One trusted partner."
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "id": "faq",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is custom rubber molding?",
+        "a": [
+          "Custom rubber molding is a manufacturing process that forms natural or synthetic elastomers into components designed for specific applications. Typical products include seals, gaskets, bushings, mounts, valve components, and bonded assemblies."
+        ]
+      },
+      {
+        "q": "What rubber molding processes does SYNC offer?",
+        "a": [
+          "SYNC's rubber molding capabilities include compression molding, transfer molding, and specialized rubber injection molding, along with silicone processing and rubber-to-metal bonding.",
+          "The preferred process depends on component design, material requirements, tooling, and expected production volume."
+        ]
+      },
+      {
+        "q": "What rubber materials can SYNC mold?",
+        "a": [
+          "Common materials include EPDM, nitrile, silicone, neoprene, natural rubber, SBR, FKM, HNBR, butyl rubber, and specialty elastomers."
+        ]
+      },
+      {
+        "q": "Can SYNC develop custom rubber compounds?",
+        "a": [
+          "Yes. SYNC has in-house rubber compounding expertise and material development resources to support applications requiring specialized physical, mechanical, or environmental properties."
+        ]
+      },
+      {
+        "q": "Can rubber be molded directly onto metal?",
+        "a": [
+          "Yes. Rubber-to-metal bonding can integrate rubber with prepared metal substrates to produce functional assemblies such as mounts, valve components, bushings, and industrial rollers."
+        ]
+      },
+      {
+        "q": "Does SYNC manufacture large rubber parts?",
+        "a": [
+          "Yes. Our manufacturing resources support large-format compression molding for specialized industrial rubber components. Maximum dimensions depend on tooling, material, and equipment requirements."
+        ]
+      },
+      {
+        "q": "Can SYNC help with an existing rubber part or tooling transfer?",
+        "a": [
+          "Yes. Our teams can evaluate existing drawings, tooling, material specifications, and production requirements to determine an appropriate manufacturing approach."
+        ]
+      },
+      {
+        "q": "What information is needed for a rubber molding quote?",
+        "a": [
+          "A drawing or 3D model, material specifications, estimated annual volume, application requirements, and any existing tooling information are helpful.",
+          "Our engineering team can assist if the material or molding process has not yet been determined."
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Partner With SYNC Manufacturing",
+    "title": "Engineered Rubber. Precision Manufacturing. Proven Expertise.",
+    "body": [
+      "Whether you're developing a new component, transferring an existing program, or seeking a reliable domestic rubber molding partner, SYNC provides the technical resources and manufacturing capabilities to support your requirements.",
+      "From material development and tooling through molding, finishing, and inspection, our team focuses on delivering engineered components that meet your specifications."
+    ],
+    "cta": [
+      {
+        "label": "Request a Quote",
+        "href": "quote"
+      },
+      {
+        "label": "Contact Our Team",
+        "href": "/contact"
+      }
+    ],
+    "footnote": []
+  },
+  "hero": {
+    "src": "/images/landing/rubber-molding/hero.jpg",
+    "alt": "Molded rubber gaskets, seals and diaphragms"
+  },
+  "gallery": [
+    {
+      "src": "/images/landing/rubber-molding/gallery-1.jpg",
+      "alt": "Custom molded rubber and plastic parts in several colors",
+      "width": 1200,
+      "height": 676
+    }
+  ]
+}

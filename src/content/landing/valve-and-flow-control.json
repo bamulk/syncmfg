@@ -1,0 +1,849 @@
+{
+  "source": "Valve & Flow Control Manufacturing.docx",
+  "title": "Valve & Flow Control Manufacturing",
+  "subtitle": "Engineered Rubber, Plastic & Bonded Components for Critical Flow-Control Applications",
+  "tagline": "Specialized materials. Precision molding. Reliable performance.",
+  "intro": [
+    "SYNC Manufacturing provides custom rubber molding, rubber-to-metal bonding, engineered plastics, and precision manufacturing solutions for valve OEMs and industrial flow-control equipment manufacturers.",
+    "Our manufacturing expertise supports critical components used in municipal water distribution, wastewater treatment, industrial processing, utilities, fire-protection equipment, and fluid-handling systems.",
+    "From rubber-encapsulated valve wedges and bonded eccentric plugs to molded check-valve flappers, resilient seals, and engineered plastic valve components, SYNC combines material knowledge, manufacturing processes, and application-specific engineering support.",
+    "With capabilities in compression molding, transfer molding, rubber compounding, rubber-to-metal bonding, thermoset molding, and thermoplastic injection molding, we help customers develop and manufacture components engineered for their operating environments.",
+    "Whether you're developing a new valve component, evaluating an alternative manufacturing process, or qualifying an additional domestic supplier, our team can help assess your requirements."
+  ],
+  "cta": [
+    {
+      "label": "Request a Technical Review",
+      "href": "quote"
+    },
+    {
+      "label": "Explore Our Manufacturing Capabilities",
+      "href": "/solutions"
+    }
+  ],
+  "summary": "SYNC Manufacturing provides custom rubber molding, rubber-to-metal bonding, engineered plastics, and precision manufacturing solutions for valve OEMs and industrial flow-control equipment manufacturers.",
+  "sections": [
+    {
+      "id": "manufacturing-solutions-for-the-valve-industry",
+      "heading": "Manufacturing Solutions for the Valve Industry",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Valve components operate in environments where sealing performance, material compatibility, mechanical integrity, and manufacturing consistency are critical."
+        },
+        {
+          "type": "p",
+          "text": "A molded component may be exposed to repeated pressure cycles, water-treatment chemicals, abrasive materials, changing temperatures, mechanical loads, and extended service intervals."
+        },
+        {
+          "type": "p",
+          "text": "Successful manufacturing requires more than producing a component to dimensional specifications."
+        },
+        {
+          "type": "p",
+          "text": "It requires understanding how the material, molded geometry, bonding interface, and manufacturing process contribute to the performance of the finished valve."
+        },
+        {
+          "type": "p",
+          "text": "SYNC's experience in engineered elastomers, rubber-to-metal bonding, and precision plastics manufacturing allows us to support valve OEMs with a broad range of component manufacturing requirements."
+        },
+        {
+          "type": "sub",
+          "heading": "Our Core Valve Manufacturing Capabilities",
+          "blocks": [
+            {
+              "type": "cards",
+              "items": [
+                {
+                  "title": "Rubber-to-Metal Bonding",
+                  "body": [
+                    "Custom bonded components combining structural metal inserts with engineered elastomer sealing surfaces."
+                  ],
+                  "href": "/solutions/compounding-and-bonding/rubber-to-metal-bonding"
+                },
+                {
+                  "title": "Compression Molding",
+                  "body": [
+                    "Custom rubber and thermoset components, including larger geometries, thick sections, and specialized bonded assemblies."
+                  ],
+                  "href": "/solutions/molding/compression-molding"
+                },
+                {
+                  "title": "Transfer Molding",
+                  "body": [
+                    "Precision elastomer and thermoset components requiring controlled material flow, molded inserts, and complex geometry."
+                  ],
+                  "href": "/solutions/molding/transfer-molding"
+                },
+                {
+                  "title": "Custom Rubber Compounding",
+                  "body": [
+                    "Application-specific elastomer formulations developed around mechanical, environmental, and fluid-compatibility requirements."
+                  ],
+                  "href": "/solutions/compounding-and-bonding/rubber-compounding"
+                },
+                {
+                  "title": "Thermoplastic Injection Molding",
+                  "body": [
+                    "Engineered plastic parts for valve, pump, fluid-handling, and industrial equipment applications."
+                  ],
+                  "href": "/solutions/molding/thermoplastic-injection-molding"
+                },
+                {
+                  "title": "Thermoset Molding",
+                  "body": [
+                    "Rigid engineered components requiring material properties such as thermal stability, mechanical performance, or electrical insulation."
+                  ],
+                  "href": "/solutions/molding/thermoset-molding"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "custom-molded-valve-components",
+      "heading": "Custom Molded Valve Components",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC supports the engineering and manufacturing of specialized valve components for a variety of applications."
+        },
+        {
+          "type": "sub",
+          "heading": "Eccentric Plug Valve Components",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Eccentric plug valves are commonly used in wastewater treatment, municipal infrastructure, and industrial flow-control systems."
+            },
+            {
+              "type": "p",
+              "text": "Many resilient-seated designs incorporate an elastomer facing or encapsulation bonded to a metal plug."
+            },
+            {
+              "type": "p",
+              "text": "The rubber provides the sealing interface while the metal substrate supplies the structural support required by the valve design."
+            },
+            {
+              "type": "p",
+              "text": "SYNC's rubber-to-metal bonding and molding expertise supports the evaluation of custom eccentric plug components requiring:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Elastomer selection based on service media"
+                },
+                {
+                  "text": "Metal insert preparation and bonding"
+                },
+                {
+                  "text": "Controlled rubber coverage and sealing geometry"
+                },
+                {
+                  "text": "Compression or transfer molding"
+                },
+                {
+                  "text": "Dimensional consistency and bond verification"
+                },
+                {
+                  "text": "Production repeatability and OEM-specific documentation"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Material selection and bonding requirements are developed around operating pressure, temperature, abrasion, chemical exposure, and intended service conditions."
+            }
+          ],
+          "image": {
+            "src": "/images/landing/valve-and-flow-control/eccentric-plug-valve-components.jpg",
+            "alt": "Cutaway of an eccentric plug valve",
+            "width": 900,
+            "height": 739
+          }
+        },
+        {
+          "type": "sub",
+          "heading": "Resilient-Seated Gate Valve Wedges",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Resilient-seated gate valves are widely used in municipal water distribution, infrastructure, and selected fire-protection systems."
+            },
+            {
+              "type": "p",
+              "text": "Many designs incorporate a metal wedge encapsulated in an elastomer to provide a resilient sealing interface."
+            },
+            {
+              "type": "p",
+              "text": "These components require careful consideration of metal insert positioning, complete rubber coverage where specified, sealing profiles, and material performance."
+            },
+            {
+              "type": "p",
+              "text": "SYNC offers molding and bonding capabilities applicable to the manufacture of custom rubber-encapsulated wedge components."
+            },
+            {
+              "type": "p",
+              "text": "Engineering considerations include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Metal wedge geometry and preparation"
+                },
+                {
+                  "text": "Elastomer compound selection"
+                },
+                {
+                  "text": "Rubber encapsulation thickness"
+                },
+                {
+                  "text": "Critical sealing surfaces and tolerances"
+                },
+                {
+                  "text": "Bond performance"
+                },
+                {
+                  "text": "Tooling and venting design"
+                },
+                {
+                  "text": "Water-contact material requirements where applicable"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/images/landing/valve-and-flow-control/resilient-seated-gate-valve-wedges.jpg",
+            "alt": "Cutaway of a resilient-seated gate valve",
+            "width": 900,
+            "height": 740
+          }
+        },
+        {
+          "type": "sub",
+          "heading": "Rubber Flapper Check Valve Components",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rubber flapper check valves use a flexible sealing component to permit flow in one direction while helping prevent reverse flow."
+            },
+            {
+              "type": "p",
+              "text": "Certain designs incorporate metal reinforcement within a molded elastomer flapper."
+            },
+            {
+              "type": "p",
+              "text": "The component must provide the required balance of flexibility, sealing performance, mechanical strength, and durability under repeated operating cycles."
+            },
+            {
+              "type": "p",
+              "text": "SYNC's manufacturing expertise supports the evaluation of custom reinforced rubber flappers and check-valve components involving:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Engineered elastomer formulations"
+                },
+                {
+                  "text": "Metal reinforcement and encapsulation"
+                },
+                {
+                  "text": "Flexible sealing profiles"
+                },
+                {
+                  "text": "Fatigue and repeated-deflection considerations"
+                },
+                {
+                  "text": "Compression and transfer molding"
+                },
+                {
+                  "text": "Dimensional and material specifications"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/images/landing/valve-and-flow-control/rubber-flapper-check-valve-components.jpg",
+            "alt": "Cutaway of a rubber flapper check valve",
+            "width": 900,
+            "height": 738
+          }
+        },
+        {
+          "type": "sub",
+          "heading": "Butterfly Valve Components",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Butterfly valves may incorporate elastomer-lined bodies, rubber-coated discs, resilient seats, or other specialized sealing components."
+            },
+            {
+              "type": "p",
+              "text": "Depending on valve construction, these parts may require rubber-to-metal bonding, precision molded sealing geometry, and application-specific material selection."
+            },
+            {
+              "type": "p",
+              "text": "SYNC can evaluate custom butterfly-valve component requirements involving:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Rubber-coated metal discs"
+                },
+                {
+                  "text": "Bonded or molded sealing elements"
+                },
+                {
+                  "text": "Resilient seats"
+                },
+                {
+                  "text": "Metal-reinforced elastomer components"
+                },
+                {
+                  "text": "Specialized molded plastic or rubber parts"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/images/landing/valve-and-flow-control/butterfly-valve-components.jpg",
+            "alt": "Butterfly valve with a resilient rubber seat",
+            "width": 837,
+            "height": 732
+          }
+        },
+        {
+          "type": "sub",
+          "heading": "Valve Seats, Seals & Gaskets",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "SYNC manufactures custom elastomer components used in sealing and fluid-control applications."
+            },
+            {
+              "type": "p",
+              "text": "Potential applications include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Valve seats"
+                },
+                {
+                  "text": "Gaskets"
+                },
+                {
+                  "text": "Sealing rings"
+                },
+                {
+                  "text": "Diaphragms"
+                },
+                {
+                  "text": "O-rings and specialty seals"
+                },
+                {
+                  "text": "Protective boots and covers"
+                },
+                {
+                  "text": "Molded sealing assemblies"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "These components may be manufactured using compression, transfer, or other molding processes selected around the material and component requirements."
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Fire Hydrant & Specialty Valve Components",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Fire hydrants and specialized valve assemblies may use reinforced rubber components, molded sealing elements, and resilient materials."
+            },
+            {
+              "type": "p",
+              "text": "SYNC's manufacturing capabilities can be evaluated for selected hydrant seals, main-valve components, and specialized molded assemblies."
+            },
+            {
+              "type": "p",
+              "text": "Component qualification, material specifications, and applicable finished-product approvals are determined by the OEM and the intended service requirements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rubber-to-metal-bonding-for-critical-valve-applications",
+      "heading": "Rubber-to-Metal Bonding for Critical Valve Applications",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rubber-to-metal bonding is one of SYNC's core specialties in flow-control manufacturing."
+        },
+        {
+          "type": "p",
+          "text": "The process creates an integrated component by joining an engineered elastomer to a prepared metal substrate."
+        },
+        {
+          "type": "p",
+          "text": "Depending on part design, bonding may be achieved during vulcanization using appropriate adhesive systems or through other approved bonding and encapsulation techniques."
+        },
+        {
+          "type": "p",
+          "text": "Successful bonding requires coordination of several manufacturing disciplines:"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Metal Substrate Preparation",
+              "body": [
+                "The condition, cleanliness, geometry, and surface preparation of the metal insert influence adhesion and manufacturing consistency."
+              ]
+            },
+            {
+              "title": "Bonding System Selection",
+              "body": [
+                "Primers, adhesives, and application methods must be compatible with the selected elastomer, metal substrate, and molding conditions."
+              ]
+            },
+            {
+              "title": "Custom Rubber Compounding",
+              "body": [
+                "Rubber formulations are selected around sealing performance, hardness, compression set, mechanical loads, chemical exposure, and operating temperature."
+              ],
+              "href": "/solutions/compounding-and-bonding/rubber-compounding"
+            },
+            {
+              "title": "Tooling & Mold Design",
+              "body": [
+                "Mold design must address material flow, insert location, venting, critical sealing geometry, and consistent coverage of the metal substrate."
+              ]
+            },
+            {
+              "title": "Molding & Vulcanization",
+              "body": [
+                "Controlled temperature, pressure, and curing conditions help establish the required elastomer properties and bonded interface."
+              ]
+            },
+            {
+              "title": "Inspection & Validation",
+              "body": [
+                "Inspection and testing requirements may include dimensional verification, material properties, adhesion evaluation, and customer-specific qualification procedures."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "By integrating these considerations into the component manufacturing process, SYNC helps customers evaluate the complete bonded assembly rather than treating the rubber and metal as separate manufacturing requirements."
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Explore Rubber-to-Metal Bonding",
+              "href": "/solutions/compounding-and-bonding/rubber-to-metal-bonding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineered-rubber-materials-for-valve-applications",
+      "heading": "Engineered Rubber Materials for Valve Applications",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Selecting the correct elastomer is essential to long-term sealing performance and component durability."
+        },
+        {
+          "type": "p",
+          "text": "SYNC's custom rubber compounding expertise supports evaluation of materials for different operating environments."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "EPDM",
+              "body": [
+                "Commonly evaluated for water-service applications because of its resistance to water, ozone, weathering, and many environmental conditions.",
+                "The suitability of a specific EPDM formulation depends on temperature, treatment chemicals, operating conditions, and applicable requirements."
+              ]
+            },
+            {
+              "title": "Nitrile Rubber (NBR)",
+              "body": [
+                "Commonly selected for compatibility with petroleum-based oils, fuels, and certain industrial fluids.",
+                "Nitrile may be appropriate for valve applications where resistance to specified oils or hydrocarbons is important."
+              ]
+            },
+            {
+              "title": "Neoprene (CR)",
+              "body": [
+                "Provides balanced mechanical properties and resistance to selected environmental and chemical conditions.",
+                "It may be considered for wastewater and industrial sealing applications, depending on service requirements."
+              ]
+            },
+            {
+              "title": "Natural Rubber (NR)",
+              "body": [
+                "Offers elasticity, resilience, and useful mechanical properties for selected dynamic and sealing applications."
+              ]
+            },
+            {
+              "title": "Silicone Rubber",
+              "body": [
+                "Provides flexibility across a broad temperature range and resistance to environmental aging.",
+                "Silicone materials may be appropriate for selected specialized sealing applications, subject to fluid compatibility and mechanical requirements."
+              ]
+            },
+            {
+              "title": "Fluoroelastomers (FKM)",
+              "body": [
+                "Specialized elastomers used for certain applications involving elevated temperatures and aggressive chemical environments."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Custom Elastomer Formulations",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "SYNC's in-house rubber compounding expertise supports material selection and formulation development around defined application requirements."
+            },
+            {
+              "type": "p",
+              "text": "Key considerations include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Hardness and durometer"
+                },
+                {
+                  "text": "Tensile strength and elongation"
+                },
+                {
+                  "text": "Compression set"
+                },
+                {
+                  "text": "Tear and abrasion resistance"
+                },
+                {
+                  "text": "Chemical and fluid compatibility"
+                },
+                {
+                  "text": "Operating temperature"
+                },
+                {
+                  "text": "Environmental aging"
+                },
+                {
+                  "text": "Dynamic loading and fatigue"
+                },
+                {
+                  "text": "Applicable material and regulatory requirements"
+                }
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "label": "Explore Custom Rubber Compounding",
+                  "href": "/solutions/compounding-and-bonding/rubber-compounding"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineered-plastic-components-for-valves-and-pumps",
+      "heading": "Engineered Plastic Components for Valves & Pumps",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Not every flow-control component requires rubber or a bonded metal assembly."
+        },
+        {
+          "type": "p",
+          "text": "SYNC also provides precision thermoplastic and thermoset molding capabilities for custom valve, pump, and fluid-handling components."
+        },
+        {
+          "type": "p",
+          "text": "Depending on the application, engineered plastics may be used for components requiring corrosion resistance, dimensional stability, wear performance, electrical properties, or reduced weight."
+        },
+        {
+          "type": "p",
+          "text": "Our manufacturing capabilities include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Thermoplastic injection molding"
+            },
+            {
+              "text": "Thermoset compression and transfer molding"
+            },
+            {
+              "text": "Engineered resin selection"
+            },
+            {
+              "text": "Precision mold and tooling development"
+            },
+            {
+              "text": "CNC machining and secondary operations"
+            },
+            {
+              "text": "Custom molded plastic components"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "SYNC's combined plastics and elastomer manufacturing expertise gives customers access to complementary manufacturing processes through one organization."
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Explore Thermoplastic Injection Molding",
+              "href": "/solutions/molding/thermoplastic-injection-molding"
+            },
+            {
+              "label": "Explore Thermoset Molding",
+              "href": "/solutions/molding/thermoset-molding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-and-manufacturing-support",
+      "heading": "Engineering & Manufacturing Support",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Successful valve-component manufacturing begins with understanding the relationship between the component and the complete valve assembly."
+        },
+        {
+          "type": "p",
+          "text": "SYNC works with customers to review manufacturing requirements and identify appropriate material and process options."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Design for Manufacturability",
+              "body": [
+                "Our teams evaluate component geometry, tooling, metal inserts, rubber encapsulation, sealing profiles, parting lines, and dimensional considerations."
+              ]
+            },
+            {
+              "title": "Material Development",
+              "body": [
+                "In-house rubber compounding expertise supports evaluation of existing elastomers and application-specific formulations."
+              ]
+            },
+            {
+              "title": "Tooling & Process Development",
+              "body": [
+                "Our manufacturing resources support tool design, development, modification, and maintenance for custom molded components."
+              ]
+            },
+            {
+              "title": "Existing Tooling Transfers",
+              "body": [
+                "SYNC can evaluate existing tooling, drawings, material requirements, and production history for customers seeking alternative or additional manufacturing capacity."
+              ]
+            },
+            {
+              "title": "Quality & Documentation",
+              "body": [
+                "Quality planning is based on customer specifications and application requirements.",
+                "Depending on the program, documentation may include dimensional inspection, material verification, lot traceability, first-article requirements, and agreed bonding or durability testing."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supporting-water-wastewater-and-industrial-flow-control",
+      "heading": "Supporting Water, Wastewater & Industrial Flow Control",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC manufactures components applicable to a variety of demanding flow-control environments."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Municipal Water Distribution",
+              "body": [
+                "Resilient-seated valve components, molded seals, encapsulated wedges, and engineered parts used in water infrastructure."
+              ]
+            },
+            {
+              "title": "Wastewater Treatment",
+              "body": [
+                "Rubber-faced plugs, reinforced flappers, sealing components, and engineered elastomers for demanding wastewater service."
+              ]
+            },
+            {
+              "title": "Industrial Processing",
+              "body": [
+                "Custom rubber and plastic components for valves and fluid-handling equipment in industrial manufacturing systems."
+              ]
+            },
+            {
+              "title": "Utilities & Infrastructure",
+              "body": [
+                "Specialized molded parts used in water systems, power-generation support equipment, and industrial utilities."
+              ]
+            },
+            {
+              "title": "Fire-Protection Equipment",
+              "body": [
+                "Selected resilient-seated valve and hydrant components manufactured to OEM specifications and applicable qualification requirements."
+              ]
+            },
+            {
+              "title": "Specialized Flow-Control Systems",
+              "body": [
+                "Custom components for pump assemblies, chemical-handling equipment, and other demanding fluid-control applications."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-u-s-based-manufacturing-partner-for-valve-oems",
+      "heading": "A U.S.-Based Manufacturing Partner for Valve OEMs",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Supply-chain reliability is increasingly important for OEMs supporting essential infrastructure and industrial systems."
+        },
+        {
+          "type": "p",
+          "text": "SYNC provides U.S.-based manufacturing capabilities for custom rubber, engineered plastics, and rubber-to-metal bonded components."
+        },
+        {
+          "type": "p",
+          "text": "Our integrated approach allows customers to evaluate material selection, tooling, molding, bonding, and related manufacturing requirements through one coordinated partner."
+        },
+        {
+          "type": "p",
+          "text": "Whether you're seeking additional production capacity, evaluating a second source, or developing a new component, SYNC can work with your engineering and sourcing teams to assess technical fit, qualification requirements, and production needs."
+        },
+        {
+          "type": "p",
+          "text": "Applicable domestic-content, material, and finished-product compliance requirements are evaluated at the individual program level."
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "id": "faq",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Does SYNC manufacture rubber-to-metal bonded valve components?",
+        "a": [
+          "Yes. SYNC has established rubber-to-metal bonding and molding expertise applicable to custom valve plugs, resilient sealing components, and other engineered bonded assemblies.",
+          "Specific component designs are evaluated against available tooling, equipment, materials, and customer requirements."
+        ]
+      },
+      {
+        "q": "Can SYNC manufacture rubber-encapsulated metal valve components?",
+        "a": [
+          "Yes. SYNC offers manufacturing processes suitable for selected rubber-over-metal applications, including compression and transfer molding."
+        ]
+      },
+      {
+        "q": "What types of valves can use molded rubber components?",
+        "a": [
+          "Common examples include eccentric plug valves, resilient-seated gate valves, check valves, butterfly valves, and selected hydrant and specialty valve designs."
+        ]
+      },
+      {
+        "q": "What rubber materials are commonly used in valve components?",
+        "a": [
+          "EPDM, nitrile, neoprene, natural rubber, silicone, and specialty elastomers may be considered depending on the application."
+        ]
+      },
+      {
+        "q": "Can SYNC develop custom rubber compounds for valve applications?",
+        "a": [
+          "Yes. SYNC has in-house compounding and material-development expertise to support specialized performance requirements."
+        ]
+      },
+      {
+        "q": "Can SYNC manufacture engineered plastic valve components?",
+        "a": [
+          "Yes. SYNC offers thermoplastic and thermoset molding, tooling, and machining capabilities applicable to selected valve and pump components."
+        ]
+      },
+      {
+        "q": "Does SYNC support drinking-water applications?",
+        "a": [
+          "SYNC can evaluate components intended for drinking-water systems. Material, component, and finished-product certification requirements must be established for each program."
+        ]
+      },
+      {
+        "q": "Can SYNC support existing tooling transfers or second-source programs?",
+        "a": [
+          "Yes. Our teams can review existing drawings, tooling, material specifications, and manufacturing requirements to evaluate the feasibility of transferring or qualifying a production program."
+        ]
+      },
+      {
+        "q": "Does SYNC support large rubber-molded valve components?",
+        "a": [
+          "SYNC has large-format compression molding resources. Maximum manufacturable dimensions depend on the component geometry, tooling, press configuration, and available capacity."
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Partner With SYNC Manufacturing",
+    "title": "Engineered Components for Critical Flow-Control Applications",
+    "body": [
+      "Whether you're developing a new valve, sourcing a specialized rubber-to-metal bonded component, or qualifying an additional manufacturing partner, SYNC can help evaluate your requirements.",
+      "Our expertise in custom rubber compounding, precision molding, rubber-to-metal bonding, thermoplastics, and thermoset manufacturing supports a broad range of valve and fluid-control applications."
+    ],
+    "cta": [
+      {
+        "label": "Request a Technical Review",
+        "href": "quote"
+      },
+      {
+        "label": "Contact Our Team",
+        "href": "/contact"
+      }
+    ],
+    "footnote": [
+      "Share your component drawing, material specification, operating conditions, and anticipated annual volume to begin a technical evaluation."
+    ]
+  },
+  "hero": null,
+  "gallery": []
+}

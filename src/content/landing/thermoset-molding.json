@@ -1,0 +1,405 @@
+{
+  "source": "Thermoset Molding Services.docx",
+  "title": "Thermoset Molding Services",
+  "subtitle": "Custom Thermoset Plastic & Rubber Components",
+  "tagline": "Precision manufacturing for demanding applications.",
+  "intro": [
+    "SYNC Manufacturing provides custom thermoset molding solutions for customers requiring durable, high-performance plastic and rubber components. Our capabilities include compression molding, transfer molding, and thermoset injection molding, supported by material expertise, engineering assistance, and specialized manufacturing facilities across the United States.",
+    "From complex molded seals and rubber-to-metal bonded components to rigid thermoset plastic parts, SYNC combines decades of manufacturing experience with the resources of a growing North American manufacturing organization."
+  ],
+  "cta": [
+    {
+      "label": "Request a Quote",
+      "href": "quote"
+    },
+    {
+      "label": "Explore Our Molding Capabilities",
+      "href": "/solutions/molding"
+    }
+  ],
+  "summary": "SYNC Manufacturing provides custom thermoset molding solutions for customers requiring durable, high-performance plastic and rubber components. Our capabilities include compression molding, transfer molding, and thermoset injection molding, supported by material expertise, engineering assistance, and specialized manufacturing facilities across the United States.",
+  "sections": [
+    {
+      "id": "what-is-thermoset-molding",
+      "heading": "What Is Thermoset Molding?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Thermoset molding is a manufacturing process used to produce precision components from materials that undergo a permanent chemical transformation during curing."
+        },
+        {
+          "type": "p",
+          "text": "Unlike thermoplastics, which can be reheated and remelted, thermoset materials form a cross-linked molecular structure during the curing process. Once cured, they retain their finished shape and cannot simply be melted and reprocessed."
+        },
+        {
+          "type": "p",
+          "text": "This process produces components with properties that can include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Performance in elevated-temperature environments.",
+              "label": "Heat resistance"
+            },
+            {
+              "text": "Compatibility with oils, fuels, solvents, and other industrial chemicals.",
+              "label": "Chemical resistance"
+            },
+            {
+              "text": "Consistent shape and performance under specified operating conditions.",
+              "label": "Dimensional stability"
+            },
+            {
+              "text": "Dielectric properties in selected thermoset formulations.",
+              "label": "Electrical insulation"
+            },
+            {
+              "text": "Strength, durability, flexibility, or vibration resistance depending on material selection.",
+              "label": "Mechanical performance"
+            },
+            {
+              "text": "Engineered performance in repeated-use and demanding service applications.",
+              "label": "Long-term reliability"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Thermoset materials include both rigid engineered plastics and flexible elastomers, allowing manufacturers to develop components for a broad range of industrial applications."
+        }
+      ]
+    },
+    {
+      "id": "our-thermoset-molding-capabilities",
+      "heading": "Our Thermoset Molding Capabilities",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC offers multiple manufacturing processes to accommodate different part designs, material requirements, production volumes, and performance specifications."
+        },
+        {
+          "type": "sub",
+          "heading": "Compression Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Compression molding uses heat and pressure to form thermoset materials within a precision mold. A measured amount of material is placed directly into the mold cavity, where it flows and cures into the required geometry."
+            },
+            {
+              "type": "p",
+              "text": "Compression molding is particularly effective for larger components, industrial rubber products, seals, pads, and applications where material characteristics and tooling economics are important considerations."
+            },
+            {
+              "type": "p",
+              "text": "Our capabilities include large-format molding, custom rubber components, silicone molding, and rubber-to-metal bonded assemblies."
+            }
+          ],
+          "href": "/solutions/molding/compression-molding"
+        },
+        {
+          "type": "sub",
+          "heading": "Transfer Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Transfer molding uses a heated chamber and controlled pressure to move uncured material into a closed mold cavity."
+            },
+            {
+              "type": "p",
+              "text": "This process is well suited for complex geometries, molded-in inserts, rubber-to-metal bonding, and applications requiring controlled material flow."
+            },
+            {
+              "type": "p",
+              "text": "SYNC's transfer molding expertise supports both engineered thermoset plastics and elastomeric components."
+            }
+          ],
+          "href": "/solutions/molding/transfer-molding"
+        },
+        {
+          "type": "sub",
+          "heading": "Thermoset Injection Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Thermoset injection molding introduces material into a heated mold, where it undergoes a chemical curing reaction to form the finished component."
+            },
+            {
+              "type": "p",
+              "text": "The process can be particularly effective for repeat production, intricate features, and applications requiring consistent part geometry and material performance."
+            },
+            {
+              "type": "p",
+              "text": "Our engineering teams help determine whether injection, compression, or transfer molding provides the most practical solution based on part design, material selection, and anticipated production volume."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thermoset-materials-and-engineering-expertise",
+      "heading": "Thermoset Materials & Engineering Expertise",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Selecting the correct material is critical to long-term component performance. SYNC works with a wide range of engineered thermoset plastics and elastomer compounds."
+        },
+        {
+          "type": "sub",
+          "heading": "Rigid Thermoset Plastics",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Heat resistance, electrical insulation, and dimensional stability.",
+                  "label": "Phenolics"
+                },
+                {
+                  "text": "Mechanical strength, adhesion, and chemical resistance.",
+                  "label": "Epoxies"
+                },
+                {
+                  "text": "Electrical properties and dimensional stability.",
+                  "label": "Diallyl Phthalate (DAP)"
+                },
+                {
+                  "text": "Strength, versatility, and performance across industrial applications.",
+                  "label": "Thermoset Polyesters"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Thermoset Rubber & Elastomers",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Thermal stability, flexibility, and weather resistance.",
+                  "label": "Silicone"
+                },
+                {
+                  "text": "Weathering, ozone, and water resistance.",
+                  "label": "EPDM"
+                },
+                {
+                  "text": "Resistance to many oils and petroleum-based fluids.",
+                  "label": "Nitrile (NBR)"
+                },
+                {
+                  "text": "General-purpose durability and weather resistance.",
+                  "label": "Neoprene"
+                },
+                {
+                  "text": "Elasticity, resilience, and abrasion resistance.",
+                  "label": "Natural Rubber"
+                },
+                {
+                  "text": "Performance in demanding chemical and elevated-temperature environments.",
+                  "label": "Fluoroelastomers (FKM)"
+                },
+                {
+                  "text": "Application-specific materials developed around mechanical, environmental, and regulatory requirements.",
+                  "label": "Additional Engineered Compounds"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Material recommendations are based on operating temperature, chemical exposure, mechanical loads, regulatory requirements, and the intended service environment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "applications-for-thermoset-molded-components",
+      "heading": "Applications for Thermoset Molded Components",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC manufactures custom components for OEMs and industrial customers operating in demanding environments."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Aerospace & Defense",
+              "body": [
+                "Custom seals, grommets, vibration-control components, electrical insulation, bonded rubber assemblies, and precision-molded parts for demanding aircraft and defense applications."
+              ]
+            },
+            {
+              "title": "Medical",
+              "body": [
+                "Specialized silicone and engineered elastomer components manufactured to applicable material, dimensional, and quality requirements."
+              ]
+            },
+            {
+              "title": "Utilities & Electrical Equipment",
+              "body": [
+                "Insulating components, protective covers, molded rubber parts, and environmental seals used in electrical infrastructure and utility equipment."
+              ]
+            },
+            {
+              "title": "Oil & Gas",
+              "body": [
+                "Custom elastomer components, seals, and engineered parts designed for pressure, temperature, and chemical exposure."
+              ]
+            },
+            {
+              "title": "Industrial Equipment",
+              "body": [
+                "Rubber rollers, molded wear components, vibration isolators, gaskets, bumpers, and specialized plastic components used in industrial machinery and OEM assemblies."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-than-a-molding-supplier",
+      "heading": "More Than a Molding Supplier",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC combines specialized molding capabilities with engineering and value-added manufacturing services to help customers streamline sourcing and production."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Engineering & Design Support",
+              "body": [
+                "Collaborative material selection, design-for-manufacturability reviews, prototype development, and manufacturing process recommendations."
+              ]
+            },
+            {
+              "title": "Custom Compounding",
+              "body": [
+                "Rubber formulation and material development to meet application-specific performance requirements."
+              ]
+            },
+            {
+              "title": "Tooling & Machining",
+              "body": [
+                "Tool design, toolmaking, maintenance, and machining support to improve manufacturing efficiency and accommodate design changes."
+              ]
+            },
+            {
+              "title": "Rubber-to-Metal Bonding",
+              "body": [
+                "Specialized manufacturing processes that combine the strength of metal components with the flexibility and performance of engineered elastomers."
+              ],
+              "href": "/solutions/compounding-and-bonding/rubber-to-metal-bonding"
+            },
+            {
+              "title": "Quality & Production Support",
+              "body": [
+                "Inspection, testing, material documentation, traceability, and production planning tailored to customer and program requirements."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "specialized-expertise-one-manufacturing-partner",
+      "heading": "Specialized Expertise. One Manufacturing Partner.",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC Manufacturing brings together established manufacturing businesses with complementary capabilities across the United States."
+        },
+        {
+          "type": "p",
+          "text": "Our thermoset molding expertise includes operations in:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Engineered plastics, thermoset molding, thermoplastic injection molding, tooling, and manufacturing support. Formerly Southwest Plastics.",
+              "label": "Glendora, California"
+            },
+            {
+              "text": "Custom rubber and silicone molding, compression and transfer molding, rubber compounding, and rubber-to-metal bonding. Formerly REDCO Rubber.",
+              "label": "Carson City, Nevada"
+            },
+            {
+              "text": "Industrial rubber molding, large-format compression molding, transfer molding, and custom rubber assemblies. Formerly Verona Rubber Works.",
+              "label": "Blackstone, Illinois"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "By combining specialized manufacturing teams under one organization, SYNC offers customers broader technical resources, multiple production locations, and a coordinated approach to complex manufacturing requirements."
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "id": "faq",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is the difference between thermoset and thermoplastic molding?",
+        "a": [
+          "Thermoset materials undergo a permanent curing reaction that creates a cross-linked molecular structure. Thermoplastics soften when heated and can typically be melted and reformed. The optimal material depends on required temperature resistance, chemical compatibility, mechanical performance, part geometry, and cost."
+        ]
+      },
+      {
+        "q": "What types of products can be manufactured using thermoset molding?",
+        "a": [
+          "Common applications include seals, gaskets, rubber bumpers, vibration isolators, electrical insulators, structural components, molded inserts, and custom industrial parts."
+        ]
+      },
+      {
+        "q": "Which molding process is best for my application?",
+        "a": [
+          "Compression molding, transfer molding, and injection molding offer different advantages. The optimal process depends on component geometry, material selection, tolerances, tooling requirements, and production volume. SYNC can evaluate these factors during the quotation process."
+        ]
+      },
+      {
+        "q": "Can SYNC manufacture rubber-to-metal bonded components?",
+        "a": [
+          "Yes. SYNC offers rubber-to-metal bonding capabilities for applications requiring integrated metal and elastomer components."
+        ]
+      },
+      {
+        "q": "Does SYNC support prototype and production manufacturing?",
+        "a": [
+          "Yes. Our manufacturing teams support product development, prototype requirements, and ongoing production programs, subject to the requirements of the individual component and manufacturing process."
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Partner With SYNC Manufacturing",
+    "title": "Engineered materials. Specialized molding capabilities. One trusted manufacturing partner.",
+    "body": [
+      "Whether you're developing a new component, improving an existing design, or looking for a reliable domestic manufacturing partner, SYNC can help identify the right material and molding process for your application."
+    ],
+    "cta": [
+      {
+        "label": "Request a Quote",
+        "href": "quote"
+      },
+      {
+        "label": "Contact Our Team",
+        "href": "/contact"
+      }
+    ],
+    "footnote": []
+  },
+  "hero": {
+    "src": "/images/landing/thermoset-molding/hero.jpg",
+    "alt": "Orange and green molded thermoset plastic components"
+  },
+  "gallery": []
+}

@@ -257,7 +257,9 @@ export default function HomePage() {
             title="Markets that demand precision, reliability, and accountability."
             intro="We support aerospace, defense, medical, utilities, oil & gas, and industrial programs where material performance, consistent quality, traceability, and documentation matter."
           />
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div
+            className={`mt-12 grid gap-4 sm:grid-cols-2 ${markets.length > 6 ? "lg:grid-cols-4" : "lg:grid-cols-3"}`}
+          >
             {markets.map((m) => {
               const Icon = marketIcons[m.icon];
               const photo = getHero(`markets-${m.slug}`);
@@ -288,6 +290,24 @@ export default function HomePage() {
                 </Link>
               );
             })}
+            {markets.length % 2 === 1 && (
+              <Link
+                href="/contact#quote"
+                className="group flex flex-col justify-center rounded-lg border border-dashed border-blue/40 bg-blue/[0.03] p-6 transition-all hover:-translate-y-0.5 hover:border-blue hover:shadow-[0_8px_24px_rgba(1,35,76,.09)]"
+              >
+                <h3 className="text-lg font-bold text-navy">
+                  Don&rsquo;t see your industry?
+                </h3>
+                <p className="mt-2 text-[15px] leading-relaxed text-muted">
+                  Send us the drawing, the material and the volume. We&rsquo;ll
+                  tell you which plant can make it.
+                </p>
+                <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-blue group-hover:gap-3">
+                  Request a Quote
+                  <ArrowIcon />
+                </span>
+              </Link>
+            )}
           </div>
         </Container>
       </section>

@@ -1,0 +1,522 @@
+{
+  "source": "Transfer Molding.docx",
+  "title": "Transfer Molding Services",
+  "subtitle": "Precision Molding for Complex Rubber & Thermoset Components",
+  "tagline": "Engineered materials. Complex geometries. Reliable manufacturing.",
+  "intro": [
+    "SYNC Manufacturing provides custom transfer molding services for OEMs requiring precision rubber, silicone, and thermoset plastic components.",
+    "Our transfer molding capabilities support complex part geometries, molded-in inserts, rubber-to-metal bonding, and applications requiring controlled material flow and consistent production quality.",
+    "Drawing upon decades of specialized manufacturing experience, SYNC combines material expertise, tooling resources, and engineering support to manufacture custom components for aerospace, defense, medical, industrial, utilities, and other demanding applications.",
+    "Whether you're developing a new component, transferring existing tooling, or improving an established manufacturing process, our team can help evaluate the right molding solution for your application."
+  ],
+  "cta": [
+    {
+      "label": "Request a Quote",
+      "href": "quote"
+    },
+    {
+      "label": "Explore Our Molding Capabilities",
+      "href": "/solutions/molding"
+    }
+  ],
+  "summary": "SYNC Manufacturing provides custom transfer molding services for OEMs requiring precision rubber, silicone, and thermoset plastic components.",
+  "sections": [
+    {
+      "id": "what-is-transfer-molding",
+      "heading": "What Is Transfer Molding?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Transfer molding is a manufacturing process used to produce precision components from thermoset rubber, silicone, and engineered thermoset plastic materials."
+        },
+        {
+          "type": "p",
+          "text": "During the process, a measured amount of uncured material is placed into a heated transfer chamber, commonly referred to as a pot. A plunger applies pressure, forcing the material through runners and gates into a closed mold cavity."
+        },
+        {
+          "type": "p",
+          "text": "Heat and pressure cause the material to cure into its final shape. Once cured, the mold opens and the finished component is removed."
+        },
+        {
+          "type": "p",
+          "text": "Unlike compression molding, where material is generally placed directly into an open mold cavity, transfer molding introduces material into an already closed mold."
+        },
+        {
+          "type": "p",
+          "text": "This approach provides controlled material flow and can be especially useful when manufacturing parts with intricate features, embedded components, or bonded inserts."
+        },
+        {
+          "type": "sub",
+          "heading": "Advantages of Transfer Molding",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Supports detailed features and challenging component designs.",
+                  "label": "Complex Part Geometries"
+                },
+                {
+                  "text": "Allows metal inserts, pins, bushings, and other compatible components to be incorporated into the finished part.",
+                  "label": "Insert Molding"
+                },
+                {
+                  "text": "Produces integrated elastomer and metal assemblies.",
+                  "label": "Rubber-to-Metal Bonding"
+                },
+                {
+                  "text": "Controlled material flow supports repeatable production when properly engineered.",
+                  "label": "Dimensional Consistency"
+                },
+                {
+                  "text": "Accommodates a range of thermoset rubber, silicone, and rigid thermoset plastic formulations.",
+                  "label": "Material Versatility"
+                },
+                {
+                  "text": "Suitable for a variety of production volumes depending on part design, tooling, and material requirements.",
+                  "label": "Production Flexibility"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Transfer molding can provide an effective balance of part complexity, manufacturing precision, and tooling economics."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-transfer-molding-capabilities",
+      "heading": "Our Transfer Molding Capabilities",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC offers specialized transfer molding solutions for custom components requiring engineered materials, complex geometries, and dependable manufacturing processes."
+        },
+        {
+          "type": "sub",
+          "heading": "Rubber Transfer Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Rubber transfer molding is used to produce custom elastomer components requiring precision features, dimensional control, and material performance."
+            },
+            {
+              "type": "p",
+              "text": "Typical applications include seals, gaskets, grommets, protective components, bushings, and industrial rubber assemblies."
+            },
+            {
+              "type": "p",
+              "text": "Rubber transfer molding can be particularly useful when parts contain molded-in metal components or geometries that are difficult to manufacture using conventional compression molding."
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Silicone Transfer Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Silicone transfer molding supports flexible components requiring temperature resistance, sealing performance, and long-term material stability."
+            },
+            {
+              "type": "p",
+              "text": "Applications may include specialized seals, protective components, electrical insulation, and components used in demanding industrial and medical equipment."
+            },
+            {
+              "type": "p",
+              "text": "Material selection and manufacturing processes are evaluated based on the intended operating environment and customer specifications."
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Thermoset Plastic Transfer Molding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "SYNC also offers transfer molding solutions for rigid thermoset plastic components."
+            },
+            {
+              "type": "p",
+              "text": "Unlike flexible elastomers, rigid thermoset plastics are selected for applications requiring properties such as dimensional stability, mechanical strength, heat resistance, or electrical insulation."
+            },
+            {
+              "type": "p",
+              "text": "Transfer molding can be particularly effective when components contain intricate geometries, molded-in terminals, embedded inserts, or complex internal features."
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Insert Molding & Encapsulation",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Transfer molding can integrate metal inserts, electrical contacts, threaded components, and other compatible materials directly into a molded part."
+            },
+            {
+              "type": "p",
+              "text": "This approach can reduce secondary assembly requirements and create integrated components with improved functionality."
+            },
+            {
+              "type": "p",
+              "text": "Typical applications include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "Threaded inserts and bushings"
+                },
+                {
+                  "text": "Electrical contacts and connector pins"
+                },
+                {
+                  "text": "Metal reinforcement components"
+                },
+                {
+                  "text": "Encapsulated mechanical elements"
+                },
+                {
+                  "text": "Specialized industrial assemblies"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Rubber-to-Metal Bonding",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "SYNC supports rubber-to-metal bonded components that combine the mechanical properties of metal with the flexibility, resilience, and sealing characteristics of engineered elastomers."
+            },
+            {
+              "type": "p",
+              "text": "Transfer molding provides controlled material placement around prepared metal substrates and can be effective for components with complex bonding requirements."
+            },
+            {
+              "type": "p",
+              "text": "Our experience includes applications requiring adhesion, vibration resistance, sealing, and mechanical durability."
+            }
+          ],
+          "href": "/solutions/compounding-and-bonding/rubber-to-metal-bonding"
+        }
+      ]
+    },
+    {
+      "id": "materials-and-engineering-expertise",
+      "heading": "Materials & Engineering Expertise",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Selecting the appropriate material is essential to achieving component performance, manufacturability, and service life."
+        },
+        {
+          "type": "p",
+          "text": "SYNC works with a broad range of elastomeric and thermoset materials, supporting customers in evaluating properties such as chemical resistance, temperature performance, hardness, flexibility, and dimensional stability."
+        },
+        {
+          "type": "sub",
+          "heading": "Rubber & Elastomer Materials",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Excellent resistance to weathering, ozone, water, and selected environmental conditions.",
+              "label": "EPDM"
+            },
+            {
+              "type": "p",
+              "text": "Widely used in applications requiring resistance to petroleum-based oils and fuels.",
+              "label": "Nitrile (NBR)"
+            },
+            {
+              "type": "p",
+              "text": "Offers flexibility across a broad temperature range, with grades suitable for specialized sealing and electrical applications.",
+              "label": "Silicone (VMQ)"
+            },
+            {
+              "type": "p",
+              "text": "Provides a balance of weather resistance, mechanical properties, and industrial durability.",
+              "label": "Neoprene (CR)"
+            },
+            {
+              "type": "p",
+              "text": "Known for resilience, elasticity, and performance in many mechanically demanding applications.",
+              "label": "Natural Rubber (NR)"
+            },
+            {
+              "type": "p",
+              "text": "Used in applications requiring elevated-temperature performance and resistance to selected aggressive chemicals.",
+              "label": "Fluoroelastomers (FKM)"
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "heading": "Rigid Thermoset Plastics",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Used for electrical insulation, heat resistance, and dimensional stability.",
+              "label": "Phenolic Compounds"
+            },
+            {
+              "type": "p",
+              "text": "Selected for mechanical properties, adhesion characteristics, and electrical applications.",
+              "label": "Epoxy Compounds"
+            },
+            {
+              "type": "p",
+              "text": "Offers dimensional stability and electrical insulation properties for specialized components.",
+              "label": "Diallyl Phthalate (DAP)"
+            },
+            {
+              "type": "p",
+              "text": "Material options evaluated based on required performance, processing characteristics, and application demands.",
+              "label": "Other Engineered Thermoset Formulations"
+            },
+            {
+              "type": "p",
+              "text": "Our engineering and material teams can help identify suitable compounds based on each component's operating requirements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-tooling-and-manufacturing-support",
+      "heading": "Engineering, Tooling & Manufacturing Support",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Successful transfer molding requires a coordinated approach to part design, material selection, tooling, and process development."
+        },
+        {
+          "type": "p",
+          "text": "SYNC offers technical resources to support customers from initial product development through ongoing production."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Design for Manufacturability",
+              "body": [
+                "Our engineering teams evaluate component geometry, material flow, wall thickness, insert placement, dimensional requirements, and other factors that influence manufacturability.",
+                "Early design collaboration can help identify opportunities to improve tooling performance, component quality, and production economics."
+              ]
+            },
+            {
+              "title": "Mold Design & Tooling",
+              "body": [
+                "SYNC provides tooling engineering, mold development, maintenance, and modification support.",
+                "Our technical resources help address cavity design, runner systems, gating, venting, and insert positioning to support consistent molded-part quality."
+              ]
+            },
+            {
+              "title": "Material Selection & Compounding",
+              "body": [
+                "Our rubber material expertise includes custom compounding and formulation support for demanding elastomer applications.",
+                "Material selection is based on performance requirements, environmental exposure, and the manufacturing process."
+              ]
+            },
+            {
+              "title": "Secondary Operations & Assembly",
+              "body": [
+                "Depending on component requirements, our capabilities include trimming, finishing, machining, inspection, and value-added assembly.",
+                "This allows customers to consolidate manufacturing steps and simplify their supply chains."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "applications-and-industries",
+      "heading": "Applications & Industries",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC manufactures custom transfer molded components for OEMs operating in demanding environments."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Aerospace & Defense",
+              "body": [
+                "Precision seals, electrical insulation, bonded rubber components, protective parts, and specialized molded assemblies."
+              ]
+            },
+            {
+              "title": "Medical & Healthcare Equipment",
+              "body": [
+                "Custom silicone and engineered elastomer components used in medical devices, equipment, and specialized assemblies."
+              ]
+            },
+            {
+              "title": "Industrial Equipment",
+              "body": [
+                "Rubber bushings, grommets, vibration-control components, mechanical assemblies, and precision molded parts."
+              ]
+            },
+            {
+              "title": "Utilities & Electrical Systems",
+              "body": [
+                "Insulating components, molded connectors, protective components, and parts exposed to demanding environmental conditions."
+              ]
+            },
+            {
+              "title": "Oil & Gas",
+              "body": [
+                "Engineered elastomer seals and industrial components designed around application-specific temperature, pressure, and chemical requirements."
+              ]
+            },
+            {
+              "title": "Flow Control & Fluid Handling",
+              "body": [
+                "Custom seals, valve components, bonded assemblies, and molded elastomer components used in pumps, valves, and fluid-handling equipment."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transfer-molding-vs-compression-molding-vs-injection-molding",
+      "heading": "Transfer Molding vs. Compression Molding vs. Injection Molding",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each molding process offers unique manufacturing advantages."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Compression Molding",
+              "body": [
+                "Often effective for larger components, simpler geometries, and applications where direct material placement into the mold provides manufacturing benefits."
+              ],
+              "href": "/solutions/molding/compression-molding"
+            },
+            {
+              "title": "Transfer Molding",
+              "body": [
+                "Often preferred for parts with complex features, embedded inserts, or bonding requirements that benefit from material flowing into a closed mold."
+              ]
+            },
+            {
+              "title": "Injection Molding",
+              "body": [
+                "Can offer production efficiency and repeatability for higher-volume applications, depending on material selection, component design, and tooling investment."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "SYNC offers multiple molding processes, allowing our technical teams to evaluate the manufacturing approach best suited to each customer's requirements."
+        },
+        {
+          "type": "p",
+          "text": "Rather than designing around a single process, we focus on selecting the right combination of material, tooling, and manufacturing technology."
+        }
+      ]
+    },
+    {
+      "id": "decades-of-specialized-manufacturing-experience",
+      "heading": "Decades of Specialized Manufacturing Experience",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SYNC Manufacturing brings together established companies with extensive experience in rubber molding, thermoset plastics, tooling, and engineered manufacturing solutions."
+        },
+        {
+          "type": "p",
+          "text": "By combining complementary manufacturing capabilities under one organization, we provide customers with access to specialized technical expertise, a broader range of manufacturing processes, and coordinated production resources."
+        },
+        {
+          "type": "p",
+          "text": "Our ongoing investment in manufacturing technology, engineering, and operational capabilities supports both existing customer programs and new product development."
+        },
+        {
+          "type": "tagline",
+          "text": "One manufacturing partner. Multiple specialized capabilities. Built for long-term growth."
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "id": "faq",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is transfer molding used for?",
+        "a": [
+          "Transfer molding is commonly used for custom rubber, silicone, and thermoset plastic components with complex geometries, molded-in inserts, or specialized performance requirements.",
+          "Typical products include seals, grommets, bushings, electrical components, and bonded assemblies."
+        ]
+      },
+      {
+        "q": "What is the difference between transfer molding and compression molding?",
+        "a": [
+          "Compression molding typically places material directly into an open mold before closing and curing it.",
+          "Transfer molding forces material from a separate chamber into an already closed mold, providing controlled flow into cavities and around embedded components."
+        ]
+      },
+      {
+        "q": "Can transfer molding be used for rubber-to-metal bonding?",
+        "a": [
+          "Yes. Transfer molding can be particularly effective for components requiring molded rubber bonded to prepared metal inserts."
+        ]
+      },
+      {
+        "q": "Can thermoset plastics be transfer molded?",
+        "a": [
+          "Yes. Transfer molding is used with rigid thermoset materials such as phenolic, epoxy, and other engineered thermoset compounds."
+        ]
+      },
+      {
+        "q": "Is transfer molding suitable for low-volume production?",
+        "a": [
+          "Yes. Transfer molding can support low-, medium-, and high-volume production, depending on tooling requirements, component geometry, material selection, and manufacturing economics."
+        ]
+      },
+      {
+        "q": "What information is needed to request a quote?",
+        "a": [
+          "Providing a part drawing or 3D model, material specifications, estimated annual volume, quality requirements, and application information helps our engineering team evaluate the project.",
+          "If you're unsure which molding process is appropriate, SYNC can help review the available options."
+        ]
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Partner With SYNC Manufacturing",
+    "title": "Complex Components. Specialized Processes. One Trusted Partner.",
+    "body": [
+      "Whether you need rubber transfer molding, silicone components, rigid thermoset plastic parts, or rubber-to-metal bonded assemblies, SYNC offers the expertise and manufacturing resources to support your requirements.",
+      "Our team can assist with material selection, engineering, tooling, and production planning to help bring your component from concept to finished product."
+    ],
+    "cta": [
+      {
+        "label": "Request a Quote",
+        "href": "quote"
+      },
+      {
+        "label": "Contact Our Team",
+        "href": "/contact"
+      }
+    ],
+    "footnote": []
+  },
+  "hero": {
+    "src": "/images/landing/transfer-molding/hero.jpg",
+    "alt": "Rubber components molded around metal inserts"
+  },
+  "gallery": []
+}

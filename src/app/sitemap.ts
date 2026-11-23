@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { markets } from "@/lib/markets";
 import { solutions } from "@/lib/solutions";
+import { capabilityPages } from "@/lib/capabilities";
 import { pressReleases } from "@/lib/press";
 import { site } from "@/lib/site";
 
@@ -35,6 +36,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${site.url}/solutions/${s.slug}`,
       changeFrequency: "monthly" as const,
       priority: 0.8,
+    })),
+    ...capabilityPages().map(({ solution, capability }) => ({
+      url: `${site.url}/solutions/${solution.slug}/${capability.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
     })),
     ...pressReleases.map((p) => ({
       url: `${site.url}/about/press/${p.slug}`,

@@ -87,7 +87,7 @@ export const pressReleases: PressRelease[] = [
     summary:
       "The addition of Verona Rubber Works brings large-format compression molding and rubber roller manufacturing to the Langdale platform, extending its reach into the Midwest.",
     body: [
-      "Langdale Holdings today announced the acquisition of Verona Rubber Works of Blackstone, Illinois. Founded as a custom rubber molder serving industrial and agricultural customers, Verona brings large-format compression molding capacity — up to 46 by 46 inches — along with new and refurbished rubber roller manufacturing.",
+      "Langdale Holdings today announced the acquisition of Verona Rubber Works of Blackstone, Illinois. Founded as a custom rubber molder serving industrial and agricultural customers, Verona brings large-format compression molding capacity — up to 48 by 48 inches — along with new and refurbished rubber roller manufacturing.",
       "The acquisition is the fourth for the platform in just over two years, following Southwest Plastics, Redco and Santa Fe Rubber. It gives the group its first Midwest manufacturing footprint and adds capabilities that complement, rather than duplicate, those of the existing plants.",
       "Verona's operations will continue at the Blackstone facility with its existing workforce, and its customers will retain their current points of contact.",
     ],

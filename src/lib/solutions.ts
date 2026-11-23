@@ -1,20 +1,24 @@
 /**
  * Solutions / Capabilities.
  *
- * The four categories and their sub-capabilities are transcribed verbatim from
- * the "Solutions We Provide" graphic on slide 5 of the first deck — do not add
- * or rename a bullet without approval. One approved addition: Dip Molding under
- * Molding Solutions (client, 2026-10-11), which arrived with the Canton plant.
+ * The four categories and their sub-capabilities follow the "Solutions We
+ * Provide" graphic on slide 5 of the first deck, with the client's later
+ * changes: Dip Molding added (2026-10-11), and the November 2026 renames
+ * (Compression Molding without the size, Rubber-to-Metal Bonding, Custom and
+ * Refurbished Rubber Rollers). Don't add or rename one without approval.
  *
- * Descriptive prose is DRAFT: the deck notes "We can work on this content", and
- * Sync_Plastic_Molding_Capability_Web_Developer_Brief.docx was not supplied.
+ * Capabilities with a `page` have a full landing page written by the client
+ * (src/content/landing, see src/lib/landing.ts); their card summary comes from
+ * that page. The family-level prose and the remaining summaries are DRAFT.
  */
 
 export type Capability = {
   slug: string;
   name: string;
-  /** DRAFT */
-  summary: string;
+  /** Landing page key in src/content/landing; served at /solutions/<family>/<slug> */
+  page?: string;
+  /** DRAFT; unused when `page` is set */
+  summary?: string;
   /** DRAFT */
   detail?: string;
   /** DRAFT */
@@ -44,7 +48,7 @@ export const solutions: Solution[] = [
     icon: "molding",
     eyebrow: "Thermoset, thermoplastic, silicone",
     intro:
-      "Thermoset, thermoplastic and silicone molding under one roof, from micro LSR components to 46 x 46 inch compression tools.",
+      "Thermoset, thermoplastic and silicone molding under one roof, from micro LSR components to 48 x 48 inch compression tools.",
     body: [
       "Choosing the process is half of the engineering. A part that is wrong for transfer molding may be ideal for compression; a design that fights an injection tool may mold cleanly in silicone. SYNC runs all of them, so the recommendation you get is driven by your part rather than by the one press we happen to own.",
       "Tooling is designed and built in house wherever it shortens the development loop. That keeps first-article timelines short and keeps tool maintenance, cavity repair and engineering changes with the same team that cut the steel.",
@@ -52,53 +56,44 @@ export const solutions: Solution[] = [
     capabilities: [
       {
         slug: "thermoset-molding",
+        page: "thermoset-molding",
         name: "Thermoset Molding",
-        summary:
-          "Cured elastomer parts with the thermal and chemical resistance that thermoplastics cannot reach.",
       },
       {
         slug: "thermoplastic-injection-molding",
+        page: "thermoplastic-injection-molding",
         name: "Thermoplastic Injection Molding",
-        summary:
-          "High-repeatability plastic components, insert molding and overmolding, tooled and run at our Glendora plant.",
       },
       {
         slug: "transfer-molding",
+        page: "transfer-molding",
         name: "Transfer Molding",
-        summary:
-          "The right process for bonded inserts and tight-tolerance features on medium-volume elastomer parts.",
       },
       {
         slug: "compression-molding",
-        name: "Compression Molding 8x8 to 46x46",
-        summary:
-          "Large-format capacity up to 46 x 46 inches for oversized seals, pads and utility components.",
-        specs: [{ label: "Platen range", value: "8x8 in. to 46x46 in." }],
+        page: "compression-molding",
+        name: "Compression Molding",
+        specs: [{ label: "Platen range", value: "8x8 in. to 48x48 in." }],
       },
       {
         slug: "silicone-compression-molding",
+        page: "silicone-compression-molding",
         name: "Silicone Compression Molding",
-        summary:
-          "Temperature-stable silicone parts for aerospace, medical and utility service.",
       },
       {
         slug: "lsr-molding",
+        page: "lsr-molding",
         name: "LSR Molding",
-        summary:
-          "Liquid silicone rubber for fine features, high volumes and clean, flash-minimal parts.",
       },
       {
         slug: "rubber-molding",
+        page: "rubber-molding",
         name: "Rubber Molding",
-        summary:
-          "Custom rubber components molded from compounds we mix ourselves to your application's requirements.",
       },
       {
-        // Wording drawn from the client's Canton description (Sept 26 deck).
         slug: "dip-molding",
+        page: "dip-molding",
         name: "Dip Molding",
-        summary:
-          "Latex dip molding and engineered elastomer components from our Canton, Ohio plant, with in-house latex compounding, custom mold development and isostatic press bags.",
       },
     ],
   },
@@ -136,7 +131,7 @@ export const solutions: Solution[] = [
     icon: "compounding",
     eyebrow: "Materials engineered in house",
     intro:
-      "Custom rubber compounding, rubber-to-metal bonding, and new and refurbished rubber rollers.",
+      "Custom rubber compounding, rubber-to-metal bonding, and custom and refurbished rubber rollers.",
     body: [
       "SYNC mixes its own rubber. That is unusual for a molder, and it is the reason we can tune a compound to your service conditions instead of asking your application to tolerate a catalog material.",
       "The same materials capability underpins our bonding and roller work: adhesion systems are selected for the substrate and the duty cycle, and refurbished rollers come back with a documented durometer and finish rather than whatever the shop had on hand.",
@@ -144,27 +139,23 @@ export const solutions: Solution[] = [
     capabilities: [
       {
         slug: "rubber-compounding",
+        page: "rubber-compounding",
         name: "Rubber Compounding",
-        summary:
-          "In-house mixing and formulation development, including custom compounds for temperature, chemical and dielectric requirements.",
       },
       {
         slug: "rubber-to-metal-bonding",
-        name: "Rubber to Metal Bonding",
-        summary:
-          "Bonded assemblies for mounts, isolators and sealing hardware, with surface preparation and adhesion testing in process.",
+        page: "rubber-to-metal-bonding",
+        name: "Rubber-to-Metal Bonding",
       },
       {
-        slug: "new-rubber-rollers",
-        name: "New Rubber Rollers",
-        summary:
-          "Covered rollers built to your core, durometer, crown and finish specification.",
+        slug: "custom-rubber-rollers",
+        page: "custom-rubber-rollers",
+        name: "Custom Rubber Rollers",
       },
       {
-        slug: "refurbish-rubber-rollers",
-        name: "Refurbish Rubber Rollers",
-        summary:
-          "Strip, recover, grind and balance existing cores to return equipment to service at a fraction of replacement cost.",
+        slug: "refurbished-rubber-rollers",
+        page: "refurbished-rubber-rollers",
+        name: "Refurbished Rubber Rollers",
       },
     ],
   },

@@ -111,6 +111,34 @@ Not done, waiting on the client:
 4. The homepage mockup put "AS9100 Certified | ITAR Registered" beside the
    Request a Quote button; the site still shows it in the strip above the menu.
 
+## November update — 13 landing pages + `November updates.pptx`
+
+Every capability in Molding Solutions and Compounding & Bonding now has the
+client's own landing page at `/solutions/<family>/<capability>`, word for word
+from its Word document (see README, "Client landing pages"). Valve & Flow
+Control is a new, seventh market at `/markets/valve-and-flow-control`.
+
+Also applied: "Compression Molding" without the size in the name, the names
+Rubber-to-Metal Bonding / Custom Rubber Rollers / Refurbished Rubber Rollers,
+the capability order from the client's list, 46x46 → 48x48 everywhere, and
+"Silicone molding" added to Blackstone (deck slide).
+
+Choices made that the client may want to revisit:
+
+1. The roller documents place roller work at Carson City, so Carson City now
+   lists custom and refurbished rollers. Blackstone still lists rollers too
+   (an earlier guess, see item 3 below).
+2. Thermoplastic Injection Molding and Dip Molding came with no photos; their
+   pages use the plain navy hero.
+3. Several documents reuse the same photos, so some heroes repeat
+   (thermoset, silicone, transfer and refurbished rollers).
+4. The homepage and Markets copy still name six markets; the cards show seven
+   plus a "Don't see your industry?" card that fills the last row.
+5. The Thermoplastic document says Glendora holds AS9100; the Thermoset
+   document lists three plants (no Canton). Both kept as written.
+6. Cutting Solutions and Additional Capabilities have no documents yet and
+   keep the short draft cards.
+
 ## Things invented that need a decision before launch
 
 These are placeholders that look real and will ship as fact if nobody checks

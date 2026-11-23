@@ -36,6 +36,7 @@ export const nav: NavItem[] = [
       { label: "Utilities", href: "/markets/utilities" },
       { label: "Oil & Gas", href: "/markets/oil-and-gas" },
       { label: "Industrial", href: "/markets/industrial" },
+      { label: "Valve & Flow Control", href: "/markets/valve-and-flow-control" },
     ],
   },
   {
@@ -117,6 +118,10 @@ export const locations: Location[] = [
       "LSR molding",
       "Rubber compounding",
       "Rubber-to-metal bonding",
+      // The client's roller pages (November 2026) place roller manufacturing
+      // and refurbishment at Carson City.
+      "Custom rubber rollers",
+      "Roller refurbishment & regrinding",
     ],
     mapQuery: "3000 Arrowhead Drive, Carson City, NV 89706",
   },
@@ -136,7 +141,9 @@ export const locations: Location[] = [
     focus:
       "Large-format compression molding, rubber rollers, and industrial and utility components.",
     capabilities: [
-      "Compression molding 8x8 to 46x46",
+      // Silicone molding and the 48x48 size: client's November 2026 update.
+      "Compression molding 8x8 to 48x48",
+      "Silicone molding",
       "Transfer molding",
       "New rubber rollers",
       "Refurbished rubber rollers",

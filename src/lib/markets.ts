@@ -1,31 +1,42 @@
 /**
  * Market landing pages.
  *
- * The six markets and their order come from slide 4 of the deck. Each one has a
- * "Sync_<Market>_Landing_Page_Web_Developer_Brief.docx" that was not supplied —
- * every string below marked DRAFT is placeholder copy to be replaced with the
- * approved text from that brief.
+ * The first six markets and their order come from slide 4 of the deck. Each
+ * one has a "Sync_<Market>_Landing_Page_Web_Developer_Brief.docx" that was not
+ * supplied — every string below marked DRAFT is placeholder copy to be
+ * replaced with the approved text from that brief.
+ *
+ * A market with a `page` has a full landing page written by the client
+ * (src/content/landing, see src/lib/landing.ts) instead of the DRAFT template.
  */
 
-export type Market = {
+type MarketBase = {
   slug: string;
   name: string;
-  /** DRAFT */
   eyebrow: string;
-  /** DRAFT */
+  /** Card text */
   intro: string;
-  /** DRAFT */
-  body: string[];
-  /** DRAFT */
-  applications: string[];
-  /** DRAFT */
-  materials: string[];
-  /** Certifications and controls that genuinely apply to this market */
-  compliance: string[];
   /** Slugs from solutions.ts that this market leans on */
   relatedSolutions: string[];
   icon: MarketIcon;
+  /** Certifications and controls that genuinely apply to this market */
+  compliance?: string[];
 };
+
+export type Market = MarketBase &
+  (
+    | { page: string }
+    | {
+        page?: undefined;
+        /** DRAFT */
+        body: string[];
+        /** DRAFT */
+        applications: string[];
+        /** DRAFT */
+        materials: string[];
+        compliance: string[];
+      }
+  );
 
 export type MarketIcon =
   | "aerospace"
@@ -33,7 +44,8 @@ export type MarketIcon =
   | "medical"
   | "utilities"
   | "oil"
-  | "industrial";
+  | "industrial"
+  | "valve";
 
 export const markets: Market[] = [
   {
@@ -139,7 +151,7 @@ export const markets: Market[] = [
       "Molded insulating and weather-sealing components for transmission, distribution and substation hardware.",
     body: [
       "Utility components sit outdoors for decades. SYNC compounds elastomers for UV, ozone and temperature-cycling resistance, then molds and tests them against the dielectric and weathering requirements your specification calls out.",
-      "Large-format compression molding at Blackstone handles the oversized parts other shops turn away, up to 46 x 46 inches, without splitting a single component across multiple tools.",
+      "Large-format compression molding at Blackstone handles the oversized parts other shops turn away, up to 48 x 48 inches, without splitting a single component across multiple tools.",
     ],
     applications: [
       "Insulating boots and covers",
@@ -152,7 +164,7 @@ export const markets: Market[] = [
     compliance: [
       "Dielectric-grade compounding",
       "UV and ozone resistance testing",
-      "Large-format tooling to 46x46",
+      "Large-format tooling to 48x48",
     ],
     relatedSolutions: ["molding", "compounding-and-bonding"],
   },
@@ -213,6 +225,18 @@ export const markets: Market[] = [
       "PPAP documentation on request",
     ],
     relatedSolutions: ["cutting", "molding", "compounding-and-bonding"],
+  },
+  {
+    // Client landing page, November 2026. Eyebrow and card text are the
+    // document's own tagline and subtitle.
+    slug: "valve-and-flow-control",
+    name: "Valve & Flow Control",
+    icon: "valve",
+    page: "valve-and-flow-control",
+    eyebrow: "Specialized materials. Precision molding. Reliable performance.",
+    intro:
+      "Engineered Rubber, Plastic & Bonded Components for Critical Flow-Control Applications",
+    relatedSolutions: ["compounding-and-bonding", "molding"],
   },
 ];
 

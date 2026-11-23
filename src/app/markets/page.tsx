@@ -9,7 +9,7 @@ import { Container, CtaBand, IconBadge, PageHero } from "@/components/ui";
 export const metadata: Metadata = pageMetadata({
   title: "Markets We Serve",
   description:
-    "SYNC Manufacturing serves aerospace, defense, medical, utilities, oil & gas and industrial markets with precision molded rubber and plastic components.",
+    "SYNC Manufacturing serves aerospace, defense, medical, utilities, oil & gas, industrial and valve & flow control markets with precision molded rubber and plastic components.",
   path: "/markets",
 });
 
@@ -54,6 +54,7 @@ export default function MarketsPage() {
                     </div>
                   </div>
 
+                  {m.compliance && (
                   <ul className="mt-6 flex flex-wrap gap-1.5 border-t border-line pt-5">
                     {m.compliance.slice(0, 3).map((c) => (
                       <li
@@ -64,6 +65,7 @@ export default function MarketsPage() {
                       </li>
                     ))}
                   </ul>
+                  )}
 
                   <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-blue group-hover:gap-3">
                     {m.name} capabilities
@@ -72,6 +74,27 @@ export default function MarketsPage() {
                 </Link>
               );
             })}
+            {markets.length % 2 === 1 && (
+              <Link
+                href="/contact#quote"
+                className="group flex flex-col justify-center rounded-lg border border-dashed border-blue/40 bg-blue/[0.03] p-7 transition-all hover:-translate-y-0.5 hover:border-blue hover:shadow-[0_8px_24px_rgba(1,35,76,.09)]"
+              >
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue">
+                  Other markets
+                </p>
+                <h2 className="mt-1.5 text-2xl font-bold text-navy">
+                  Don&rsquo;t see your industry?
+                </h2>
+                <p className="mt-3 text-[15px] leading-relaxed text-muted">
+                  Send us the drawing, the material and the volume. If one of
+                  our plants can make it, we&rsquo;ll tell you which one.
+                </p>
+                <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-blue group-hover:gap-3">
+                  Request a Quote
+                  <ArrowIcon />
+                </span>
+              </Link>
+            )}
           </div>
         </Container>
       </section>

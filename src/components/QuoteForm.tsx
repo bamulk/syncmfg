@@ -1,7 +1,7 @@
 "use client";
 
 import { track } from "@vercel/analytics";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { markets } from "@/lib/markets";
 import { solutions } from "@/lib/solutions";
 import { locations } from "@/lib/site";
@@ -17,6 +17,26 @@ const labelClass = "block text-sm font-semibold text-navy";
 export default function QuoteForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string | null>(null);
+  const marketRef = useRef<HTMLSelectElement>(null);
+  const processRef = useRef<HTMLSelectElement>(null);
+
+  // Capability and market pages link here with ?process= or ?market= so the
+  // visitor doesn't have to pick again. Only a value that is one of the
+  // options is used; anything else leaves the field on its default.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    for (const [key, ref] of [
+      ["market", marketRef],
+      ["process", processRef],
+    ] as const) {
+      const value = params.get(key);
+      const select = ref.current;
+      if (!value || !select) continue;
+      if (Array.from(select.options).some((o) => o.value === value)) {
+        select.value = value;
+      }
+    }
+  }, []);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -133,6 +153,7 @@ export default function QuoteForm() {
           <select
             id="market"
             name="market"
+            ref={marketRef}
             defaultValue=""
             className={`mt-2 ${inputClass}`}
           >
@@ -152,6 +173,7 @@ export default function QuoteForm() {
           <select
             id="process"
             name="process"
+            ref={processRef}
             defaultValue=""
             className={`mt-2 ${inputClass}`}
           >

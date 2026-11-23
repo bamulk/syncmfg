@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { solutions } from "@/lib/solutions";
+import { capabilityHref, capabilitySummary } from "@/lib/capabilities";
 import { numberWord } from "@/lib/site";
 
 const capabilityCount = solutions.reduce(
@@ -20,7 +21,7 @@ import {
 export const metadata: Metadata = pageMetadata({
   title: "Solutions & Capabilities",
   description:
-    "Molding, cutting, compounding and bonding solutions from SYNC Manufacturing — including thermoset, thermoplastic injection, LSR and compression molding to 46x46.",
+    "Molding, cutting, compounding and bonding solutions from SYNC Manufacturing — including thermoset, thermoplastic injection, LSR and compression molding to 48x48.",
   path: "/solutions",
 });
 
@@ -70,24 +71,36 @@ export default function SolutionsPage() {
                   </div>
 
                   <ul className="grid gap-3 sm:grid-cols-2 lg:content-start">
-                    {s.capabilities.map((c) => (
-                      <li
-                        key={c.slug}
-                        className="rounded-lg border border-line p-5"
-                      >
-                        <div className="flex items-start gap-2.5">
-                          <CheckIcon className="mt-0.5 h-5 w-5 shrink-0 text-blue" />
-                          <div>
-                            <h3 className="font-semibold leading-snug text-navy">
-                              {c.name}
-                            </h3>
-                            <p className="mt-1.5 text-sm leading-relaxed text-muted">
-                              {c.summary}
-                            </p>
+                    {s.capabilities.map((c) => {
+                      const href = capabilityHref(s, c);
+                      return (
+                        <li
+                          key={c.slug}
+                          className="relative rounded-lg border border-line p-5 transition-colors has-[a:hover]:border-blue/40"
+                        >
+                          <div className="flex items-start gap-2.5">
+                            <CheckIcon className="mt-0.5 h-5 w-5 shrink-0 text-blue" />
+                            <div>
+                              <h3 className="font-semibold leading-snug text-navy">
+                                {href ? (
+                                  <Link
+                                    href={href}
+                                    className="after:absolute after:inset-0 hover:text-blue"
+                                  >
+                                    {c.name}
+                                  </Link>
+                                ) : (
+                                  c.name
+                                )}
+                              </h3>
+                              <p className="mt-1.5 line-clamp-3 text-sm leading-relaxed text-muted">
+                                {capabilitySummary(c)}
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                      </li>
-                    ))}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               );

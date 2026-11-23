@@ -5,6 +5,9 @@ import { getMarket, markets } from "@/lib/markets";
 import { getSolution } from "@/lib/solutions";
 import { getHero } from "@/lib/heroes";
 import { pageMetadata } from "@/lib/seo";
+import { getLanding } from "@/lib/landing";
+import { quoteHref } from "@/lib/capabilities";
+import LandingPage from "@/components/LandingPage";
 import { ArrowIcon, marketIcons, solutionIcons } from "@/components/Icons";
 import {
   CheckList,
@@ -26,6 +29,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const market = getMarket(slug);
   if (!market) return {};
+  const content = market.page && getLanding(market.page);
+  if (content) {
+    return pageMetadata({
+      title: content.title,
+      description: content.summary,
+      path: `/markets/${market.slug}`,
+    });
+  }
   return pageMetadata({
     title: `${market.name} Rubber & Plastic Components`,
     description: market.intro,
@@ -37,6 +48,32 @@ export default async function MarketPage({ params }: Params) {
   const { slug } = await params;
   const market = getMarket(slug);
   if (!market) notFound();
+
+  // Markets with a client-written landing page use the long-form template.
+  if (market.page !== undefined) {
+    const content = getLanding(market.page);
+    if (!content) notFound();
+    return (
+      <LandingPage
+        content={content}
+        eyebrow="Markets"
+        breadcrumb={[
+          { label: "Home", href: "/" },
+          { label: "Markets", href: "/markets" },
+          { label: market.name, href: `/markets/${market.slug}` },
+        ]}
+        quoteHref={quoteHref({ market: market.name })}
+        related={{
+          heading: "Markets we serve",
+          items: markets.map((m) => ({
+            label: m.name,
+            href: `/markets/${m.slug}`,
+            current: m.slug === market.slug,
+          })),
+        }}
+      />
+    );
+  }
 
   const Icon = marketIcons[market.icon];
   const related = market.relatedSolutions

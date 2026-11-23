@@ -16,11 +16,16 @@ Every slot has an image.
 | `locations` (full-width banner) | Sept 26 deck, slide 11 | 2127×739 |
 | `home` | regenerated 2026-10-11 from the Oct 9 homepage mockup with OpenAI `gpt-image-2` image edit, SYNC logo on cap and shirt | 1536×1024 |
 | `careers` | 2026-10-11: SYNC logo added to both shirts with an image edit (client request) | 1536×1024 |
-| `about`, `quality`, `contact`, all six `markets-*`, all four `solutions-*` | generated 2026-10-02 with OpenAI `gpt-image-2`, high quality, using the prompts below | 1536×1024 |
+| `markets-valve-and-flow-control` | butterfly valve photo from the client's Valve & Flow Control document (November 2026) | 837×732 |
+| `about`, `quality`, `contact`, the other six `markets-*`, all four `solutions-*` | generated 2026-10-02 with OpenAI `gpt-image-2`, high quality, using the prompts below | 1536×1024 |
 
 The homepage hero rotates through `home`, `about` and `solutions-molding`
 (`HOME_ROTATION` in `src/lib/heroes.ts`). The market and solution photos are
 also reused, faded, behind the homepage cards.
+
+Photos on the capability landing pages come from the client's Word documents
+and live in `public/images/landing/<page>/`; the import script writes them
+(README, "Client landing pages").
 
 Image URLs carry a `?v=<hash>` of the file, so replacing a photo under the same
 name shows up immediately.
