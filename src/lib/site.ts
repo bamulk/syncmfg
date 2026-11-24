@@ -17,6 +17,9 @@ export const site = {
     "SYNC Manufacturing is a Langdale Holdings company delivering thermoset and thermoplastic molding, precision cutting, rubber compounding and bonding for aerospace, defense, medical, utilities, oil & gas and industrial programs.",
   parent: "Langdale Holdings",
   certifications: ["AS9100", "ITAR Registered"],
+  /** GA4 Measurement ID ("G-…"). Empty = Google Analytics off. Loaded only
+      on production builds (see GoogleAnalytics.tsx). */
+  googleAnalyticsId: "G-MX06K76F42" as string,
 } as const;
 
 export type NavItem = {

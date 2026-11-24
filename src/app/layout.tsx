@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { site } from "@/lib/site";
 import { ogImage } from "@/lib/seo";
 import "./globals.css";
@@ -54,6 +55,8 @@ export default function RootLayout({
         {/* Vercel Web Analytics: cookie-free page-view counts. Records
             nothing until Web Analytics is enabled on the Vercel project. */}
         <Analytics />
+        {/* Google Analytics 4: production deployments only. */}
+        <GoogleAnalytics />
       </body>
     </html>
   );

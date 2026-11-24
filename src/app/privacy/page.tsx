@@ -29,7 +29,8 @@ const sections = [
   {
     heading: "Analytics and cookies",
     body: [
-      "This site uses Vercel Web Analytics to understand which pages are useful. It counts page views without cookies, and the data is aggregated and not used to identify individual visitors.",
+      "This site uses two analytics tools to understand which pages are useful. Vercel Web Analytics counts page views without cookies. Google Analytics uses cookies to measure visits and how people move through the site, such as which pages they view and whether a quote request was submitted; it does not receive the contents of the quote form. The data is aggregated and is not used to identify individual visitors.",
+      "You can block these cookies in your browser settings, or opt out of Google Analytics on every site with Google's browser add-on at https://tools.google.com/dlpage/gaoptout. Google's use of this data is described at https://policies.google.com/technologies/partner-sites.",
     ],
   },
   {

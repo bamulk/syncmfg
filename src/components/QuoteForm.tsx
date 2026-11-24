@@ -61,6 +61,13 @@ export default function QuoteForm() {
       track("RFQ submitted", {
         market: String(data.market || "Not given"),
       });
+      // GA4 lead event (no-op when gtag isn't loaded, e.g. off production).
+      // No personal details are sent.
+      window.gtag?.("event", "generate_lead", {
+        form: "rfq",
+        market: String(data.market || "Not given"),
+        process: String(data.process || "Not given"),
+      });
     } catch (err) {
       setStatus("error");
       setError(
