@@ -165,6 +165,7 @@ export default function Header() {
       {open && (
         <div
           id="mobile-nav"
+          data-analytics-area="menu"
           className="fixed inset-x-0 bottom-0 top-[73px] z-40 overflow-y-auto overscroll-contain bg-white lg:hidden"
         >
           <Container className="py-4">

@@ -4,8 +4,10 @@
  * Production only: renders nothing unless site.googleAnalyticsId is set AND
  * VERCEL_ENV is "production" (set at build time on Vercel), so localhost and
  * preview deployments never send data to Google Analytics.
+ * Also mounts ContactLinkTracking: email_click / phone_click events for mailto:/tel: links.
  */
 import Script from "next/script";
+import ContactLinkTracking from "./ContactLinkTracking";
 import { site } from "@/lib/site";
 
 export default function GoogleAnalytics() {
@@ -24,6 +26,7 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', ${JSON.stringify(id)});`}
       </Script>
+      <ContactLinkTracking />
     </>
   );
 }

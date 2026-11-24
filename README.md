@@ -107,6 +107,22 @@ potentially ITAR-controlled prints off a public upload endpoint. If Sync wants
 real uploads later, that should go to a private bucket with access controls, not
 a public form.
 
+### Google Analytics
+
+GA4 is set by `site.googleAnalyticsId` in `src/lib/site.ts` and loads on
+production deploys only (`VERCEL_ENV=production`), never locally or on previews.
+
+Events sent:
+
+- `generate_lead` — quote form submitted (`form`, `market`, `process`)
+- `email_click` — a mailto: link clicked (`link_area`, `contact_category`)
+- `phone_click` — a tel: link clicked (`link_area`)
+
+No personal data or form contents are sent (no names, addresses, numbers or
+messages). Mark `generate_lead`, `email_click` and `phone_click` as key events
+in GA Admin. Don't also install the client's Google Tag Manager container
+(`GTM-N3R6CPGQ`) with a GA4 tag, or page views will be counted twice.
+
 ## Deploying
 
 The site is hosted on the client's Vercel project (`syncmfg`), live at
@@ -129,4 +145,3 @@ robots and Open Graph tags all read from it.
   page first, which is what this is
 - Locations map graphic — the deck's map is Langdale-branded and shows legacy
   logos, so the page uses address cards with Google Maps links instead
-- Analytics
